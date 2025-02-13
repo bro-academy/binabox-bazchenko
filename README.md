@@ -1,5 +1,5 @@
 # Binabox - homework project
 
-Student: 
+Student: Bazchenko Maksym
 
-Mentor: 
+Mentor: Nikita Sadkovskyi
