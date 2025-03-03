@@ -1,0 +1,582 @@
+@import "styles/base.css";
+@import "styles/ui.css";
+@import "styles/color.css";
+
+.header__container {
+    display: flex;
+    padding: 0;
+}
+
+.header__list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.header__list-link {
+    text-decoration: none;
+    font: 600 16px/24px 'Poppins', 'Arial', 'Helvetica', sans-serif;
+    padding: 8px 20px; /* check later*/
+    color: #F5F8FB;
+}
+
+.header__action {
+    display: flex;
+    align-items: center;
+}
+.header__search-input{
+    width: 188px;
+    height: 48px;
+    padding: 5px 10px; /* check later*/
+    font: 14px/20px;
+    border: 2px solid #D0D7FB2B;
+    background-color: transparent;
+    color: #F5F8FB;
+    font-weight: 600;
+}
+
+.header__discord{
+    border: 2px solid  #D0D7FB2B;
+    width: 150px;
+    height: 48px;
+    text-align: center;
+}
+
+.header__discord-icon {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+.header__discord-link {
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    color: #F5F8FB;
+}
+
+.header-button__button {
+    background-color: #0265DC;
+    color: #F5F8FB;
+    width: 159px;
+    height: 48px;
+    font-weight: 600;
+}
+
+.banner {
+    display: flex;
+}
+
+.banner__title {
+    font: 400 52px/62px 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
+
+}
+.banner__highlight {
+    color: #0265DC;
+
+}
+
+.banner__text{
+   font: 500 20px/28px 'Poppins', 'Arial', 'Helvetica', sans-serif;
+}
+
+.banner__stat-wrapper {
+    display: flex;
+    gap: 64px;
+}
+
+.banner__stat {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.banner__stat-number {
+   font: 400 52px/62px 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
+    text-shadow: 1px 0 10px var(--white);
+}
+
+.banner__stat-text {
+    font: 16px/24px 'Poppins', 'Arial', 'Helvetica', sans-serif;
+    color: #EFF5FAD1;
+}
+
+.banner__button {
+    color: #F5F8FB;
+    font: 600 18px/28px 'Poppins', 'Arial', 'Helvetica', sans-serif;
+}
+
+.banner__button--accent {
+    width: 190px;
+    min-height: 48px;
+    background-color:#0265DC ;
+    border: none;
+
+}
+
+.banner__button--whitelist{
+    border: 2px solid #D0D7FB2B;
+    background-color: transparent;
+    width: 172px;
+    height: 48px;
+}
+
+.catalog-top {
+    display: flex;
+}
+.catalog-top__icon{
+    width: 24px;
+    height: 24px;
+}
+
+.catalog-top__title {
+    font: 400 24px/32px 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
+}
+
+.catalog-top__line {
+    width: 1167px;
+    height: 2px;
+    border-radius: 2px;
+    color: #D0D7FB2B;
+}
+.catalog-top__button-wrapper{
+    border: 2px solid #D0D7FB2B;
+    background-color: transparent;
+    width: 108px;
+    height: 48px;
+
+}
+.catalog-top__button-link {
+   text-decoration: none;
+   font-weight: 600;
+   color: #F5F8FB;
+}
+
+.catalog-top__button{
+    width: 48px;
+    height: 48px;
+}
+
+.catalog-top__button--prev{
+    border: 2px solid #D0D7FB2B;
+    background-color: transparent;
+}
+
+.catalog-top__button--next {
+    background-color: #0265DC;
+    border: none;
+}
+
+.catalog-top__button-icon--next {
+    fill: black;
+}
+
+.catalog__main{
+    display: flex;
+    gap: 24px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 480px;
+    background-color: #1D1C28;
+}
+
+.card__image{
+    width: 252.8px;
+    height: 324px;
+}
+
+.card__price {
+    font: 400 36px/48px 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
+}
+
+.card__name {
+    font: 500 20px/28px 'Poppins', 'Arial', 'Helvetica', sans-serif;
+    color: #EFF5FAD1;
+
+}
+/* Card end*/
+
+
+/* Our blog start*/
+
+.blog__title {
+    font: 400 36px/48px 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
+    text-align: center;
+}
+
+.blog-card {
+    width: 784px;
+    height: 434px;
+    background-color: #1D1C28;
+}
+.blog-card__author-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.blog-card__name {
+    font: 600 14px/20px 'Poppins', 'Arial', 'Helvetica', sans-serif;
+    color: #EFF5FAD1;
+}
+
+.blog-card__date-icon {
+    width: 16px;
+    height: 16px;
+}
+.blog-card__date {
+    font: 600 14px/20px 'Poppins', 'Arial', 'Helvetica', sans-serif; /*check size*/
+    color: #EFF5FAD1;
+}
+.blog-card__title{
+    font: 36px/48px 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
+}
+
+.blog-card__text {
+    font: 400 16px 'Poppins', 'Arial', 'Helvetica', sans-serif;
+
+}
+
+.blog-card__link-button {
+    color: #F5F8FB;
+    text-decoration: none;
+    font: 600 16px/24px;
+}
+
+.blog-card__footer {
+    width: 161px;
+    height: 40px;
+
+}
+
+.blog__button {
+    width: 149px;
+    height: 48px;
+    border: 2px solid #D0D7FB2B;
+    background-color: transparent;
+    color:#F5F8FB;
+    font: 600 18px/24px;
+}
+.about-us__cards-wrapper {
+    display: flex;
+}
+
+.about-us__title {
+    text-align: center;
+    font: 36px/48px 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
+
+}
+
+.about-us__card-title {
+    font: 24px/32px 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
+}
+
+.about-us__text {
+    font: 500 20px/28px;
+}
+
+.about-us__button {
+    width: 149px;
+    height: 48px;
+    border: 2px solid #D0D7FB2B;
+    background-color: transparent;
+    color:#F5F8FB;
+    font: 600 18px/24px;
+
+}
+
+.our-team__title {
+    text-align: center;
+    font: 36px/48px 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
+}
+
+.our-team__wrapper {
+    display: flex;
+}
+
+.team-card {
+    width: 293.33px;
+    height: 316px;
+    background-color: #1D1C28;
+    gap: 40px;
+}
+
+.team-card__name {
+    font: 24px/32px 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
+}
+
+.team-card__position {
+    color: #EFF5FAD1;
+}
+
+.team-card__media-list {
+    list-style-type: none;
+    display: flex;
+     gap: 5px;
+}
+
+.faq__title {
+    font: 36px/48px 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
+    text-align: center;
+}
+
+.faq__list {
+     background-color: #1D1C28;
+}
+
+.faq__question {
+    font: 24px/32px 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
+}
+
+.faq__answer {
+    font: 400 16px/24px sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #1A1925;
+    padding: 64px 64px 32px 64px;
+    font: 400 16px/24px sans-serif;
+}
+
+.footer__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1600px;
+    height: 156px;
+    margin: 64px;
+}
+.footer__logo-container {
+    width: 320px;
+    height: 94px;
+
+}
+
+.footer__links-container {
+    display: flex;
+    gap: 10px;
+    width: 152px;
+    height: 156px;
+}
+
+.footer__title {
+    font: 500 20px/22px sans-serif;
+}
+.footer__description {
+    font: 14px/20px sans-serif;
+}
+
+.footer__list {
+    list-style: none;
+}
+.footer__link {
+    color: #F5F8FB;
+    font: 600 12px/16px sans-serif;
+    text-decoration: none;
+}
+
+.footer__item {
+
+
+}
+
+.footer__bottom {
+    width: 1600px;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__copyright {
+    font: 14px/20px sans-serif;
+    text-align: right;
+}
+
+.footer__socials-list {
+    display: flex;
+    list-style-type: none;
+}
+
+
+
+/*Block page*/
+
+.blog-header {
+    width: 1728px;
+    height: 376px;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    background-image: url('images/blog/image\ background@2x.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title {
+    font: 52px/62px 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
+    text-align: center;
+}
+
+.blog-header__list {
+    list-style: none;
+    text-align: center;
+    display: flex;
+}
+.blog-header__nav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.blog-header__item {
+
+}
+
+.blog-header__link {
+    text-decoration: none;
+    color: #F5F8FB;
+}
+
+.aside-list {
+    list-style: none;
+}
+
+.aside-categories__link {
+    color: #F5F8FB;
+    text-decoration: none;
+    font: 600 14px/20px 'Poppins', 'Arial', 'Helvetica', sans-serif;
+}
+
+
+
+.aside-title {
+    font: 400 24px/32px 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
+}
+
+.aside-tag__link {
+    color: #F5F8FB;
+    text-decoration: none;
+    font: 600 14px/20px 'Poppins', 'Arial', 'Helvetica', sans-serif;
+}
+
+.aside-tag__item {
+    border: 2px solid var(--Elements-SeporatorBold, #D0D7FB2B)
+}
+
+.main-banner {
+    position: relative;
+    width: 100%;
+    max-width: 1728px;
+}
+
+.banner-text{
+    font: 500 16px/24px 'Poppins', 'Arial', 'Helvetica', sans-serif;
+}
+.blog-article__title{
+    font: 400 36px/48px 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
+}
+
+.blog-article__button {
+    width: 122px;
+    height: 48px;
+    background-color: #0265DC;
+    border: 0;
+    color: #F5F8FB;
+    font: 600 18px/28px 'Poppins', 'Arial', 'Helvetica', sans-serif;
+
+}
+.article-autor{
+    font: 600 18px/28px 'Poppins', 'Arial', 'Helvetica', sans-serif;
+}
+
+.article-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.blog-article__accent {
+    background-color: #0265DC;
+    color:#F5F8FB;
+}
+
+.blog-article__highlight {
+    color: #78BBFA;
+}
+
+.list-name__list-items{
+    list-style: none;
+}
+
+.quote {
+    background-color: #002754;
+}
+
+.quote__text {
+    font: 400 28px/36px 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
+}
+
+.quote__rating {
+    font: 600 14px/20px 'Poppins', 'Arial', 'Helvetica', sans-serif;
+}
+
+.quote__copyright{
+    font: 600 14px/20px 'Poppins', 'Arial', 'Helvetica', sans-serif;
+}
+
+.header {
+    font: 400 28px/36px 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
+}
+
+.tags__title {
+    font: 400 14px/20px 'Poppins', 'Arial', 'Helvetica', sans-serif;
+}
+
+.tags__list {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.tags__link {
+    text-decoration: none;
+    color: #F5F8FB;
+}
+
+.tags {
+    display: flex;
+    justify-content: space-between;
+}
+.tags__item{
+   border: 2px solid var(--Elements-SeporatorBold, #D0D7FB2B);
+}
+
+.social__list {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.social__item {
+    border: 2px solid var(--Elements-SeporatorBold, #D0D7FB2B);
+}
