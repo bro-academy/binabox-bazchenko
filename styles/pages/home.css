@@ -1,5 +1,8 @@
 .banner {
     display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    margin: 139px;
 }
 
 .banner__title {
@@ -9,12 +12,14 @@
 
 }
 .banner__highlight {
-    color: #0265DC;
+    color: var(--accent);
 
+}
+.banner__text-wrapper {
+    width: 605px;
 }
 
 .banner__text{
-   font-weight: 400;
    font-size: 20px;
    line-height: 28px;
 }
@@ -22,16 +27,16 @@
 .banner__stat-wrapper {
     display: flex;
     gap: 64px;
+    margin-bottom: 32px;
 }
 
 .banner__stat {
     display: flex;
     flex-direction: column;
-
 }
 
 .banner__stat-number {
-   font-family: 52px;
+   font-size: 52px;
    line-height: 62px;
    font-family: 'Bakbak One', 'Impact', 'Arial Black', sans-serif;;
     text-shadow: 1px 0 10px var(--white);
@@ -43,30 +48,15 @@
     color: #EFF5FAD1;
 }
 
-.banner__button {
-    color: #F5F8FB;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 28px;
-}
-
-.banner__button--accent {
-    width: 190px;
-    min-height: 48px;
-    background-color:#0265DC ;
-    border: none;
-
-}
-
-.banner__button--whitelist{
-    border: 2px solid #D0D7FB2B;
-    background-color: transparent;
-    width: 172px;
-    height: 48px;
+.banner__buttons-wrapper {
+    display: flex;
+    gap: 16px;
 }
 
 .catalog-top {
     display: flex;
+    align-items: center;
+    margin: 64px 64px 40px 54px  ;
 }
 .catalog-top__icon{
     width: 24px;
@@ -81,60 +71,37 @@
 
 .catalog-top__line {
     width: 1167px;
-    height: 2px;
-    border-radius: 2px;
-    color: #D0D7FB2B;
+    margin: auto;
+    color: var(--border-color);
 }
-.catalog-top__button-wrapper{
-    border: 2px solid #D0D7FB2B;
-    background-color: transparent;
-    width: 108px;
-    height: 48px;
-
-}
-.catalog-top__button-link {
-   text-decoration: none;
-   font-weight: 600;
-   color: #F5F8FB;
-}
-
-.catalog-top__button{
-    width: 48px;
-    height: 48px;
-}
-
-.catalog-top__button--prev{
-    border: 2px solid #D0D7FB2B;
-    background-color: transparent;
-}
-
-.catalog-top__button--next {
-    background-color: #0265DC;
-    border: none;
-}
-
-.catalog-top__button-icon--next {
-    fill: black;
+.catalog-top__action{
+  display: flex;
+  gap: 16px;
 }
 
 .catalog__main{
     display: flex;
+    justify-content: space-between;
     gap: 24px;
+    margin: 63px 64px;
 }
 .card {
     display: flex;
     flex-direction: column;
     width: 300px;
     height: 480px;
+    padding: 24px;
+    box-sizing: border-box;
     background-color: #1D1C28;
 }
 
 .card__image{
-    width: 252.8px;
-    height: 324px;
+   
 }
 
 .card__price {
+    margin-top: 20px ;
+    margin-bottom:  8px;
     font-size: 36px;
     line-height: 48px;
     font-family: 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
@@ -157,6 +124,10 @@
     line-height: 48px;
     font-family:'Bakbak One', 'Impact', 'Arial Black', sans-serif;
     text-align: center;
+}
+
+.blog__wrapper {
+    gap: 15px;
 }
 
 .blog-card {
@@ -186,7 +157,7 @@
     line-height: 20px;/*check size*/
     color: #EFF5FAD1;
 }
-.blog-card__title{
+.blog-card__title {
     font-size: 36px;
     line-height: 48px;
     font-family: 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
@@ -197,27 +168,9 @@
     line-height: 24px;
 }
 
-.blog-card__link-button {
-    color: #F5F8FB;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-}
-
 .blog-card__footer {
     width: 161px;
     height: 40px;
-
-}
-
-.blog__button {
-    width: 149px;
-    height: 48px;
-    border: 2px solid #D0D7FB2B;
-    background-color: transparent;
-    color:#F5F8FB;
-    font-weight: 600;
 
 }
 .about-us__cards-wrapper {
@@ -226,6 +179,9 @@
 
 .about-us__title {
     text-align: center;
+    font-size: 36px;
+    line-height: 48px;
+    font-family: 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
     
 }
 
@@ -240,16 +196,15 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
-    font-family: 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
 
 }
 
 .about-us__button {
     width: 149px;
     height: 48px;
-    border: 2px solid #D0D7FB2B;
+    border: 2px solid var(--border-color);
     background-color: transparent;
-    color:#F5F8FB;
+    color:var(--white);
     font-weight: 600;
     font-size: 18px;
     line-height: 24px;

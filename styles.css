@@ -1,9 +1,10 @@
-@import "styles/base.css";
-@import "styles/ui.css";
-@import "styles/color.css";
-@import "styles/pages/home.css";
+@import url('styles/base.css');
+@import url('styles/ui.css');
+@import url('styles/color.css');
+@import url('styles/pages/home.css');
+@import url('styles/pages/blogpage.css');
 
-.header__container {
+/*.header__container {
     display: flex;
     padding: 0;
 }
@@ -12,13 +13,14 @@
     list-style-type: none;
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .header__list-link {
     text-decoration: none;
     font: 600 16px/24px 'Poppins', 'Arial', 'Helvetica', sans-serif;
-    padding: 8px 20px; /* check later*/
-    color: #F5F8FB;
+    padding: 8px 20px;
+    color: F5F8FB;
 }
 
 .header__action {
@@ -28,12 +30,30 @@
 .header__search-input{
     width: 188px;
     height: 48px;
-    padding: 5px 10px; /* check later*/
+    padding: 5px 10px;
     font: 14px/20px;
     border: 2px solid #D0D7FB2B;
     background-color: transparent;
     color: #F5F8FB;
     font-weight: 600;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 10px 22px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    max-width: 200px;
+    text-decoration: none;
+
+}
+
+.button--accent{
+    background-color: #0265DC;
 }
 
 .header__discord{
@@ -56,6 +76,13 @@
     text-align: center;
     color: #F5F8FB;
 }
+
+.link{
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    color: #F5F8FB;
+ }
 
 .header-button__button {
     background-color: #0265DC;
@@ -147,8 +174,5 @@ footer {
     display: flex;
     list-style-type: none;
 }
-
-
-
-/*Block page*/
+*/
 
