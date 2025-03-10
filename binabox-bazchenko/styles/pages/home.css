@@ -118,7 +118,9 @@
 
 
 /* Our blog start*/
-
+.blog {
+    
+}
 .blog__title {
     font-size: 36px;
     line-height: 48px;
@@ -173,8 +175,19 @@
     height: 40px;
 
 }
+
+/* .blog-card__footer-button {
+    margin-bottom: 128px;
+}  */
+
+.about-us {
+    padding: 64px ;
+}
+
 .about-us__cards-wrapper {
     display: flex;
+    margin-inline: 0;
+    gap: 32px;
 }
 
 .about-us__title {
@@ -182,14 +195,32 @@
     font-size: 36px;
     line-height: 48px;
     font-family: 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
-    
+    margin-bottom: 16px;
+}
+
+.about-us__text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    margin-inline: 32px;
+    color: #EFF5FAD1;
 }
 
 .about-us__card-title {
     font-size: 24px;
     line-height: 32px;
     font-family: 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
+    margin-bottom: 24px;
+}
 
+.about-us__card {
+    padding: 32px;
+}
+
+.about-us__card-title {
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
 }
 
 .about-us__text {
@@ -200,14 +231,16 @@
 }
 
 .about-us__button {
-    width: 149px;
+   display: block;
+   margin: 0 auto;
+    /* width: 149px;
     height: 48px;
     border: 2px solid var(--border-color);
     background-color: transparent;
     color:var(--white);
     font-weight: 600;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 24px; */
 }
 
 .our-team__title {
@@ -218,14 +251,20 @@
 }
 
 .our-team__wrapper {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+    justify-items: center; 
+    align-items: center;
+    margin-inline: 64px;
 }
 
 .team-card {
     width: 293.33px;
     height: 316px;
     background-color: #1D1C28;
-    gap: 40px;
+    text-align: center;
+    align-items: center;
 }
 
 .team-card__name {
