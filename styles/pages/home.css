@@ -1,14 +1,16 @@
 .banner {
     display: flex;
-    justify-content: space-around;
     max-width: 100%;
-    margin: 139px;
+    padding-inline: 164px ;
+    gap: 0;
 }
 
 .banner__title {
     font-size: 52px;
     line-height: 62px;
     font-family: 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
+    margin: 0;
+    max-width: 700px;
 }
 
 .banner__highlight {
@@ -16,7 +18,11 @@
 
 }
 .banner__text-wrapper {
-    width: 605px;
+    width: 866.5px;
+    max-height: 362px;
+    margin: 139px 0;
+
+
 }
 
 .banner__text{
@@ -401,12 +407,13 @@
 }
 
 .our-team__wrapper {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); 
-    gap: 20px;
-    justify-items: center; 
-    align-items: center;
-
+    margin-inline: 64px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    align-items: start;
+    margin-bottom: 128px;
 }
 
 .team-card {
@@ -416,6 +423,7 @@
     text-align: center;
     align-items: flex-start;
     padding: 32px 32px 0px 32px;
+    box-sizing: border-box;
 }
 
 .team-card__image {
