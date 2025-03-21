@@ -10,6 +10,11 @@ body {
     box-sizing: border-box;
     max-width: 1728px;
 }
+/* 
+.header {
+    font-family: 'Poppins', 'Arial', 'Helvetica', sans-serif;
+    font-weight: 400;
+} */
 
 /* HEADER PART */
 
@@ -59,6 +64,7 @@ body {
     align-items: center; 
 } 
 
+
 .header__search-form::after {
     content: "";
     display: block;
@@ -71,15 +77,9 @@ body {
 
 
 
-/* .header__search-input{
-    padding: 10px 22px;
-    font-size: 14px;
-    line-height: 20px;
-    border: 2px solid var(--border-color);
-    background-color: transparent;
-    color: var(--white);
-    font-weight: 600;
-} */
+ .header__search-input{
+    max-width: 188px ;
+}  
 
 .header__discord {
     width: 150px;
@@ -100,7 +100,7 @@ body {
 
 /* FOOTER PART */
 
-footer {
+.footer {
     background-color: #1A1925;
     font-size: 16px;
     line-height: 24px;
