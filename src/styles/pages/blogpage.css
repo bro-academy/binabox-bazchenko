@@ -4,7 +4,7 @@
     max-height: 376px;
     list-style: none;
     text-align: center;
-    background-image: url("/assets/blog/background_test.png");
+    background-image: url("/src/images/blog/background_test.png");
     background-color: #1A1925;
     background-size: cover;
     background-position: center;
@@ -274,7 +274,7 @@
 
 .list-name__list-items li::before {
     content: "";
-    background-image: url("/assets/logo/list-logo.svg");
+    background-image: url("/src/images/logo/list-logo.svg");
     background-size: contain;
      background-repeat: no-repeat;
      width: 24px;
@@ -319,7 +319,7 @@
 
 .quote__rating::before {
     content: "";
-    background-image: url(/assets/icons/stars.svg);
+    background-image: url("/src/images/icons/stars.svg");
     background-size: contain;
     background-repeat: no-repeat;
     width: 16px;

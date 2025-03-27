@@ -9,14 +9,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="styles.css" />
-  </head>  
+    <link rel="stylesheet" href="src/styles/styles.css">
+  </head> 
   <body> 
 
     <!--header start-->
     <header class="header" >
       <div class="header__container">
-        <img class="header__logo" src="assets/logo/binabox_logo.webp" alt="BINABOX logo" width="188" height="42">
+        <img class="header__logo" src="/src/images/logo/binabox_logo.webp" alt="BINABOX logo" width="188" height="42">
         <nav class="header__nav">
           <ul class="header__list">
             <li class="header__list-item"><a class="header__list-link link" href="#">Home</a></li>
@@ -28,18 +28,18 @@
         <div class="header__action">
           <!-- <div class="header__search-form"> -->
             <form class="header__search-form ">
-              <!-- <input type="image" class="header__search-icon" src="/assets/icons/search.svg" alt="Search"> -->
+              <!-- <input type="image" class="header__search-icon" src="//src/images/icons/search.svg" alt="Search"> -->
            <input type="text" class="header__search-input input" placeholder="Search">
         </form>
         <!-- </div> -->
         <div class="header__discord">
         <a class="header__discord-link button button--secondary" href="#" target="_blank">
-          <img src="assets/icons/discord.svg" alt="Discord icon" class="header__discord-icon">
+          <img src="/src/images/icons/discord.svg" alt="Discord icon" class="header__discord-icon">
         <span class="header__discord-text">Discord</span>
         </a>
       </div>
         <button class="header__button button button--accent">
-          <img src="assets/icons/wallet.svg" alt="Wallet icon" class="header__button-icon"> 
+          <img src="/src/images/icons/wallet.svg" alt="Wallet icon" class="header__button-icon"> 
           <span class="header__button-text">Connect</span>
         </button>
       </div>
@@ -76,13 +76,13 @@
           <button class="button button--secondary">Whitelist Now</button>
         </div>
         </div>
-        <img src="assets/main/cube.webp" alt="Main banner" class="banner__image" width="533.5" height="641.8">
+        <img src="/src/images/main/cube.webp" alt="Main banner" class="banner__image" width="533.5" height="641.8">
       </section>
 
         <!--catalog section-->
       <section class="catalog">
         <div class="catalog-top">
-          <!-- <img src="assets/icons/folder.svg" alt="Folder icon" class="catalog-top__icon"> -->
+          <!-- <img src="/src/images/icons/folder.svg" alt="Folder icon" class="catalog-top__icon"> -->
           <h2 class="catalog-top__title">Catalog</h2>
           <!-- <hr class="catalog-top__line"> -->
           <div class="catalog-top__action">
@@ -90,36 +90,36 @@
           <a class="button button--secondary catalog-top__link" href="#">See all</a>
           </div>
           <button class="button button--secondary catalog-top__button">
-            <img src="assets/icons/arrow_left.svg" alt="Arrow left" class="catalog-top__button-icon catalog-top__button-icon--prev">
+            <img src="/src/images/icons/arrow_left.svg" alt="Arrow left" class="catalog-top__button-icon catalog-top__button-icon--prev">
           </button>
           <button class="button button--accent catalog-top__button">
-            <img src="assets/icons/arrow_right.png" alt="Arrow right" class="catalog-top__button-icon catalog-top__button-icon--next">
+            <img src="/src/images/icons/arrow_right.png" alt="Arrow right" class="catalog-top__button-icon catalog-top__button-icon--next">
           </button>
         </div>
         </div>
         <div class="catalog__main">
           <div class="card">
-            <a class="card__link" href="#"><img class="card__image" src="assets/main/skeleton.webp" alt="Product image" width="252" height="324" /></a>
+            <a class="card__link" href="#"><img class="card__image" src="/src/images/main/skeleton.webp" alt="Product image" width="252" height="324" /></a>
             <span class="card__price">$199</span>
             <span class="card__name">Name Product</span>
           </div>
           <div class="card">
-            <a class="card__link" href="#"><img class="card__image" src="assets/main/cat.webp" alt="Product image" width="252" height="324" /></a>
+            <a class="card__link" href="#"><img class="card__image" src="/src/images/main/cat.webp" alt="Product image" width="252" height="324" /></a>
             <span class="card__price">$199</span>
             <span class="card__name">Name Product</span>
           </div>
           <div class="card">
-            <a class="card__link" href="#"><img class="card__image" src="assets/main/scissors.webp" alt="Product image" width="252" height="324" /></a>
+            <a class="card__link" href="#"><img class="card__image" src="/src/images/main/scissors.webp" alt="Product image" width="252" height="324" /></a>
             <span class="card__price">$199</span>
             <span class="card__name">Name Product</span>
           </div>
           <div class="card">
-            <a class="card__link" href="#"><img class="card__image" src="assets/main/card.webp" alt="Product image"  width="252" height="324"/></a>
+            <a class="card__link" href="#"><img class="card__image" src="/src/images/main/card.webp" alt="Product image"  width="252" height="324"/></a>
             <span class="card__price">$199</span>
             <span class="card__name">Name Product</span>
           </div>
           <div class="card">
-            <a class="card__link" href="#"><img class="card__image" src="assets/main/screen.webp" alt="Product image" width="252" height="324" /></a>
+            <a class="card__link" href="#"><img class="card__image" src="/src/images/main/screen.webp" alt="Product image" width="252" height="324" /></a>
             <span class="card__price">$199</span>
             <span class="card__name">Name Product</span>
           </div>
@@ -132,11 +132,11 @@
         <div class="blog__wrapper">
         <div class="blog__list">
           <article class="blog-card">
-            <a class="blog-card__link" href="#"><img class="blog-card__image" loading="lazy" src="assets/main/skeleton_head.webp" alt="Blog image" width="736" height="198" /></a>
+            <a class="blog-card__link" href="#"><img class="blog-card__image" loading="lazy" src="/src/images/main/skeleton_head.webp" alt="Blog image" width="736" height="198" /></a>
             <div class="blog-card__data">
-            <img class="blog-card__author-icon" src="assets/icons/author.svg" alt="Autor icon" />
+            <img class="blog-card__author-icon" src="/src/images/icons/author.svg" alt="Autor icon" />
             <small class="blog-card__name">Tony Nguyen</small>
-            <img class="blog-card__date-icon" src="assets/icons/calendar.svg" alt="Date icon" />
+            <img class="blog-card__date-icon" src="/src/images/icons/calendar.svg" alt="Date icon" />
             <time class="blog-card__date" datetime="2022-06-20">20 Jun 2022</time>
           </div>
           <div class="blog-card__content">
@@ -151,11 +151,11 @@
           </div>
           </article>
           <article class="blog-card">
-            <a class="blog-card__link" href="#"><img class="blog-card__image" loading="lazy" src="assets/main/skeleton_head.webp" alt="Blog image"  width="736" height="198"/></a>
+            <a class="blog-card__link" href="#"><img class="blog-card__image" loading="lazy" src="/src/images/main/skeleton_head.webp" alt="Blog image"  width="736" height="198"/></a>
             <div class="blog-card__data">
-            <img class="blog-card__author-icon" src="assets/icons/author.svg" alt="Autor icon" />
+            <img class="blog-card__author-icon" src="/src/images/icons/author.svg" alt="Autor icon" />
             <small class="blog-card__name">Tony Nguyen</small>
-            <img class="blog-card__date-icon" src="assets/icons/calendar.svg" alt="Date icon" />
+            <img class="blog-card__date-icon" src="/src/images/icons/calendar.svg" alt="Date icon" />
             <time class="blog-card__date" datetime="2022-06-20">20 Jun 2022</time>
           </div>
           <div class="blog-card__content">
@@ -170,11 +170,11 @@
           </div>
           </article>
           <article class="blog-card">
-            <a class="blog-card__link" href="#"><img class="blog-card__image" loading="lazy" src="assets/main/cats_head.webp" alt="Blog image"  width="736" height="198"/></a>
+            <a class="blog-card__link" href="#"><img class="blog-card__image" loading="lazy" src="/src/images/main/cats_head.webp" alt="Blog image"  width="736" height="198"/></a>
             <div class="blog-card__data">
-            <img class="blog-card__author-icon" src="assets/icons/author.svg" alt="Autor icon" />
+            <img class="blog-card__author-icon" src="/src/images/icons/author.svg" alt="Autor icon" />
             <small class="blog-card__name">Tony Nguyen</small>
-            <img class="blog-card__date-icon" src="assets/icons/calendar.svg" alt="Date icon" />
+            <img class="blog-card__date-icon" src="/src/images/icons/calendar.svg" alt="Date icon" />
             <time class="blog-card__date" datetime="2022-06-20">20 Jun 2022</time>
           </div>
           <div class="blog-card__content">
@@ -189,11 +189,11 @@
           </div>
           </article>
           <article class="blog-card">
-            <a class="blog-card__link" href="#"><img class="blog-card__image" loading="lazy" src="assets/main/monkey_head.webp" alt="Blog image"  width="736" height="198"/></a>
+            <a class="blog-card__link" href="#"><img class="blog-card__image" loading="lazy" src="/src/images/main/monkey_head.webp" alt="Blog image"  width="736" height="198"/></a>
             <div class="blog-card__data">
-            <img class="blog-card__author-icon" src="assets/icons/author.svg" alt="Autor icon" />
+            <img class="blog-card__author-icon" src="/src/images/icons/author.svg" alt="Autor icon" />
             <small class="blog-card__name">Tony Nguyen</small>
-            <img class="blog-card__date-icon" src="assets/icons/calendar.svg" alt="Date icon" />
+            <img class="blog-card__date-icon" src="/src/images/icons/calendar.svg" alt="Date icon" />
             <time class="blog-card__date" datetime="2022-06-20">20 Jun 2022</time>
           </div>
           <div class="blog-card__content">
@@ -208,11 +208,11 @@
           </div>
           </article>
           <article class="blog-card">
-            <a class="blog-card__link" href="#"><img class="blog-card__image" loading="lazy" src="assets/main/duck.webp" alt="Blog image"  width="736" height="198" /></a>
+            <a class="blog-card__link" href="#"><img class="blog-card__image" loading="lazy" src="/src/images/main/duck.webp" alt="Blog image"  width="736" height="198" /></a>
             <div class="blog-card__data">
-            <img class="blog-card__author-icon" src="assets/icons/author.svg" alt="Autor icon" />
+            <img class="blog-card__author-icon" src="/src/images/icons/author.svg" alt="Autor icon" />
             <small class="blog-card__name">Tony Nguyen</small>
-            <img class="blog-card__date-icon" src="assets/icons/calendar.svg" alt="Date icon" />
+            <img class="blog-card__date-icon" src="/src/images/icons/calendar.svg" alt="Date icon" />
             <time class="blog-card__date" datetime="2022-06-20">20 Jun 2022</time>
           </div>
           <div class="blog-card__content">
@@ -227,11 +227,11 @@
           </div>
           </article>
           <article class="blog-card">
-            <a class="blog-card__link" href="#"><img class="blog-card__image" loading="lazy" src="assets/main/duck.webp" alt="Blog image"   width="736" height="198"/></a>
+            <a class="blog-card__link" href="#"><img class="blog-card__image" loading="lazy" src="/src/images/main/duck.webp" alt="Blog image"   width="736" height="198"/></a>
             <div class="blog-card__data">
-            <img class="blog-card__author-icon" src="assets/icons/author.svg" alt="Autor icon" />
+            <img class="blog-card__author-icon" src="/src/images/icons/author.svg" alt="Autor icon" />
             <small class="blog-card__name">Tony Nguyen</small>
-            <img class="blog-card__date-icon" src="assets/icons/calendar.svg" alt="Date icon" />
+            <img class="blog-card__date-icon" src="/src/images/icons/calendar.svg" alt="Date icon" />
             <time class="blog-card__date" datetime="2022-06-20">20 Jun 2022</time>
           </div>
           <div class="blog-card__content">
@@ -299,170 +299,170 @@
         <h2 class="our-team__title">Out team</h2>
         <div class="our-team__wrapper">
           <div class="team-card">
-            <img class="team-card__image" loading="lazy" src="assets/main/jason_smith.webp" alt="Jason Smith"  width="120" height="120"/>
+            <img class="team-card__image" loading="lazy" src="/src/images/main/jason_smith.webp" alt="Jason Smith"  width="120" height="120"/>
             <div class="team-card__info-wrapper">
             <h3 class="team-card__name">Jason Smith</h3>
             <span class="team-card__position">Co - Founder</span>
           </div>
             <ul class="team-card__media-list">
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/twitter.svg" alt="Twitter" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/twitter.svg" alt="Twitter" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/facebook.svg" alt="Facebook" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/facebook.svg" alt="Facebook" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/telegram.svg" alt="Telegram" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/telegram.svg" alt="Telegram" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/linkedIn.svg" alt="LinkedIn" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/linkedIn.svg" alt="LinkedIn" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/Instagram.svg" alt="Instagram" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/Instagram.svg" alt="Instagram" /></a>
               </li>
             </ul>
           </div>
           <div class="team-card">
-            <img class="team-card__image" loading="lazy" src="assets/main/jason_smith.webp" alt="Jason Smith"  width="120" height="120" />
+            <img class="team-card__image" loading="lazy" src="/src/images/main/jason_smith.webp" alt="Jason Smith"  width="120" height="120" />
             <div class="team-card__info-wrapper">
               <h3 class="team-card__name">Jason Smith</h3>
               <span class="team-card__position">Co - Founder</span>
             </div>
             <ul class="team-card__media-list">
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/twitter.svg" alt="Twitter" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/twitter.svg" alt="Twitter" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/facebook.svg" alt="Facebook" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/facebook.svg" alt="Facebook" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/telegram.svg" alt="Telegram" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/telegram.svg" alt="Telegram" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/linkedIn.svg" alt="LinkedIn" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/linkedIn.svg" alt="LinkedIn" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/Instagram.svg" alt="Instagram" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/Instagram.svg" alt="Instagram" /></a>
               </li>
             </ul>
           </div>
           <div class="team-card">
-            <img class="team-card__image" loading="lazy" src="assets/main/jason_smith.webp" alt="Jason Smith"  width="120" height="120"/>
+            <img class="team-card__image" loading="lazy" src="/src/images/main/jason_smith.webp" alt="Jason Smith"  width="120" height="120"/>
             <div class="team-card__info-wrapper">
               <h3 class="team-card__name">Jason Smith</h3>
               <span class="team-card__position">Co - Founder</span>
             </div>
             <ul class="team-card__media-list">
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/twitter.svg" alt="Twitter" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/twitter.svg" alt="Twitter" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/facebook.svg" alt="Facebook" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/facebook.svg" alt="Facebook" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/telegram.svg" alt="Telegram" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/telegram.svg" alt="Telegram" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/linkedIn.svg" alt="LinkedIn" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/linkedIn.svg" alt="LinkedIn" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/Instagram.svg" alt="Instagram" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/Instagram.svg" alt="Instagram" /></a>
               </li>
             </ul>
           </div>
           <div class="team-card">
-            <img class="team-card__image" loading="lazy" src="assets/main/jason_smith.webp" alt="Jason Smith"  width="120" height="120"/>
+            <img class="team-card__image" loading="lazy" src="/src/images/main/jason_smith.webp" alt="Jason Smith"  width="120" height="120"/>
             <div class="team-card__info-wrapper">
               <h3 class="team-card__name">Jason Smith</h3>
               <span class="team-card__position">Co - Founder</span>
             </div>
             <ul class="team-card__media-list">
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/twitter.svg" alt="Twitter" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/twitter.svg" alt="Twitter" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/facebook.svg" alt="Facebook" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/facebook.svg" alt="Facebook" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/telegram.svg" alt="Telegram" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/telegram.svg" alt="Telegram" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/linkedIn.svg" alt="LinkedIn" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/linkedIn.svg" alt="LinkedIn" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/Instagram.svg" alt="Instagram" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/Instagram.svg" alt="Instagram" /></a>
               </li>
             </ul>
           </div>
           <div class="team-card">
-            <img class="team-card__image" loading="lazy" src="assets/main/jason_smith.webp" alt="Jason Smith"  width="120" height="120" />
+            <img class="team-card__image" loading="lazy" src="/src/images/main/jason_smith.webp" alt="Jason Smith"  width="120" height="120" />
             <div class="team-card__info-wrapper">
               <h3 class="team-card__name">Jason Smith</h3>
               <span class="team-card__position">Co - Founder</span>
             </div>
             <ul class="team-card__media-list">
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/twitter.svg" alt="Twitter" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/twitter.svg" alt="Twitter" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/facebook.svg" alt="Facebook" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/facebook.svg" alt="Facebook" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/telegram.svg" alt="Telegram" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/telegram.svg" alt="Telegram" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/linkedIn.svg" alt="LinkedIn" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/linkedIn.svg" alt="LinkedIn" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/Instagram.svg" alt="Instagram" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/Instagram.svg" alt="Instagram" /></a>
               </li>
             </ul>
           </div>
           <div class="team-card">
-            <img class="team-card__image"  loading="lazy"src="assets/main/jason_smith.webp" alt="Jason Smith"  width="120" height="120" />
+            <img class="team-card__image"  loading="lazy"src="/src/images/main/jason_smith.webp" alt="Jason Smith"  width="120" height="120" />
             <div class="team-card__info-wrapper">
               <h3 class="team-card__name">Jason Smith</h3>
               <span class="team-card__position">Co - Founder</span>
             </div>
             <ul class="team-card__media-list">
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/twitter.svg" alt="Twitter" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/twitter.svg" alt="Twitter" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/facebook.svg" alt="Facebook" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/facebook.svg" alt="Facebook" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/telegram.svg" alt="Telegram" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/telegram.svg" alt="Telegram" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/linkedIn.svg" alt="LinkedIn" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/linkedIn.svg" alt="LinkedIn" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/Instagram.svg" alt="Instagram" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/Instagram.svg" alt="Instagram" /></a>
               </li>
             </ul>
           </div>
           <div class="team-card">
-            <img class="team-card__image" loading="lazy" src="assets/main/jason_smith.webp" alt="Jason Smith"  width="120" height="120"/>
+            <img class="team-card__image" loading="lazy" src="/src/images/main/jason_smith.webp" alt="Jason Smith"  width="120" height="120"/>
             <div class="team-card__info-wrapper">
               <h3 class="team-card__name">Jason Smith</h3>
               <span class="team-card__position">Co - Founder</span>
             </div>
             <ul class="team-card__media-list">
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/twitter.svg" alt="Twitter" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/twitter.svg" alt="Twitter" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/facebook.svg" alt="Facebook" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/facebook.svg" alt="Facebook" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/telegram.svg" alt="Telegram" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/telegram.svg" alt="Telegram" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/linkedIn.svg" alt="LinkedIn" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/linkedIn.svg" alt="LinkedIn" /></a>
               </li>
               <li class="team-card__media-item">
-                <a class="team-card__media-link link" href="#" target="_blank"><img src="assets/icons/Instagram.svg" alt="Instagram" /></a>
+                <a class="team-card__media-link link" href="#" target="_blank"><img src="/src/images/icons/Instagram.svg" alt="Instagram" /></a>
               </li>
             </ul>
           </div>
@@ -494,7 +494,7 @@
       <footer class="footer">
         <div class="footer__main">
         <div class="footer__logo-container">
-          <img class="footer__logo" loading="lazy" src="assets/logo/binabox_blue_logo.webp" alt="BINABOX logo" width="188"  height="42"/>
+          <img class="footer__logo" loading="lazy" src="/src/images/logo/binabox_blue_logo.webp" alt="BINABOX logo" width="188"  height="42"/>
           <p class="footer__description">We are the best way to check the rarity of NFT collection.</p>
         </div>
         <div class="footer__links-container">
@@ -526,22 +526,22 @@
           <p class="footer__copyright">BINABOX 2022 - ALL rights reserved</p>
           <ul class="footer__socials-list">
             <li class="footer__social-item">
-              <a class="footer__social-link link" href="#" target="_blank"><img class="footer__social-icon" src="assets/icons/twitter.svg" alt="Twitter" /></a>
+              <a class="footer__social-link link" href="#" target="_blank"><img class="footer__social-icon" src="/src/images/icons/twitter.svg" alt="Twitter" /></a>
             </li>
             <li class="footer__social-item">
-              <a class="footer__social-link link" href="#" target="_blank"><img class="footer__social-icon" src="assets/icons/facebook.svg" alt="Facebook" /></a>
+              <a class="footer__social-link link" href="#" target="_blank"><img class="footer__social-icon" src="/src/images/icons/facebook.svg" alt="Facebook" /></a>
             </li>
             <li class="footer__social-item">
-              <a class="footer__social-link link" href="#" target="_blank"><img class="footer__social-icon" src="assets/icons/telegram2.svg" alt="Telegram" /></a>
+              <a class="footer__social-link link" href="#" target="_blank"><img class="footer__social-icon" src="/src/images/icons/telegram2.svg" alt="Telegram" /></a>
             </li>
             <li class="footer__social-item">
-              <a class="footer__social-link link" href="#" target="_blank"><img class="footer__social-icon" src="assets/icons/youtube.svg" alt="Youtube" /></a>
+              <a class="footer__social-link link" href="#" target="_blank"><img class="footer__social-icon" src="/src/images/icons/youtube.svg" alt="Youtube" /></a>
             </li>
             <li class="footer__social-item">
-              <a class="footer__social-link link" href="#" target="_blank"><img class="footer__social-icon" src="assets/icons/ticktok.svg" alt="TikTok" /></a>
+              <a class="footer__social-link link" href="#" target="_blank"><img class="footer__social-icon" src="/src/images/icons/ticktok.svg" alt="TikTok" /></a>
             </li>
             <li class="footer__social-item">
-              <a class="footer__social-link link" href="#" target="_blank"><img class="footer__social-icon" src="assets/icons/discord.svg" alt="Discord" /></a>
+              <a class="footer__social-link link" href="#" target="_blank"><img class="footer__social-icon" src="/src/images/icons/discord.svg" alt="Discord" /></a>
             </li>
           </ul>
         </div>
