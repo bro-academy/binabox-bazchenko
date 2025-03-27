@@ -67,14 +67,6 @@
     max-width: 328px;
 }
 
-.aside-tag__list {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    gap: 8px;
-    padding-left: 0;
-}
-
 .aside-categories {
     background-color: #1D1C28 ;
     padding: 24px;
@@ -118,9 +110,21 @@
     padding-bottom: 16px;
 }
 
+.aside-tag__list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding-left: 0;
+}
+
+.aside-tag__button {
+    
+}
+
 .aside-tag {
     background-color: #1D1C28;
-    padding: 24px;
+    padding: 22px;
 }
 
 .aside-tag__item {

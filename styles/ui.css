@@ -21,10 +21,6 @@
   cursor: pointer;
 }
 
-/* .button:hover {
-  transition-duration: var(--tran-duration); 
-}  in case is we need it only for hover*/ 
-
 /* accecnt */
 .button--accent {
   background-color: var(--accent);
@@ -32,21 +28,21 @@
 
 .button--accent:hover {
   background-color: #3892F3;
+
 }
 
 .button--accent:focus {
-  background-color: var(--active);
-  outline: 2px;
-}
+  background-color: var(--accent);
+} 
 
 .button--accent:focus-visible {
   outline: solid #3892F3;
 }
 
-/* .button--accent:active {
+.button--accent:active {
   background-color: var(--active);
   outline: none;
-} */
+}
 
 .button--accent:disabled {
   background-color: var(--border-color);
@@ -61,7 +57,7 @@
 
 .button--secondary:hover {
   background-color: #BFC5EE1F;
-  border: 2px solid #BFC5EE1F;
+  /* border: 2px solid #BFC5EE1F; */
 }  
 
 .button--secondary:focus{
@@ -73,10 +69,10 @@
   border-color: #3892F3;
 }
 
-/* .button--secondary:active{
+.button--secondary:active{
   background-color: #BFC5EE1F;
-  border: 2px solid #BFC5EE1F;
-} */
+  /* border: 2px solid #BFC5EE1F; */
+}
 
 .button--secondary:disabled {
 color:var(--disabled);
@@ -87,7 +83,7 @@ border: 2px solid var(--disabled);
 /* tag */
 .button--tag {
   background-color: transparent;
-  border: 2px solid var(--border-color);
+  border: 1 solid var(--border-color);
   padding: 6px 12px;
   font-size: 14px;
   line-height: 20px;
@@ -95,7 +91,7 @@ border: 2px solid var(--disabled);
 
 .button--tag:hover {
   background-color: #BFC5EE1F;
-  border: 2px solid #BFC5EE1F;
+  /* border: 2px solid #BFC5EE1F; */
 }
 
 .button--tag:focus {
@@ -119,7 +115,7 @@ border: 2px solid var(--disabled);
 }
 
 /* Links */
-.link{
+.link {
   text-decoration: none;
   text-align: center;
   color: var(--white);
@@ -133,21 +129,13 @@ border: 2px solid var(--disabled);
 }
 
 .link:focus {
- color: var(--active);
+  color: var(--white);
 }
 
 .link:focus-visible {
   outline: solid #3892F3;
   border-radius: 5px;
 }
-
-.link:active {
-  
-}
-
-/* .link:visited {
-  color: var(--disabled);
-} */
 
 .link--accent {
   color:#78BBFA;
@@ -159,7 +147,7 @@ border: 2px solid var(--disabled);
 }
 
 .link--accent:focus {
-  color: var(--active);
+  color:#78BBFA;
 }
 
 .link--accent:focus-visible {
@@ -182,7 +170,11 @@ border: 2px solid var(--disabled);
   font-family: 'Poppins', 'Arial', 'Helvetica', sans-serif;
   border: 2px solid var(--border-color);
   background-color: transparent;
-  color: var(--white);
+  /* color: var(--white); */
   transition-duration: var(--tran-duration); 
-padding-inline: 12px;
+   padding-inline: 12px;
+} 
+
+.input:hover {
+  border-color: #3892F3;
 }
