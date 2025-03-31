@@ -1,0 +1,26 @@
+.aside-categories {
+    background-color: $bg-alt;
+    padding: 24px;
+    margin-bottom: 21px;
+
+    &__list {
+        list-style: none;
+        text-align: left;
+        padding-left: 0%;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    &__item {
+        text-align: left;
+    }
+    &__link {
+        color: $color-primary;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 6px 12px;
+    }
+}

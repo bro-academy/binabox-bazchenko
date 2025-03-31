@@ -2,3 +2,11 @@
   "title": "test",
   "h1": ""
 }
+
+
+"blog": 
+  {
+    "title": "Our blog"
+  }
+
+{% for}

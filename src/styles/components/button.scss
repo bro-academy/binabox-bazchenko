@@ -1,0 +1,114 @@
+.button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: $font-base;
+    padding: $btn-padding;
+    font-weight: 600;
+    border: 2px solid transparent;
+    max-width: 200px;
+    text-decoration: none;
+    color: $color-primary;
+    transition-duration: $tran-duration; 
+    cursor: pointer;
+
+  
+//   Accent
+        &--accent {
+            background-color: $color-accent;
+        
+                &:hover {
+                background-color: $color-border-focus;
+            
+            }
+            
+            &:focus {
+                background-color: $color-accent;
+            } 
+            
+            &:focus-visible {
+                outline: solid $color-border-focus;
+            }
+            
+            &:active {
+                background-color: $color-active;
+                outline: none;
+            }
+            
+            &:disabled {
+                background-color: $color-separator;
+                color: $color-disabled;
+            }
+        }
+
+    
+    /* secondary */
+        &--secondary {
+            background-color: transparent;
+            outline: 2px solid $color-separator;
+        
+        
+            &:hover {
+            background-color: $color-border;
+            /* border: 2px solid #BFC5EE1F; */
+        }  
+        
+        &:focus{
+            background-color: $color-border;
+        }
+        
+        &:focus-visible {
+            outline: 4px solid $color-border-focus;
+            border-color: $color-border-focus;
+        }
+        
+        &:active{
+            background-color: $color-border;
+            /* border: 2px solid #BFC5EE1F; */
+        }
+        
+        &:disabled {
+        color: $color-disabled;
+        background-color: $color-separator;
+        border: 2px solid $color-disabled;
+        }
+    }
+    
+    /* tag */
+    &--tag {
+        background-color: transparent;
+        border: 1 solid $color-separator;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 20px;
+    
+    
+            &:hover {
+            background-color: $color-border;
+            /* border: 2px solid #BFC5EE1F; */
+    }
+        
+        &:focus {
+            background-color: $color-border;
+        }
+        
+        &:focus-visible  {
+            outline: 4px solid $color-border-focus;
+            border-color: $color-border-focus;
+        }
+        
+        
+        &:active {
+            background-color: $color-border;
+        } 
+        
+        &:disabled {
+            color: $color-disabled;
+            background-color: $color-separator;
+            border: 2px solid $color-disabled;
+        }
+    }
+}

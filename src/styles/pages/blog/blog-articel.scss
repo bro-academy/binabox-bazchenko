@@ -1,0 +1,39 @@
+.blog-article {
+    margin-inline: 32px 108px;
+    margin-top: 0;
+
+    &__title{
+        font-size: 36px;
+        line-height: 48px;
+        font-family: $font-accent;
+        margin-top: 0;
+        margin-bottom: 16px;
+        max-width: 1024px ;
+        padding-inline: 0;
+        text-align: left;
+    }
+
+
+    &__button {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 32px;
+    }
+
+   &__text {
+        max-width: 1024px;
+       }
+
+      &__accent {
+        background-color: $color-accent;
+        color: $color-primary;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+  &__text-item{
+        max-width: 984px;
+    }
+}
