@@ -13,31 +13,31 @@
   </head> 
   <body> 
     <!--header start-->
-    <header>
+    <header class="header">
       <div class="header__container">
-        <img class="logo header__logo" src="assets/logo/logo_header.png" alt="BINABOX logo" />
+        <img class="logo header__logo" src="assets/logo/binabox_logo.webp" alt="BINABOX logo" width="188" height="42">
         <nav class="header__nav">
           <ul class="header__list">
-            <li class="header__list-item"><a class="link header__list-link" href="#">Home</a></li>
-            <li class="header__list-item"><a class="link header__list-link" href="#">Blog</a></li>
-            <li class="header__list-item"><a class="link header__list-link" href="#">Catalog</a></li>
-            <li class="header__list-item"><a class="link header__list-link" href="#">Contact Us</a></li>
+            <li class="header__list-item"><a class="header__list-link link" href="#">Home</a></li>
+            <li class="header__list-item"><a class="header__list-link link" href="#">Blog</a></li>
+            <li class="header__list-item"><a class="header__list-link link" href="#">Catalog</a></li>
+            <li class="header__list-item"><a class="header__list-link link" href="#">Contact Us</a></li>
           </ul>
         </nav>
         <div class="header__action">
           <div class="header__search-form">
-          <input type="text" class="header__search-input" placeholder="Search">
+          <input type="text" class="header__search-input input" placeholder="Search">
         </div>
         <div class="header__discord">
-        <a class="button" href="#" target="_blank">
+        <a class="button button--secondary" href="#" target="_blank">
           <img src="assets/icons/discord.svg" alt="Discord icon" class="header__discord-icon">
         <span class="header__discord-text">Discord</span>
         </a>
       </div>
-      <div class="header-button">
+      <div class="header__button">
         <button class="button button--accent">
-          <img src="assets/icons/wallet.svg" alt="Wallet icon" class="header-button__icon">
-          <span class="header-button__text">Connect</span>
+          <img src="assets/icons/wallet.svg" alt="Wallet icon" class="header__button-icon">
+          <span class="header__button-text">Connect</span>
         </button>
       </div>
       </div>
@@ -49,54 +49,55 @@
     <!--blog-->
     <main class="main-blog"> 
       <section class="blog-header">
+        <div class="blog-header__wrapper">
           <h1 class="blog-header__title">Our blog</h1>
           <nav class="blog-header__nav">
             <ul class="blog-header__list">
-              <li class="blog-header__item"><a class="link blog-header__link" href="index.html">Home</a></li>
-              <li class="blog-header__item"><a class="link blog-header__link" href="#">Our blog</a></li>
-              <li class="blog-header__item"><a class="link blog-header__link" href="#">The Basilisks NFT</a></li>
+              <li class="blog-header__item"><a class="blog-header__link link" href="index.html">Home</a></li>
+              <li class="blog-header__item"><a class="blog-header__link link" href="#">Our blog</a></li>
+              <li class="blog-header__item"><a class="blog-header__link link" href="#">The Basilisks NFT</a></li>
             </ul>
           </nav>
+        </div>
       </section>
       <section class="blog-content">
         <aside class="blog-aside">
           <div class="blog-aside__wrapper">
             <div class="aside-categories">
               <h2 class="aside-categories__title aside-title">Categories</h2>
-              <hr class="aside-categories__line" />
               <ul class="aside-categories__list aside-list">
-                <li class="aside-categories__item"><a class="link aside-categories__link" href="#">Our blog (12)</a></li>
-                <li class="aside-categories__item"><a class="link aside-categories__link" href="#">Metaverse (24)</a></li>
-                <li class="aside-categories__item"><a class="link aside-categories__link" href="#">Gaming (24)</a></li>
-                <li class="aside-categories__item"><a class="link aside-categories__link" href="#">Art (24)</a></li>
-                <li class="aside-categories__item"><a class="link aside-categories__link" href="#">Robot (24)</a></li>
-                <li class="aside-categories__item"><a class="link aside-categories__link" href="#">Art (24)</a></li>
-                <li class="aside-categories__item"><a class="link aside-categories__link" href="#">Crypto (430)</a></li>
+                <li class="aside-categories__item"><a class="aside-categories__link link" href="#">Our blog (12)</a></li>
+                <li class="aside-categories__item"><a class="aside-categories__link link" href="#">Metaverse (24)</a></li>
+                <li class="aside-categories__item"><a class="aside-categories__link link" href="#">Gaming (24)</a></li>
+                <li class="aside-categories__item"><a class="aside-categories__link link"  href="#">Art (24)</a></li>
+                <li class="aside-categories__item"><a class="aside-categories__link link"  href="#">Robot (24)</a></li>
+                <li class="aside-categories__item"><a class="aside-categories__link link"  href="#">Lauchpad (24)</a></li>
+                <li class="aside-categories__item"><a class="aside-categories__link link"  href="#">Crypto (430)</a></li>
               </ul>
             </div>
             <div class="aside-tag">
               <h2 class="aside-tag__title aside-title">Tag</h2>
-              <hr class="aside-tag__line">
               <ul class="aside-tag__list aside-list">
-                <li class="aside-tag__item"><a class="button button--tag" href="#">NFT</a></li>
-                <li class="aside-tag__item"><a class="button button--tag" href="#">ICO</a></li>
-                <li class="aside-tag__item"><a class="button button--tag" href="#">Robot</a></li>
-                <li class="aside-tag__item"><a class="button button--tag" href="#">Lauchpad</a></li>
-                <li class="aside-tag__item"><a class="button button--tag" href="#">Metaverse</a></li>
+                <li class="aside-tag__item"><a class="aside-tag__button button button--tag" href="#">NFT</a></li>
+                <li class="aside-tag__item"><a class="aside-tag__button button button--tag" href="#">ICO</a></li>
+                <li class="aside-tag__item"><a class="aside-tag__button button button--tag" href="#">Robot</a></li>
+                <li class="aside-tag__item"><a class="aside-tag__button button button--tag" href="#">Crypto</a></li>
+                <li class="aside-tag__item"><a class="aside-tag__button button button--tag" href="#">Lauchpad</a></li>
+                <li class="aside-tag__item"><a class="aside-tag__button button button--tag" href="#">Metaverse</a></li>
               </ul>
             </div>
           </div>
         </aside>
+        <article class="blog-article">
         <figure class="main-banner">
-          <img class="main-banner__image" src="assets/blog_main_banner.png" alt="Main banner" />
+          <img class="main-banner__image" src="assets/blog/big_dragon.webp" alt="Main banner" width="1023" height="557" />
           <figcaption class="main-banner__text banner-text">Photo caption</figcaption>
         </figure>
-        <article class="blog-article">
           <h2 class="blog-article__title">The Basilisks NFT</h2>
-          <button class="button button--accent">Gaming</button>
+          <button class="button button--accent blog-article__button">Gaming</button>
           <div class="article-author">
             <img class="article-author__icon article-icon" src="assets/icons/author.svg" alt="Author icon" />
-            <span class="article-author__name">By Tony Nguyen</span> <!--I used <span> because there is no link to the author's article-->
+            <span class="article-author__name">Tony Nguyen</span> <!--I used <span> because there is no link to the author's article-->
             <img class="article-author__date-icon article-icon" src="assets/icons/calendar.svg" alt="Calendar icon" />
             <time class="article-author__date" datetime="2022-06-20">20 Jun 2022</time>
         </div>        
@@ -125,7 +126,7 @@
               </li>
             </ul>
           </div>
-          <div class="list-name__wrapper">
+          <div class="list-name">
             <ul class="list-name__list-items">
               <li class="list-name__item">List name 1</li>
               <li class="list-name__item">List name 2</li>
@@ -138,18 +139,18 @@
               and even make bets and wagers”
             </p>
             <div class="quote__footer">
-              <img class="quote__icon" src="assets/icons/stars.svg" alt="star logo" />
+              <!-- <img class="quote__icon" src="assets/icons/stars.svg" alt="star logo" /> -->
               <span class="quote__rating">8.5/10</span>
               <span class="quote__copyright">Markout Corporation</span>
             </div>
             </blockquote>
           <div class="banners">
             <figure class="banners__item">
-              <img class="banners__item-image" src="assets/blog_banner.png" alt="Dragon">
+              <img class="banners__item-image" loading="lazy" src="assets/blog/dragon1.webp" alt="Dragon"  width="500" height="394">
               <figcaption class="banners__item-text banner-text">Photo caption</figcaption>
             </figure>
             <figure class="banners__item">
-              <img class="banners__item-image" src="assets/blog_banner2.png" alt="Dragon">
+              <img class="banners__item-image" loading="lazy" src="assets/blog/dragon2.webp" alt="Dragon"  width="500" height="394">
               <figcaption class="banners__item-text banner-text">Photo caption</figcaption>
             </figure> 
           </div>
@@ -190,27 +191,26 @@
             <div class="social">
               <p class="social__title"> Share:</p>
               <ul class="social__list">
-                <li class="button button--tag">
-                  <a class="link social__link" href="#" target="_blank"><img class="social__icon" src="assets/icons/twitter.svg" alt="Twitter" /></a>
+                <li class="social__link">
+                  <a class="button button--tag" href="#" target="_blank"><img class="social__icon" src="assets/icons/twitter_blog.svg" alt="Twitter" /></a>
                 </li>
-                <li class="button button--tag">
-                  <a class="link social__link" href="#" target="_blank"><img class="social__icon" src="assets/icons/facebook.svg" alt="Facebook" /></a>
+                <li class="social__link">
+                  <a class="button button--tag" href="#" target="_blank"><img class="social__icon" src="assets/icons/facebook_blog.svg" alt="Facebook" /></a>
                 </li>
-                <li class="button button--tag">
-                  <a class="link social__link" href="#" target="_blank"><img class="social__icon" src="assets/icons/Instagram.svg" alt="Instagram" /></a>
+                <li class="social__link">
+                  <a class="button button--tag" href="#" target="_blank"><img class="social__icon" src="assets/icons/instagram_blog.svg" alt="Instagram" /></a>
                 </li>
               </ul>
           </div>
         </article>
-      </section>
     </main>
    <!--main end-->
 
    <!--footer start-->
-   <footer>
+   <footer class="footer">
     <div class="footer__main">
     <div class="footer__logo-container">
-      <img class="footer__logo" src="assets/logo/logo_footer.png" alt="BINABOX logo" />
+      <img class="footer__logo" loading="lazy" src="assets/logo/binabox_blue_logo.webp" alt="BINABOX logo" width="188"  height="42"/>
       <p class="footer__description">We are the best way to check the rarity of NFT collection.</p>
     </div>
     <div class="footer__links-container">
@@ -218,10 +218,10 @@
         <h3 class="footer__title">Subscribe</h3>
         <nav class="footer__nav">
           <ul class="footer__list">
-            <li class="footer__item"><a class="link footer__link" href="index.html">Home</a></li>
-            <li class="footer__item"><a class="link footer__link" href="#">Blog</a></li>
-            <li class="footer__item"><a class="link footer__link" href="#">Catalog</a></li>
-            <li class="footer__item"><a class="link footer__link" href="#">Contact us</a></li>
+            <li class="footer__item"><a class="footer__link link" href="index.html">Home</a></li>
+            <li class="footer__item"><a class="footer__link link" href="#">Blog</a></li>
+            <li class="footer__item"><a class="footer__link link" href="#">Catalog</a></li>
+            <li class="footer__item"><a class="footer__link link" href="#">Contact us</a></li>
           </ul>
         </nav>
       </div>
@@ -229,36 +229,35 @@
         <h3 class="footer__title">Company</h3>
         <nav class="footer__nav">
           <ul class="footer__list">
-            <li class="footer__item"><a class="link footer__link" href="#">Terms & Conditions</a></li>
-            <li class="footer__item"><a class="link footer__link" href="#">Privacy Policy</a></li>
-            <li class="footer__item"><a class="link footer__link" href="#">Whitepaper</a></li>
-            <li class="footer__item"><a class="link footer__link" href="#">Help Center</a></li>
+            <li class="footer__item"><a class="footer__link link" href="#">Terms & Conditions</a></li>
+            <li class="footer__item"><a class="footer__link link" href="#">Privacy Policy</a></li>
+            <li class="footer__item"><a class="footer__link link" href="#">Whitepaper</a></li>
+            <li class="footer__item"><a class="footer__link link"href="#">Help Center</a></li>
           </ul>
         </nav>
       </div>
     </div>
   </div>
     <div class="footer__bottom">
-      <!--hr class="footer__line"-->
       <p class="footer__copyright">BINABOX 2022 - ALL rights reserved</p>
       <ul class="footer__socials-list">
         <li class="footer__social-item">
-          <a class="link footer__social-link " href="#" target="_blank"><img class="footer__social-icon" src="assets/icons/twitter.svg" alt="Twitter" /></a>
+          <a class="footer__social-link link" href="#" target="_blank"><img class="footer__social-icon" src="assets/icons/twitter.svg" alt="Twitter" /></a>
         </li>
         <li class="footer__social-item">
-          <a class="link footer__social-link" href="#" target="_blank"><img class="footer__social-icon" src="assets/icons/facebook.svg" alt="Facebook" /></a>
+          <a class="footer__social-link link" href="#" target="_blank"><img class="footer__social-icon" src="assets/icons/facebook.svg" alt="Facebook" /></a>
         </li>
         <li class="footer__social-item">
-          <a class="link footer__social-link" href="#" target="_blank"><img class="footer__social-icon" src="assets/icons/telegram2.svg" alt="Telegram" /></a>
+          <a class="footer__social-link link" href="#" target="_blank"><img class="footer__social-icon" src="assets/icons/telegram2.svg" alt="Telegram" /></a>
         </li>
         <li class="footer__social-item">
-          <a class="link footer__social-link" href="#" target="_blank"><img class="footer__social-icon" src="assets/icons/youtube.svg" alt="Youtube" /></a>
+          <a class="footer__social-link link" href="#" target="_blank"><img class="footer__social-icon" src="assets/icons/youtube.svg" alt="Youtube" /></a>
         </li>
         <li class="footer__social-item">
-          <a class="link footer__social-link" href="#" target="_blank"><img class="footer__social-icon" src="assets/icons/ticktok.svg" alt="TikTok" /></a>
+          <a class="footer__social-link link" href="#" target="_blank"><img class="footer__social-icon" src="assets/icons/ticktok.svg" alt="TikTok" /></a>
         </li>
         <li class="footer__social-item">
-          <a class="link footer__social-link" href="#" target="_blank"><img class="footer__social-icon" src="assets/icons/discord.svg" alt="Discord" /></a>
+          <a class="footer__social-link link" href="#" target="_blank"><img class="footer__social-icon" src="assets/icons/discord.svg" alt="Discord" /></a>
         </li>
       </ul>
     </div>
