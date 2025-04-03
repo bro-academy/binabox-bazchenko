@@ -1,0 +1,8 @@
+<section class="catalog">
+  {% include "catalog-top.njk" %}
+  <div class="catalog__main">
+    {% for product in products %}
+      {% include "card.njk" %}
+    {% endfor %}
+  </div>
+</section>

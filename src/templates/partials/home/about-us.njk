@@ -1,0 +1,16 @@
+<section class="about-us">
+        <div class="about-us__top">
+          <h2 class="about-us__title">{{ aboutUs.title }}</h2>
+          <p class="about-us__text">
+           {{ aboutUs.description }} </p>
+        </div>
+        <div class="about-us__cards-wrapper">
+        {% for card in aboutUs.cards %}
+          <div class="about-us__card">
+            <h3 class="about-us__card-title"> {{ card.title }}</h3>
+            <p class="about-us__card-text"> {{ card.text }} </p>
+          </div>
+          {% endfor %}
+        </div>
+        <button class="button button--secondary about-us__button">Read more</button>
+      </section>

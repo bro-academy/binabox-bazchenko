@@ -1,0 +1,17 @@
+@use 'src/styles/base/variables' as *;
+
+@use 'src/styles/components/blog/article-author' as *;
+@use 'src/styles/components/blog/aside-categories' as *;
+@use 'src/styles/components/blog/aside-tag' as *;
+@use 'src/styles/components/blog/aside-title' as *;
+@use 'src/styles/components/blog/banner-text' as *;
+@use 'src/styles/components/blog//banners' as *;
+@use 'src/styles/components/blog/blog-articel' as *;
+@use 'src/styles/components/blog/blog-aside' as *;
+@use 'src/styles/components/blog/content' as *;
+@use 'src/styles/components/blog/header' as *;
+@use 'src/styles/components/blog/list-name' as *;
+@use 'src/styles/components/blog/main-banner' as *;
+@use 'src/styles/components/blog/quote' as *;
+@use 'src/styles/components/blog/social' as *;
+@use 'src/styles/components/blog/tags' as *;

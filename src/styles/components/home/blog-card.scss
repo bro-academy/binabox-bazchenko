@@ -1,0 +1,65 @@
+@use 'src/styles/base/variables' as *;
+
+.blog-card {
+    width: 784px;
+    height: 434px;
+    background-color: $bg-alt;
+
+
+   &__author-icon {
+        width: 16px;
+        height: 16px;
+    }
+
+   &__name {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        color: $color-alt;
+    }
+
+    &__date-icon {
+        width: 16px;
+        height: 16px;
+    }
+
+    &__date {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;/*check size*/
+        color: $color-alt;
+    }
+
+    &__title {
+        font-size: 36px;
+        line-height: 48px;
+        font-family: $font-accent;
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 24px;
+        color: $color-alt;
+    }
+
+    &__footer {
+        width: 161px;
+        height: 40px;
+    }
+
+    &__footer-link {
+    }
+
+    &__footer-link::after{
+        content: "";
+        background-image: url("/src/images/icons/button-arrow.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 8px;
+        height: 14px;
+        display: inline-block;
+        margin-right: 16px;
+    
+    }
+
+}
