@@ -1,0 +1,332 @@
+{
+    "products": [
+      {
+      "image": "/src/images/main/skeleton.webp",
+      "price": "$199",
+     "name": "Name Product" 
+    },
+    {
+      "image": "/src/images/main/cat.webp",
+      "price": "$199",
+     "name": "Name Product" 
+    },
+    {
+      "image": "/src/images/main/scissors.webp",
+      "price": "$199",
+     "name": "Name Product" 
+    },
+    {
+      "image": "/src/images/main/card.webp",
+      "price": "$199",
+     "name": "Name Product" 
+    },
+    {
+      "image": "/src/images/main/screen.webp",
+      "price": "$199",
+     "name": "Name Product" 
+    }
+    ],
+
+    "blogCards": [
+      {
+        "link": "#",
+        "image": "/src/images/main/skeleton_head.webp",
+        "authorIcon": "/src/images/icons/author.svg",
+        "authorName": "Tony Nguyen",
+        "dateIcon": "/src/images/icons/calendar.svg",
+        "date": "2022-06-20",
+        "title": "Sonic live",
+        "text": "One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet...",
+        "readMoreLink": "#",
+        "readMoreName": "Read more"
+      },
+      {
+        "link": "#",
+        "image": "/src/images/main/skeleton_head.webp",
+        "authorIcon": "/src/images/icons/author.svg",
+        "authorName": "Tony Nguyen",
+        "dateIcon": "/src/images/icons/calendar.svg",
+        "date": "2022-06-20",
+        "title": "Sonic live",
+        "text": "One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet...",
+        "readMoreLink": "#",
+          "readMoreName": "Read more"
+      },
+      {
+        "link": "#",
+        "image": "/src/images/main/cats_head.webp",
+        "authorIcon": "/src/images/icons/author.svg",
+        "authorName": "Tony Nguyen",
+        "dateIcon": "/src/images/icons/calendar.svg",
+        "date": "2022-06-20",
+        "title": "Sonic live",
+        "text": "One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet...",
+        "readMoreLink": "#",
+          "readMoreName": "Read more"
+      },
+        {
+        "link": "#",
+        "image": "/src/images/main/monkey_head.webp",
+        "authorIcon": "/src/images/icons/author.svg",
+        "authorName": "Tony Nguyen",
+        "dateIcon": "/src/images/icons/calendar.svg",
+        "date": "2022-06-20",
+        "title": "Sonic live",
+        "text": "One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet...",
+        "readMoreLink": "#",
+          "readMoreName": "Read more"
+      },
+      {
+        "link": "#",
+        "image": "/src/images/main/duck.webp.webp",
+        "authorIcon": "/src/images/icons/author.svg",
+        "authorName": "Tony Nguyen",
+        "dateIcon": "/src/images/icons/calendar.svg",
+        "date": "2022-06-20",
+        "title": "Sonic live",
+        "text": "One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet...",
+        "readMoreLink": "#",
+          "readMoreName": "Read more"
+      },
+      {
+        "link": "#",
+        "image": "/src/images/main/duck.webp.webp",
+        "authorIcon": "/src/images/icons/author.svg",
+        "authorName": "Tony Nguyen",
+        "dateIcon": "/src/images/icons/calendar.svg",
+        "date": "2022-06-20",
+        "title": "Sonic live",
+        "text": "One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet...",
+        "readMoreLink": "#",
+          "readMoreName": "Read more"
+      },
+    ]
+   }
+
+    "aboutUs": {
+        "title": "About us",
+        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occae cat cupidatat non proident, sunt in culpa qui officia dese runt mollit anim id est laborum velit esse cillum dolore eu fugiat nulla pariatu epteur sint occaecat.",
+        "cards": [
+            {
+                "title": "High quality",
+                "text": "Lorem Ipsum is simply dummy text of the printing and Ipsum
+              typesetting industry."
+            },
+            {
+                "title": "Big collection",
+                "text": "Lorem Ipsum is simply dummy text of the printing and Ipsum
+              typesetting industry."
+            },
+            {
+                "title": "Top Resource",
+                "text": "Lorem Ipsum is simply dummy text of the printing and Ipsum
+              typesetting industry."
+            },
+            {
+            "title": "Big community",
+            "text": "Lorem Ipsum is simply dummy text of the printing and Ipsum
+          typesetting industry."
+           }
+        ]
+      },
+
+"our-team": [
+         {
+        "team-card": {
+          "title": "Jason Smith",
+          "position": "Co-Founder",
+          "media": [
+            {
+              "link": "#",
+              "icon": "/src/images/icons/twitter.svg"
+            },
+          {
+            "link": "#",
+            "icon": "/src/images/icons/facebook.svg"
+          },
+          {
+            "link": "#",
+            "icon": "/src/images/icons/telegram.svg"
+          },
+          {
+            "link": "#",
+            "icon": "/src/images/icons/linkedIn.svg"
+          },
+          {
+            "link": "#",
+            "icon": "/src/images/icons/Instagram.svg"
+          }
+          ]
+        }
+      },
+        {
+          "team-card": {
+            "title": "Jason Smith",
+            "position": "Co-Founder",
+            "media": [
+              {
+                "link": "#",
+                "icon": "/src/images/icons/twitter.svg"
+              },
+            {
+              "link": "#",
+              "icon": "/src/images/icons/facebook.svg"
+            },
+            {
+              "link": "#",
+              "icon": "/src/images/icons/telegram.svg"
+            },
+            {
+              "link": "#",
+              "icon": "/src/images/icons/linkedIn.svg"
+            },
+            {
+              "link": "#",
+              "icon": "/src/images/icons/Instagram.svg"
+            }
+          ]
+        }
+      },
+        {
+            "team-card": {
+              "title": "Jason Smith",
+              "position": "Co-Founder",
+              "media": [
+                {
+                  "link": "#",
+                  "icon": "/src/images/icons/twitter.svg"
+                },
+              {
+                "link": "#",
+                "icon": "/src/images/icons/facebook.svg"
+              },
+              {
+                "link": "#",
+                "icon": "/src/images/icons/telegram.svg"
+              },
+              {
+                "link": "#",
+                "icon": "/src/images/icons/linkedIn.svg"
+              },
+              {
+                "link": "#",
+                "icon": "/src/images/icons/Instagram.svg"
+              }
+            ]
+          }
+        },
+          {
+              "team-card": {
+                "title": "Jason Smith",
+                "position": "Co-Founder",
+                "media": [
+                  {
+                    "link": "#",
+                    "icon": "/src/images/icons/twitter.svg"
+                  },
+                {
+                  "link": "#",
+                  "icon": "/src/images/icons/facebook.svg"
+                },
+                {
+                  "link": "#",
+                  "icon": "/src/images/icons/telegram.svg"
+                },
+                {
+                  "link": "#",
+                  "icon": "/src/images/icons/linkedIn.svg"
+                },
+                {
+                  "link": "#",
+                  "icon": "/src/images/icons/Instagram.svg"
+                }
+              ]
+            }
+          },
+            {
+                "team-card": {
+                  "title": "Jason Smith",
+                  "position": "Co-Founder",
+                  "media": [
+                    {
+                      "link": "#",
+                      "icon": "/src/images/icons/twitter.svg"
+                    },
+                  {
+                    "link": "#",
+                    "icon": "/src/images/icons/facebook.svg"
+                  },
+                  {
+                    "link": "#",
+                    "icon": "/src/images/icons/telegram.svg"
+                  },
+                  {
+                    "link": "#",
+                    "icon": "/src/images/icons/linkedIn.svg"
+                  },
+                  {
+                    "link": "#",
+                    "icon": "/src/images/icons/Instagram.svg"
+                  }
+                ]
+              }
+            },
+              {
+                  "team-card": {
+                    "title": "Jason Smith",
+                    "position": "Co-Founder",
+                    "media": [
+                      {
+                        "link": "#",
+                        "icon": "/src/images/icons/twitter.svg"
+                      },
+                    {
+                      "link": "#",
+                      "icon": "/src/images/icons/facebook.svg"
+                    },
+                    {
+                      "link": "#",
+                      "icon": "/src/images/icons/telegram.svg"
+                    },
+                    {
+                      "link": "#",
+                      "icon": "/src/images/icons/linkedIn.svg"
+                    },
+                    {
+                      "link": "#",
+                      "icon": "/src/images/icons/Instagram.svg"
+                    }
+                  ]
+                }
+              },
+                {
+                    "team-card": {
+                      "title": "Jason Smith",
+                      "position": "Co-Founder",
+                      "media": [
+                        {
+                          "link": "#",
+                          "icon": "/src/images/icons/twitter.svg"
+                        },
+                      {
+                        "link": "#",
+                        "icon": "/src/images/icons/facebook.svg"
+                      },
+                      {
+                        "link": "#",
+                        "icon": "/src/images/icons/telegram.svg"
+                      },
+                      {
+                        "link": "#",
+                        "icon": "/src/images/icons/linkedIn.svg"
+                      },
+                      {
+                        "link": "#",
+                        "icon": "/src/images/icons/Instagram.svg"
+                       }
+                      ]
+                    }
+                  }
+                ]
+           } 
+

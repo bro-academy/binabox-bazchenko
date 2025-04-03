@@ -1,0 +1,69 @@
+@use 'src/styles/base/variables' as *;
+
+.catalog-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 64px;
+    max-width: 1600px;
+    margin: 0 auto;
+
+    &__icon{
+        width: 24px;
+        height: 24px;
+    }
+
+    &__title {
+        font-size: 24px;
+        line-height: 32px;
+        font-family: $font-accent;
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+    }
+
+        &__title::before {
+            content: "";
+            background-image: url("/src/images/icons/folder.svg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 24px;
+            height: 24px;
+            display: inline-block;
+            margin-right: 8px;
+        }
+
+        &__title::after {
+            content: "";
+            display: block;
+            flex-grow: 1;
+            max-width: 1167px;
+            height: 2px;
+            background-color:$color-separator ;
+            margin-inline: 32px;
+        }
+
+    &__line {
+        width: 1167px;
+        margin: auto;
+        color: $color-separator;
+    }
+    &__action{
+    display: flex;
+    gap: 16px;
+    }
+
+    &__button-wrapper {
+        display: flex;
+        align-items: center; 
+    }
+
+    &__button-wrapper::after {
+        content: "";
+        display: block;
+        width: 2px;
+        height: 24px;
+        background-color: $color-separator;
+        margin-left: 16px ;
+    }
+}

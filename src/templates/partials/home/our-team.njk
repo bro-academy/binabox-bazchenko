@@ -1,0 +1,10 @@
+<section class="our-team">
+        <h2 class="our-team__title">Out team</h2>
+        <div class="our-team__wrapper">
+        {% for item in our-team %}
+        {% block content %}
+        {% include 'partials/team-card.njk' %}
+        {% endblock %}
+        {% endfor %}
+        </div>
+      </section>

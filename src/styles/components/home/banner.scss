@@ -1,0 +1,61 @@
+@use 'src/styles/base/variables' as *;
+
+.banner {
+    display: flex;
+    max-width: 100%;
+    padding-inline: 164px;
+    gap: 0;
+}
+
+    &__title {
+        font-size: 52px;
+        line-height: 62px;
+        font-family: $font-accent;
+        margin: 0;
+        max-width: 700px;
+    }
+
+    &__highlight {
+        color: $color-accent;
+
+    }
+    &__text-wrapper {
+        width: 866.5px;
+        max-height: 362px;
+        margin: 139px 0;
+    }
+
+    &__text{
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0 auto;
+    }
+
+    &__stat-wrapper {
+        display: flex;
+        gap: 64px;
+        margin-bottom: 32px;
+    }
+
+    &__stat {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__stat-number {
+    font-size: 52px;
+    line-height: 62px;
+    font-family: $font-accent;
+    text-shadow: 1px 0 4px $color-primary;
+    }
+
+    &__stat-text {
+        font-size: 16px;
+        line-height: 24px;
+        color: $color-alt;
+    }
+
+    &__buttons-wrapper {
+        display: flex;
+        gap: 16px;
+    }

@@ -1,3 +1,5 @@
+@use 'src/styles/base/variables' as *;
+
 body {
     background-color: $bg-main;
     color: $color-primary;

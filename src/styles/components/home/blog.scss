@@ -1,0 +1,12 @@
+@use 'src/styles/base/variables' as *;
+
+.blog__title {
+    font-size: 36px;
+    line-height: 48px;
+    font-family: $font-accent;
+    text-align: center;
+}
+
+.blog__wrapper {
+    gap: 15px;
+}

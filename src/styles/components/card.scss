@@ -1,3 +1,5 @@
+@use 'src/styles/base/variables' as *;
+
 .card {
     display: flex;
     flex-direction: column;
