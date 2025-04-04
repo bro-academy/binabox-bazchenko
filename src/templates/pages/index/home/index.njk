@@ -1,12 +1,16 @@
 {% extends 'layouts/index/base.njk' %}
 
+{% block styles %}
+  <link rel="stylesheet" href="/css/main.css">
+{% endblock %}
+
 {% block content %}
+  <main class="main">
   {% include 'partials/banner.njk' %}
   {% include 'partials/catalog.njk' %}
-  {% include 'partials/card.njk' %}
   {% include 'partials/blog.njk' %}
-  {% include 'partials/blog-card.njk' %}
   {% include 'partials/about-us.njk' %}
   {% include 'partials/our-team.njk' %}
   {% include 'partials/faq.njk' %}
+  </main>
 {% endblock %}

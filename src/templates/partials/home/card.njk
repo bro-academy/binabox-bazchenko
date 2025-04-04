@@ -1,7 +1,11 @@
+     {% block styles %}
+        <link rel="stylesheet" href="/css/main.css">
+    {% endblock %}
+
 <div class="card">
   <a class="card__link" href="#">
-    <img class="card__image" src="{{ product.image }}" alt="{{ product.name }}" width="252" height="324" />
+    <img class="card__image" src="{{ item.image }}" alt="{{ item.name }}" width="252" height="324" />
   </a>
-  <span class="card__price">{{ product.price }}</span>
-  <span class="card__name">{{ product.name }}</span>
+  <span class="card__price">{{ item.price }}</span>
+  <span class="card__name">{{ item.name }}</span>
 </div>

@@ -1,3 +1,7 @@
+      {% block styles %}
+        <link rel="stylesheet" href="/css/main.css">
+    {% endblock %}
+ 
  <article class="blog-card">
             <a class="blog-card__link" href="{{ card.link  }}"><img class="blog-card__image" loading="lazy" src="{{ card.image}}" alt="Blog image" width="736" height="198" /></a>
             <div class="blog-card__data">

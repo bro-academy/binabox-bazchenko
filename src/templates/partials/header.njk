@@ -1,6 +1,10 @@
+{% block styles %}
+  <link rel="stylesheet" href="/css/main.css">
+{% endblock %}
+
 <header class="header" >
       <div class="header__container">
-        <img class="header__logo" src="/src/images/logo/binabox_logo.webp" alt="BINABOX logo" width="188" height="42">
+        <img class="header__logo" src="/src/images/static/logo/binabox_logo.webp" alt="BINABOX logo" width="188" height="42">
         <nav class="header__nav">
           <ul class="header__list">
              {% for item in menu %}
@@ -11,18 +15,18 @@
         <div class="header__action">
           <!-- <div class="header__search-form"> -->
             <form class="header__search-form ">
-              <!-- <input type="image" class="header__search-icon" src="//src/images/icons/search.svg" alt="Search"> -->
+              <!-- <input type="image" class="header__search-icon" src="//src/images/static/icons/search.svg" alt="Search"> -->
            <input type="text" class="header__search-input input" placeholder="Search">
         </form>
         <!-- </div> -->
         <div class="header__discord">
         <a class="header__discord-link button button--secondary" href="#" target="_blank">
-          <img src="/src/images/icons/discord.svg" alt="Discord icon" class="header__discord-icon">
+          <img src="/src/images/static/icons/discord.svg" alt="Discord icon" class="header__discord-icon">
         <span class="header__discord-text">Discord</span>
         </a>
       </div>
         <button class="header__button button button--accent">
-          <img src="/src/images/icons/wallet.svg" alt="Wallet icon" class="header__button-icon"> 
+          <img src="/src/images/static/icons/wallet.svg" alt="Wallet icon" class="header__button-icon"> 
           <span class="header__button-text">Connect</span>
         </button>
       </div>

@@ -1,5 +1,9 @@
+      {% block styles %}
+        <link rel="stylesheet" href="/css/main.css">
+    {% endblock %}
+ 
  <div class="team-card">
-            <img class="team-card__image" loading="lazy" src="/src/images/main/jason_smith.webp" alt="Jason Smith"  width="120" height="120"/>
+            <img class="team-card__image" loading="lazy" src="/src/images/static/main/jason_smith.webp" alt="Jason Smith"  width="120" height="120"/>
             <div class="team-card__info-wrapper">
             <h3 class="team-card__name">{{ item.title }}</h3>
             <span class="team-card__position">{{ item.position }}</span>
