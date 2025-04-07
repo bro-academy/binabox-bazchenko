@@ -1,0 +1,76 @@
+
+<main class="main-contact"> 
+    <section class="contact-header">
+      <div class="contact-header__wrapper">
+        <h1 class="contact-header__title">Contact Us</h1>
+        <nav class="contact-header__nav">
+          <ul class="contact-header__list">
+            <li class="contact-header__item"><a class="contact-header__link link" href="index.html">Home</a></li>
+            <li class="contact-header__item"><a class="contact-header__link link" href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+  <section class="contact-info">
+        <address class="contact-info__item">
+        <img class="contact-info__icon" src="assets/icons/location-icon.svg" alt="Location icon" width="42px" height="51.33px">
+        <span class="contact-info__title">Location</span>
+        <span class="contact-info__value">2163 Phillips Gap Rd</span>
+    </address>
+    <address class="contact-info__item">
+        <img class="contact-info__icon" src="assets/icons/mail-icon.svg" alt="Email icon" width="51.33px" height="42px">
+        <span class="contact-info__title">Email</span>
+        <a class="contact-info__value" href="mailto:Info.avitex@gmail.com">Info.avitex@gmail.com</a>
+    </address>
+    <address class="contact-info__item">
+        <img class="contact-info__icon" src="assets/icons/phone-icon.svg" alt="Phone icon" width="48.08px" height="48.08px">
+        <span class="contact-info__title">Phone</span>
+        <a class="contact-info__value" href="tel:+16668888">+1 666 8888</a>
+    </address>
+    </section>
+<form  class="contact-form" action="url" method="post">
+    <h2 class="contact-form__title"> Get in touch</h2>
+    <p class="contact-form__subtitle">Browse through the most freuently asked questions</p>
+    <div class="switcher">
+        <label for="swc"> Use my</label>
+        <input id="swc" type="checkbox" name="switcher-checkbox">
+    </div>
+    <div class="contact-form__item">
+        <label for="name">Name</label>
+            <input id="name" type="text" name="name">
+    </div>
+    <div class="contact-form__item">
+        <label for="last-name">Last name</label>
+            <input id="last-name" type="text" name="last-name">
+    </div>
+    <div class="contact-form__item">
+        <label for="birthname">Date of birth</label>
+        <input id="birthname" type="date" name="birthname">
+    </div>
+    <div class="contact-form__item">
+        <p class="contact-form__heading">Date of birth</p>
+        <input type="radio" id="male" name="gender" checked>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+    </div>
+    <div class="contact-form__item">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="user-email">
+    </div>
+    <div class="contact-form__item">
+        <label for="phone">Phone number</label>
+        <input type="tel" id="phone" name="user-phone">
+    </div>
+    <div class="contact-form__item">
+        <label for="message">Message</label>
+        <textarea name="Type your text" id="message"></textarea>
+    </div>
+    <div class="contact-form__">
+        <input type="checkbox" id="chek" name="checkbox">
+          <label for="chek">By clicking on the ‘Send Message’ button I agree to <a href="#">all the terms of the security policy</a></label>
+    </div>
+    <input type="submit" value="Send message">
+</form>
+</main>
+
