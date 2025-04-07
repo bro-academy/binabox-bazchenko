@@ -1,4 +1,4 @@
-@use 'src/styles/base/variables' as *;
+@use './../../base/variables' as *;
 
 .blog-card {
     width: 784px;
@@ -59,7 +59,7 @@
         height: 14px;
         display: inline-block;
         margin-right: 16px;
-    
+
     }
 
 }

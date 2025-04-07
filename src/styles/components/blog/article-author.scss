@@ -1,4 +1,4 @@
-@use 'src/styles/base/variables' as *;
+@use './../../base/variables' as *;
 
 .article-author{
     display: inline-flex;
@@ -12,7 +12,7 @@
         &__name {
             display: flex;
             align-items: center;
-        
+
 
             &::after {
                 content: "";

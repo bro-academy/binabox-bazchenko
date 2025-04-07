@@ -1,4 +1,4 @@
-@use 'src/styles/base/variables' as *;
+@use './../base/variables' as *;
 
 .input {
     padding: 10px 22px;
@@ -8,9 +8,9 @@
     font-family: $font-base;
     border: 2px solid $color-separator;
     background-color: transparent;
-    transition-duration: $tran-duration; 
+    transition-duration: $tran-duration;
     //  padding-inline: 12px;
-  
+
         &:hover {
             border-color: $color-border-focus;
         }

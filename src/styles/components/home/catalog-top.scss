@@ -1,4 +1,4 @@
-@use 'src/styles/base/variables' as *;
+@use './../../base/variables' as *;
 
 .catalog-top {
     display: flex;
@@ -55,7 +55,7 @@
 
     &__button-wrapper {
         display: flex;
-        align-items: center; 
+        align-items: center;
     }
 
     &__button-wrapper::after {

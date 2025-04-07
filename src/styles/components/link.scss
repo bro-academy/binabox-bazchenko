@@ -1,4 +1,4 @@
-@use 'src/styles/base/variables' as *;
+@use './../base/variables' as *;
 
 .link {
     // text-decoration: none;
@@ -7,32 +7,32 @@
     transition-duration: $tran-duration;
     font-family: $font-base;
     font-weight: 600;
-  
+
     &:hover {
       color: $color-border-focus;
     }
-  
+
     &:focus {
       color: $color-primary;
     }
-  
+
     &:focus-visible {
       outline: solid $color-border-focus;
       border-radius: 5px;
     }
-  
+
     &--accent {
       color: $color-border-focus;
-  
+
       &:hover {
         color: $color-border-focus;
         transition-duration: $tran-duration;
       }
-  
+
       &:focus {
         color: $color-border-focus;
       }
-  
+
       &:focus-visible {
         outline: 4px solid $color-border-focus;
         border-radius: 5px;

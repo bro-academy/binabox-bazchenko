@@ -1,4 +1,4 @@
-@use 'src/styles/base/variables' as *;
+@use './../base/variables' as *;
 
 body {
     background-color: $bg-main;
@@ -15,7 +15,7 @@ a {
     text-decoration: none;
 }
 
-img{ 
+img{
 
 }
 
