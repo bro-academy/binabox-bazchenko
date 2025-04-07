@@ -1,9 +1,5 @@
-     {% block styles %}
-        <link rel="stylesheet" href="/css/main.css">
-    {% endblock %}
-
 <section class="catalog">
-  {% include "catalog-top.njk" %}
+  {% include "partials/home/catalog-top.njk" %}
   <div class="catalog__main">
     {% for item in products %}
       {% include "partials/home/card.njk" %}
