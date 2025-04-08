@@ -1,4 +1,4 @@
-@use 'src/styles/base/variables' as *;
+@use '../../styles/base/variables' as *;
 
 .social {
     display: flex;
@@ -18,6 +18,6 @@
     }
 
     &__link {
-        border: 2px solid var(--Elements-SeporatorBold, $color-separator);
+        border: 2px solid var(--elements-separator-bold, $color-separator);
     }
 }

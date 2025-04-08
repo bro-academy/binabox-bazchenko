@@ -1,9 +1,9 @@
-@use 'src/styles/base/variables' as *;
+@use '../../styles/base/variables' as *;
 
 .quote {
     background-color: $bg-quote;
     max-width: 992px;
-    margin: 0px;
+    margin: 0;
     padding: 16px;
     margin-inline: 0;
     margin-bottom: 32px;
@@ -14,7 +14,7 @@
         font-size: 28px;
         line-height: 36px;
         font-family: $font-accent;
-        margin: 0px;
+        margin: 0;
         max-width: 992px;
         margin-bottom: 8px;
     }

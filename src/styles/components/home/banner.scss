@@ -1,11 +1,10 @@
-@use 'src/styles/base/variables' as *;
+@use '../../styles/base/variables' as *;
 
 .banner {
     display: flex;
     max-width: 100%;
     padding-inline: 164px;
     gap: 0;
-}
 
     &__title {
         font-size: 52px;
@@ -17,15 +16,15 @@
 
     &__highlight {
         color: $color-accent;
-
     }
+    
     &__text-wrapper {
         width: 866.5px;
         max-height: 362px;
         margin: 139px 0;
     }
 
-    &__text{
+    &__text {
     font-size: 20px;
     line-height: 28px;
     margin: 0 auto;
@@ -59,3 +58,4 @@
         display: flex;
         gap: 16px;
     }
+}

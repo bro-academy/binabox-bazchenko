@@ -1,8 +1,7 @@
-@use 'src/styles/base/variables' as *;
+@use '../../styles/base/variables' as *;
 
 .about-us {
     padding: 64px ;
-}
 
     &__cards-wrapper {
         display: flex;
@@ -35,7 +34,6 @@
         margin-bottom: 24px;
         position: relative;
         counter-increment: card-counter;
-
 
         &::after {
             content: '0' counter(card-counter);
@@ -95,14 +93,16 @@
             position: absolute;
             bottom: 0;
             right: 0;
-            width: 100px; 
-            height: 130px; 
+            width: 100px;
+            height: 130px;
             opacity: 0;
             transition: opacity 0.25s;
+          }
         }
-}
 
     &__button {
     display: block;
     margin: 0 auto;
+
     }
+}
