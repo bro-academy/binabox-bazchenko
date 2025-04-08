@@ -1,71 +1,70 @@
-      {% block styles %}
-        <link rel="stylesheet" href="/css/main.css">
-    {% endblock %}
- 
- <article class="blog-article">
+<article class="blog-article">
 
- {% include 'main-banner'}
+  {% include 'partials/blog/main-banner.njk' %}
 
- <h2 class="blog-article__title">The Basilisks NFT</h2>
- <button class="button button--accent blog-article__button">Gaming</button>
+  <h2 class="blog-article__title">The Basilisks NFT</h2>
+   <button class="button button--accent blog-article__button">Gaming</button>
 
- {% include 'article-author'}
+{% include 'partials/blog/article-author.njk' %}
 
- <div class="blog-article__content">
-            <p class="blog-article__text">
-              The Basilisks that
-              <mark class="blog-article__accent">players</mark>
-              collect are represented with NFTs on Ethereum’s blockchain with
-              real-world value. Players use the
-              <a class="link link--accent blog-article__link" href="#"> Basilisks they have</a>
-              gathered to battle other players to win ether (ETH).
-            </p>
-            <p class="blog-article__text">In Balthazar Dragons, players are 
-              immersed in a 3D open world to explore and capture dragon-like 
-              beasts called Basilisks.  Balthazar Dragons is an upcoming fantasy 
-              role-playing game developed on the Ethereum blockchain by a decentralized
-              autonomous organization (DAO) called the Balthazar DAO.
-            </p>
-            <ul class="blog-article__text-list">
-              <li class="blog-article__text-item">
-                The Basilisks that players collect are represented with NFTs on Ethereum’s blockchain with real-world value. Players use the Basilisks they have gathered to battle other players to win ether (ETH).
-              </li>
-              <li class="blog-article__text-item">
-                In Balthazar Dragons, players are immersed in a 3D open world to explore and capture dragon-like beasts called Basilisks.  Balthazar Dragons is an upcoming fantasy role-playing
-                <a class="link link--accent blog-article__link" href="#">game developed</a> on the Ethereum blockchain by a decentralized autonomous organization (DAO) called the Balthazar DAO.
-              </li>
-            </ul>
-          </div>
+  <div class="blog-article__content">
+     <p class="blog-article__text">
+       The Basilisks that
+       <mark class="blog-article__accent">players</mark>
+       collect are represented with NFTs on Ethereum’s blockchain with
+       real-world value. Players use the
+       <a class="link link--accent blog-article__link" href="#"> Basilisks they have</a>
+       gathered to battle other players to win ether (ETH).
+     </p>
+     <p class="blog-article__text">In Balthazar Dragons, players are
+       immersed in a 3D open world to explore and capture dragon-like
+       beasts called Basilisks. Balthazar Dragons is an upcoming fantasy
+       role-playing game developed on the Ethereum blockchain by a decentralized
+       autonomous organization (DAO) called the Balthazar DAO.
+     </p>
+     <ul class="blog-article__text-list">
+       <li class="blog-article__text-item">
+         The Basilisks that players collect are represented with NFTs on Ethereum’s blockchain with real-world value.
+         Players use the Basilisks they have gathered to battle other players to win ether (ETH).
+       </li>
+       <li class="blog-article__text-item">
+         In Balthazar Dragons, players are immersed in a 3D open world to explore and capture dragon-like beasts called
+         Basilisks. Balthazar Dragons is an upcoming fantasy role-playing
+         <a class="link link--accent blog-article__link" href="#">game developed</a> on the Ethereum blockchain by a
+         decentralized autonomous organization (DAO) called the Balthazar DAO.
+       </li>
+     </ul>
+   </div>
 
-           {% include 'list-name'}
-           {% include 'quote'}
-           {% include 'banners'}
+{% include 'partials/blog/list-name.njk' %}
+{% include 'partials/blog/quote.njk' %}
+{% include 'partials/blog/banners.njk' %}
 
-          <h2 class="blog-article__subtitle header">NFTs are digital src/images/static that represent real-world objects</h2>
-            <p class="blog-article__text">
-              Setting up your avatar and personalizing your nickname on Binance
-              is quick and easy. Users can go to binance.com under Dashboard >
-              Settings > My Profile > Avatar and Nickname. For those of you who
-              own NFT src/images/static, you can select the NFT you want to use from your
-              collection as your avatar to personalize your profile. For users
-              who do not own any NFT avatars, check out the NFT avatar
-              collections page to get started.
-            </p>
-            <p class="blog-article__text">
-              Alternatively, if you’re on nft.binance.com, go to User Center >
-              Settings > Basic > Set Avatar and Nickname, and you’ll be
-              redirected to the main site. Binance NFT Creators have the option
-              of setting their Avatars on nft.binance.com. Once you set your new
-              unique nickname, it will be standardized and used across the
-              Binance ecosystem.
-            </p>
-          <div>
-            <h2 class="blog-article__subtitle header">NFT Avatar Generators</h2>
-            <p class="blog-article__text">
-              You can find a range of NFT marketplaces where you can buy
-              existing NFTs or list your own NFTs for sale.
-            </p>
-          </div>
-          {% include 'tags' %}
-          {% include 'socials' %}
-          </article>
+ <h2 class="blog-article__subtitle header">NFTs are digital src/images/static that represent real-world objects</h2>
+   <p class="blog-article__text">
+     Setting up your avatar and personalizing your nickname on Binance
+     is quick and easy. Users can go to binance.com under Dashboard >
+     Settings > My Profile > Avatar and Nickname. For those of you who
+     own NFT src/images/static, you can select the NFT you want to use from your
+     collection as your avatar to personalize your profile. For users
+     who do not own any NFT avatars, check out the NFT avatar
+     collections page to get started.
+   </p>
+   <p class="blog-article__text">
+     Alternatively, if you’re on nft.binance.com, go to User Center >
+     Settings > Basic > Set Avatar and Nickname, and you’ll be
+     redirected to the main site. Binance NFT Creators have the option
+     of setting their Avatars on nft.binance.com. Once you set your new
+     unique nickname, it will be standardized and used across the
+     Binance ecosystem.
+   </p>
+   <div>
+     <h2 class="blog-article__subtitle header">NFT Avatar Generators</h2>
+     <p class="blog-article__text">
+       You can find a range of NFT marketplaces where you can buy
+       existing NFTs or list your own NFTs for sale.
+     </p>
+   </div>
+   {% include 'partials/blog/tags.njk' %}
+   {% include 'partials/blog/social.njk' %}
+ </article>

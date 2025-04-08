@@ -1,44 +1,44 @@
-{% block styles %}
-  <link rel="stylesheet" href="/css/main.css">
-{% endblock %}
-
 <footer class="footer">
-        <div class="footer__main">
+   <div class="footer__main">
         <div class="footer__logo-container">
-          <img class="footer__logo" loading="lazy" src="/src/images/static/logo/binabox_blue_logo.webp" alt="BINABOX logo" width="188"  height="42"/>
-          <p class="footer__description">We are the best way to check the rarity of NFT collection.</p>
+          <img class="footer__logo" loading="lazy" src="/img/logo/binabox_blue_logo-1x.webp"
+                  alt="BINABOX logo" width="188" height="42" />
+             <p class="footer__description">We are the best way to check the rarity of NFT collection.</p>
         </div>
         <div class="footer__links-container">
-          <div class="footer__links-section">
-            <h3 class="footer__title">Subscribe</h3>
-            <nav class="footer__nav">
-              <ul class="footer__list">
-              {% for item in footer.subscribeLinks %}
-                <li class="footer__item"><a class="footer__link link" href="{{ item.link }}">{{ item.name }}</a></li>
-                    {% endfor %}
-              </ul>
-            </nav>
-          </div>
-          <div class="footer__links-section">
-            <h3 class="footer__title">Company</h3>
-            <nav class="footer__nav">
-              <ul class="footer__list">
-              {% for item in footer.companyLinks %}
-                <li class="footer__item"><a class="footer__link link" href="{{ item.link }}">{{ item.name }}</a></li>
-                {% endfor %}
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </div>
-        <div class="footer__bottom">
-          <p class="footer__copyright">BINABOX 2022 - ALL rights reserved</p>
-          <ul class="footer__socials-list">
-          {% for item in footer.socialLinks %}
-            <li class="footer__social-item">
-              <a class="footer__social-link link" href="{{ item.link }}" target="_blank"><img class="footer__social-icon" src="{{ item.icon }}" alt="{{ item.name }}" /></a>
-            </li>
+         <div class="footer__links-section">
+                 <h3 class="footer__title">Subscribe</h3>
+                 <nav class="footer__nav">
+                     <ul class="footer__list">
+                         {% for item in footer.subscribeLinks %}
+                             <li class="footer__item"><a class="footer__link link"
+                                                         href="{{ item.link }}">{{ item.name }}</a></li>
+                         {% endfor %}
+                     </ul>
+                 </nav>
+             </div>
+             <div class="footer__links-section">
+                 <h3 class="footer__title">Company</h3>
+                 <nav class="footer__nav">
+                     <ul class="footer__list">
+                         {% for item in footer.companyLinks %}
+                             <li class="footer__item"><a class="footer__link link"
+                                                         href="{{ item.link }}">{{ item.name }}</a></li>
+                         {% endfor %}
+                     </ul>
+                 </nav>
+             </div>
+         </div>
+     <div class="footer__bottom">
+         <p class="footer__copyright">BINABOX 2022 - ALL rights reserved</p>
+         <ul class="footer__socials-list">
+             {% for item in footer.socialLinks %}
+                 <li class="footer__social-item">
+                     <a class="footer__social-link link" href="{{ item.link }}" target="_blank"><img
+                                 class="footer__social-icon" src="{{ item.icon }}" alt="{{ item.name }}" /></a>
+                 </li>
             {% endfor %}
-          </ul>
-        </div>
-      </footer>
+        </ul>
+    </div>
+  </div>
+</footer>
