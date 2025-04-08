@@ -1,36 +1,36 @@
 {
     "products": [
           {
-          "image": "/src/images/static/main/skeleton.webp",
+          "image": "/src/images/static/main/skeleton-1x.webp",
           "price": "$199",
-        "name": "Name Product" 
+          "name": "Name Product" 
         },
         {
-          "image": "/src/images/static/main/cat.webp",
+          "image": "/src/images/static/main/cat-1x.webp",
           "price": "$199",
-        "name": "Name Product" 
+          "name": "Name Product" 
         },
         {
           "image": "/src/images/static/main/scissors.webp",
           "price": "$199",
-        "name": "Name Product" 
+          "name": "Name Product" 
         },
         {
-          "image": "/src/images/static/main/card.webp",
+          "image": "/src/images/static/main/card-1x.webp",
           "price": "$199",
-        "name": "Name Product" 
+          "name": "Name Product" 
         },
         {
-          "image": "/src/images/static/main/screen.webp",
+          "image": "/src/images/static/main/screen-1x.webp",
           "price": "$199",
-        "name": "Name Product" 
+          "name": "Name Product" 
         }
     ],
 
     "blogCards": [
         {
           "link": "#",
-          "image": "/src/images/static/main/skeleton_head.webp",
+          "image": "/src/images/static/main/skeleton_head-1x.webp",
           "authorIcon": "/src/images/static/icons/author.svg",
           "authorName": "Tony Nguyen",
           "dateIcon": "/src/images/static/icons/calendar.svg",
@@ -42,7 +42,7 @@
         },
         {
           "link": "#",
-          "image": "/src/images/static/main/skeleton_head.webp",
+          "image": "/src/images/static/main/skeleton_head-1x.webp",
           "authorIcon": "/src/images/static/icons/author.svg",
           "authorName": "Tony Nguyen",
           "dateIcon": "/src/images/static/icons/calendar.svg",
@@ -54,7 +54,7 @@
         },
         {
           "link": "#",
-          "image": "/src/images/static/main/cats_head.webp",
+          "image": "/src/images/static/main/cats_head-1x.webp",
           "authorIcon": "/src/images/static/icons/author.svg",
           "authorName": "Tony Nguyen",
           "dateIcon": "/src/images/static/icons/calendar.svg",
@@ -66,7 +66,7 @@
         },
           {
           "link": "#",
-          "image": "/src/images/static/main/monkey_head.webp",
+          "image": "/src/images/static/main/monkey_head-1x.webp",
           "authorIcon": "/src/images/static/icons/author.svg",
           "authorName": "Tony Nguyen",
           "dateIcon": "/src/images/static/icons/calendar.svg",
@@ -78,7 +78,7 @@
         },
         {
           "link": "#",
-          "image": "/src/images/static/main/duck.webp.webp",
+          "image": "/src/images/static/main/duck-1x.webp",
           "authorIcon": "/src/images/static/icons/author.svg",
           "authorName": "Tony Nguyen",
           "dateIcon": "/src/images/static/icons/calendar.svg",
@@ -90,7 +90,7 @@
         },
         {
           "link": "#",
-          "image": "/src/images/static/main/duck.webp.webp",
+          "image": "/src/images/static/main/duck-1x.webp",
           "authorIcon": "/src/images/static/icons/author.svg",
           "authorName": "Tony Nguyen",
           "dateIcon": "/src/images/static/icons/calendar.svg",

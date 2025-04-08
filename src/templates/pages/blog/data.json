@@ -1,4 +1,4 @@
-"aside_categories": [
+{ "aside_categories": [
     {
         "link": "#",
         "name": "Our blog (12)"
@@ -26,7 +26,7 @@
     {
         "link": "#",
         "name": "Crypto (430)"
-    },
+    }
 ],
 
 "aside_tag": [
@@ -68,7 +68,7 @@
 },
 {
     "name": "List name4"
-},
+}
 ],
 
 "tags": [
@@ -83,7 +83,7 @@
     {
         "link": "#",
         "name": "Crypto"
-    },
+    }
 ],
 
 "social": [
@@ -101,6 +101,6 @@
         "link": "#",
         "image": "/src/images/static/icons/instagram_blog.svg",
         "name": "Instagram"
-    },
+    }
 ]
-
+}
