@@ -43,10 +43,10 @@ const paths = {
     images: dev+'images/static/**/*.{jpg,jpeg,png}',
   },
   dist: {
-      pages: dist,
-      styles: dist+'css',
-      scripts: dist+'js',
-      images: dist+'img',
+   pages: dist,
+   styles: dist+'css',
+  scripts: dist+'js',
+  images: dist+'img',
   }
 };
 
@@ -88,16 +88,23 @@ export const clean = () => deleteAsync([paths.distDir])
 
 const getDataForFile = (file) => {
   const filePath = join(cwd(), paths.viewsDir, 'pages', dirname(file.relative), 'data.json');
-  let fileContent
+  const commonFilePath = join(cwd(), paths.viewsDir, 'partials', 'common', 'data.json');
+  let fileContent = {};
+  let commonFileContent = {};
 
   try {
-    fileContent = readFileSync(filePath, 'utf8')
+    fileContent = JSON.parse(readFileSync(filePath, 'utf8'))
   } catch (error) {
-    fileContent = "{}"
+   if (args.debug) console.warn(error.message)
+  }
+
+  try {
+    commonFileContent = JSON.parse(readFileSync(commonFilePath, 'utf8'))
+  } catch (error) {
     if (args.debug) console.warn(error.message)
   }
 
-  return JSON.parse(fileContent)
+  return Object.assign(commonFileContent, fileContent)
 };
 
 function htmllintReporter(results) {
@@ -162,7 +169,7 @@ function htmllintReporter(results) {
 }
 
 export const styles = () =>
-  src(paths.dev.styles, { sourcemaps: true, since: lastRun(styles) })
+  src(paths.dev.styles, { sourcemaps: true })
     .pipe(sass({
       outputStyle: 'expanded',
       indentWidth: 4
