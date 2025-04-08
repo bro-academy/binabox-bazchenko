@@ -63,7 +63,7 @@
 }
 
 .blog-aside {
-    margin: 0px 32px 0px 108px ;
+    margin: 0 32px 0 108px ;
     max-width: 328px;
 }
 
@@ -128,7 +128,7 @@
 }
 
 .aside-tag__item {
-    border: 2px solid var(--Elements-SeporatorBold, var(--border-color));
+    border: 2px solid var(--elements-separator-bold, var(--border-color));
     padding: 0;
 }
 
@@ -287,7 +287,7 @@
 .quote {
     background-color: #002754;
     max-width: 992px;
-    margin: 0px;
+    margin: 0;
     padding: 16px;
     margin-inline: 0;
     margin-bottom: 32px;
@@ -298,7 +298,7 @@
     font-size: 28px;
     line-height: 36px;
     font-family: 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
-    margin: 0px;
+    margin: 0;
     max-width: 992px;
     margin-bottom: 8px;
 }
@@ -368,7 +368,7 @@
 }
 
 .tags__item {
-    border: 2px solid var(--Elements-SeporatorBold, var(--border-color));
+    border: 2px solid var(--elements-separator-bold, var(--border-color));
  }
 
 .social__title {
@@ -392,5 +392,5 @@
 }
 
 .social__link {
-    border: 2px solid var(--Elements-SeporatorBold, var(--border-color));
+    border: 2px solid var(--elements-separator-bold, var(--border-color));
 }
