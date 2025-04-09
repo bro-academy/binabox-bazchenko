@@ -133,195 +133,194 @@
           "media": [
             {
               "link": "#",
-              "icon": "/src/images/static/icons/twitter.svg"
+              "icon": "/img/icons/twitter.svg"
             },
           {
             "link": "#",
-            "icon": "/src/images/static/icons/facebook.svg"
+                  "icon": "/img/icons/facebook.svg"
           },
           {
             "link": "#",
-            "icon": "/src/images/static/icons/telegram.svg"
+            "icon": "/img/icons/telegram.svg"
           },
           {
             "link": "#",
-            "icon": "/src/images/static/icons/linkedIn.svg"
+            "icon": "/img/icons/linkedIn.svg"
           },
           {
             "link": "#",
-            "icon": "/src/images/static/icons/Instagram.svg"
+            "icon": "/img/icons/Instagram.svg"
           }
           ]
         }
       },
         {
-          "team_card": {
+          "team-card": {
             "title": "Jason Smith",
             "position": "Co-Founder",
             "media": [
               {
                 "link": "#",
-                "icon": "/src/images/static/icons/twitter.svg"
+                "icon": "/img/icons/twitter.svg"
               },
             {
               "link": "#",
-              "icon": "/src/images/static/icons/facebook.svg"
+                  "icon": "/img/icons/facebook.svg"
             },
             {
               "link": "#",
-              "icon": "/src/images/static/icons/telegram.svg"
+              "icon": "/img/icons/telegram.svg"
             },
             {
               "link": "#",
-              "icon": "/src/images/static/icons/linkedIn.svg"
+              "icon": "/img/icons/linkedIn.svg"
             },
             {
               "link": "#",
-              "icon": "/src/images/static/icons/Instagram.svg"
+              "icon": "/img/icons/Instagram.svg"
             }
           ]
         }
       },
         {
-            "team_card": {
+            "team-card": {
               "title": "Jason Smith",
               "position": "Co-Founder",
               "media": [
                 {
                   "link": "#",
-                  "icon": "/src/images/static/icons/twitter.svg"
+                  "icon": "/img/icons/twitter.svg"
                 },
               {
                 "link": "#",
-                "icon": "/src/images/static/icons/facebook.svg"
+                  "icon": "/img/icons/facebook.svg"
               },
               {
                 "link": "#",
-                "icon": "/src/images/static/icons/telegram.svg"
+                "icon": "/img/icons/telegram.svg"
               },
               {
                 "link": "#",
-                "icon": "/src/images/static/icons/linkedIn.svg"
+                "icon": "/img/icons/linkedIn.svg"
               },
               {
                 "link": "#",
-                "icon": "/src/images/static/icons/Instagram.svg"
+                "icon": "/img/icons/Instagram.svg"
               }
             ]
           }
         },
           {
-              "team_card": {
+              "team-card": {
                 "title": "Jason Smith",
                 "position": "Co-Founder",
                 "media": [
                   {
                     "link": "#",
-                    "icon": "/src/images/static/icons/twitter.svg"
+                    "icon": "/img/icons/twitter.svg"
                   },
                 {
                   "link": "#",
-                  "icon": "/src/images/static/icons/facebook.svg"
+                  "icon": "/img/icons/facebook.svg"
                 },
                 {
                   "link": "#",
-                  "icon": "/src/images/static/icons/telegram.svg"
+                  "icon": "/img/icons/telegram.svg"
                 },
                 {
                   "link": "#",
-                  "icon": "/src/images/static/icons/linkedIn.svg"
+                  "icon": "/img/icons/linkedIn.svg"
                 },
                 {
                   "link": "#",
-                  "icon": "/src/images/static/icons/Instagram.svg"
+                  "icon": "/img/icons/Instagram.svg"
                 }
               ]
             }
           },
             {
-                "team_card": {
+                "team-card": {
                   "title": "Jason Smith",
                   "position": "Co-Founder",
                   "media": [
                     {
                       "link": "#",
-                      "icon": "/src/images/static/icons/twitter.svg"
+                      "icon": "/img/icons/twitter.svg"
                     },
                   {
                     "link": "#",
-                    "icon": "/src/images/static/icons/facebook.svg"
+                    "icon": "/img/icons/facebook.svg"
                   },
                   {
                     "link": "#",
-                    "icon": "/src/images/static/icons/telegram.svg"
+                    "icon": "/img/icons/telegram.svg"
                   },
                   {
                     "link": "#",
-                    "icon": "/src/images/static/icons/linkedIn.svg"
+                    "icon": "/img/icons/linkedIn.svg"
                   },
                   {
                     "link": "#",
-                    "icon": "/src/images/static/icons/Instagram.svg"
+                    "icon": "/img/icons/Instagram.svg"
                   }
                 ]
               }
             },
               {
-                  "team_card": {
+                  "team-card": {
                     "title": "Jason Smith",
                     "position": "Co-Founder",
                     "media": [
                       {
                         "link": "#",
-                        "icon": "/src/images/static/icons/twitter.svg"
+                        "icon": "/img/icons/twitter.svg"
                       },
                     {
                       "link": "#",
-                      "icon": "/src/images/static/icons/facebook.svg"
+                      "icon": "/img/icons/facebook.svg"
                     },
                     {
                       "link": "#",
-                      "icon": "/src/images/static/icons/telegram.svg"
+                      "icon": "/img/icons/telegram.svg"
                     },
                     {
                       "link": "#",
-                      "icon": "/src/images/static/icons/linkedIn.svg"
+                      "icon": "/img/icons/linkedIn.svg"
                     },
                     {
                       "link": "#",
-                      "icon": "/src/images/static/icons/Instagram.svg"
+                      "icon": "/img/icons/Instagram.svg"
                     }
                   ]
                 }
               },
                 {
-                    "team_card": {
+                    "team-card": {
                       "title": "Jason Smith",
                       "position": "Co-Founder",
                       "media": [
                         {
                           "link": "#",
-                          "icon": "/src/images/static/icons/twitter.svg"
+                          "icon": "/img/icons/twitter.svg"
                         },
                       {
                         "link": "#",
-                        "icon": "/src/images/static/icons/facebook.svg"
+                        "icon": "/img/icons/facebook.svg"
                       },
                       {
                         "link": "#",
-                        "icon": "/src/images/static/icons/telegram.svg"
+                        "icon": "/img/icons/telegram.svg"
                       },
                       {
                         "link": "#",
-                        "icon": "/src/images/static/icons/linkedIn.svg"
+                        "icon": "/img/icons/linkedIn.svg"
                       },
                       {
                         "link": "#",
-                        "icon": "/src/images/static/icons/Instagram.svg"
+                        "icon": "/img/icons/Instagram.svg"
                        }
                       ]
                     }
                   }
                 ]
-           } 
-
+           }

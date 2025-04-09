@@ -2,13 +2,13 @@
    <img class="team-card__image" loading="lazy" src="/img/main/jason_smith-1x.webp" alt="Jason Smith"
         width="120" height="120" />
    <div class="team-card__info-wrapper">
-     <h3 class="team-card__name">{{ item.title }}</h3>
-     <span class="team-card__position">{{ item.position }}</span>
+     <h3 class="team-card__name">{{ item['team-card'].title }}</h3>
+     <span class="team-card__position">{{ item['team-card'].position }}</span>
    </div>
    <ul class="team-card__media-list">
-     {% for media_item in item.media %}
+    {% for media_item in item['team-card'].media %}
        <li class="team-card__media-item">
-         <a class="team-card__media-link link" href="{{ item.link }}" target="_blank"><img src="{{ item.icon }}" /></a>
+         <a class="team-card__media-link link" href="{{ media_item.link }}" target="_blank"><img src="{{ media_item.icon }}" /></a>
        </li>
      {% endfor %}
    </ul>

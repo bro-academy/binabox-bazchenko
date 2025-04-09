@@ -73,7 +73,7 @@
       
         &::before {
             content: "";
-            background-image: url("/src/images/static/main/about_us_top.webp");
+            background-image: url("/img/main/about_us_top.webp");
             background-size: contain;
             background-repeat: no-repeat;
             position: absolute;
@@ -87,7 +87,7 @@
 
         &::after {
             content: "";
-            background-image: url("/src/images/static/main/about_us_button.webp");
+            background-image: url("/img/main/about_us_button.webp");
             background-size: contain;
             background-repeat: no-repeat;
             position: absolute;

@@ -34,12 +34,12 @@
     ],
 
     "socialLinks": [
-     { "name": "Twitter", "link": "#", "icon": "/src/images/static/icons/twitter.svg"},
-     { "name": "Facebook", "link": "#", "icon": "/src/images/static/icons/facebook.svg"},
-     { "name": "Telegram", "link": "#", "icon": "/src/images/static/icons/telegram2.svg"},
-     { "name": "TikTok", "link": "#", "icon": "/src/images/static/icons/youtube.svg" },
-     { "name": "YouTube", "link": "#", "icon": "/src/images/static/icons/ticktok.svg" },
-     { "name": "Discord", "link": "#", "icon": "/src/images/static/icons/discord.svg" }
+     { "name": "Twitter", "link": "#", "icon": "/img/icons/twitter.svg"},
+     { "name": "Facebook", "link": "#", "icon": "/img/icons/facebook.svg"},
+     { "name": "Telegram", "link": "#", "icon": "/img/icons/telegram2.svg"},
+     { "name": "TikTok", "link": "#", "icon": "/img/icons/youtube.svg" },
+     { "name": "YouTube", "link": "#", "icon": "/img/icons/ticktok.svg" },
+     { "name": "Discord", "link": "#", "icon": "/img/icons/discord.svg" }
     ]
   }
 }
