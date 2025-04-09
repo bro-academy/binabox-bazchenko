@@ -4,7 +4,6 @@
     background-color: $bg-alt;
     padding: 22px;
 
-
     &__list {
         list-style: none;
         display: flex;
@@ -14,7 +13,7 @@
     }
 
     &__item {
-        border: 2px solid var(--elements-separator-bold, $color-separator);
+        border: 2px solid $color-separator;
         padding: 0;
     }
 }
