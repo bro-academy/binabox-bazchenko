@@ -1,27 +1,27 @@
 {
     "products": [
           {
-          "image": "/src/images/static/main/skeleton-1x.webp",
+          "image": "/img/main/skeleton-1x.webp",
           "price": "$199",
           "name": "Name Product" 
         },
         {
-          "image": "/src/images/static/main/cat-1x.webp",
+          "image": "/img/main/cat-1x.webp",
           "price": "$199",
           "name": "Name Product" 
         },
         {
-          "image": "/src/images/static/main/scissors.webp",
+          "image": "/img/main/scissors-1x.webp",
           "price": "$199",
           "name": "Name Product" 
         },
         {
-          "image": "/src/images/static/main/card-1x.webp",
+          "image": "/img/main/card-1x.webp",
           "price": "$199",
           "name": "Name Product" 
         },
         {
-          "image": "/src/images/static/main/screen-1x.webp",
+          "image": "/img/main/screen-1x.webp",
           "price": "$199",
           "name": "Name Product" 
         }
@@ -30,10 +30,10 @@
     "blogCards": [
         {
           "link": "#",
-          "image": "/src/images/static/main/skeleton_head-1x.webp",
-          "authorIcon": "/src/images/static/icons/author.svg",
+          "image": "/img/main/skeleton_head-1x.webp",
+          "authorIcon": "/img/icons/author.svg",
           "authorName": "Tony Nguyen",
-          "dateIcon": "/src/images/static/icons/calendar.svg",
+          "dateIcon": "/img/icons/calendar.svg",
           "date": "2022-06-20",
           "title": "Sonic live",
           "text": "One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet...",
@@ -42,10 +42,10 @@
         },
         {
           "link": "#",
-          "image": "/src/images/static/main/skeleton_head-1x.webp",
-          "authorIcon": "/src/images/static/icons/author.svg",
+          "image": "/img/main/skeleton_head-1x.webp",
+          "authorIcon": "/img/icons/author.svg",
           "authorName": "Tony Nguyen",
-          "dateIcon": "/src/images/static/icons/calendar.svg",
+          "dateIcon": "/img/icons/calendar.svg",
           "date": "2022-06-20",
           "title": "Sonic live",
           "text": "One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet...",
@@ -54,10 +54,10 @@
         },
         {
           "link": "#",
-          "image": "/src/images/static/main/cats_head-1x.webp",
-          "authorIcon": "/src/images/static/icons/author.svg",
+          "image": "/img/main/cats_head-1x.webp",
+          "authorIcon": "/img/icons/author.svg",
           "authorName": "Tony Nguyen",
-          "dateIcon": "/src/images/static/icons/calendar.svg",
+          "dateIcon": "/img/icons/calendar.svg",
           "date": "2022-06-20",
           "title": "Sonic live",
           "text": "One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet...",
@@ -66,10 +66,10 @@
         },
           {
           "link": "#",
-          "image": "/src/images/static/main/monkey_head-1x.webp",
-          "authorIcon": "/src/images/static/icons/author.svg",
+          "image": "/img/main/monkey_head-1x.webp",
+          "authorIcon": "/img/icons/author.svg",
           "authorName": "Tony Nguyen",
-          "dateIcon": "/src/images/static/icons/calendar.svg",
+          "dateIcon": "/img/icons/calendar.svg",
           "date": "2022-06-20",
           "title": "Sonic live",
           "text": "One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet...",
@@ -78,10 +78,10 @@
         },
         {
           "link": "#",
-          "image": "/src/images/static/main/duck-1x.webp",
-          "authorIcon": "/src/images/static/icons/author.svg",
+          "image": "/img/main/duck-1x.webp",
+          "authorIcon": "/img/icons/author.svg",
           "authorName": "Tony Nguyen",
-          "dateIcon": "/src/images/static/icons/calendar.svg",
+          "dateIcon": "/img/icons/calendar.svg",
           "date": "2022-06-20",
           "title": "Sonic live",
           "text": "One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet...",
@@ -90,10 +90,10 @@
         },
         {
           "link": "#",
-          "image": "/src/images/static/main/duck-1x.webp",
-          "authorIcon": "/src/images/static/icons/author.svg",
+          "image": "/img/main/duck-1x.webp",
+          "authorIcon": "/img/icons/author.svg",
           "authorName": "Tony Nguyen",
-          "dateIcon": "/src/images/static/icons/calendar.svg",
+          "dateIcon": "/img/icons/calendar.svg",
           "date": "2022-06-20",
           "title": "Sonic live",
           "text": "One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet...",

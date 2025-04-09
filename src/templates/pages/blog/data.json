@@ -89,17 +89,17 @@
 "social": [
     {
         "link": "#",
-        "image": "/src/images/static/icons/twitter_blog.svg",
+        "image": "/img/icons/twitter_blog.svg",
         "name": "Twitter"
     },
     {
         "link": "#",
-        "image": "/src/images/static/icons/facebook_blog.svg",
+        "image": "/img/icons/facebook_blog.svg",
         "name": "Facebook"
     },
     {
         "link": "#",
-        "image": "/src/images/static/icons/instagram_blog.svg",
+        "image": "/img/icons/instagram_blog.svg",
         "name": "Instagram"
     }
 ]
