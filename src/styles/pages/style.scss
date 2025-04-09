@@ -1,4 +1,4 @@
-@use '../../styles/base/variables' as *;
+@use './../base/variables' as *;
 @use './../base/mixins' as *;
 @use './../base/global' as *;
 
@@ -8,7 +8,10 @@
 @use './../components/link' as *;
 
 @use './../layout/header' as *;
-@use './../layout/footer' as *;
+@use '../../styles/base/variables' as *;
+
+@use '../../styles/pages/index.scss' as *;
+@use '../../styles/pages/blog.scss' as *;
 
 // @use './../pages/home/about-us' as *;
 // @use './../pages/home/banner' as *;
