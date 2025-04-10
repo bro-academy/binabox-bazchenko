@@ -1,4 +1,11 @@
-{ "aside_categories": [
+{ "header": "Our blog",
+"navItems": [
+    { "title": "Home", "link": "index.html" },
+    { "title": "Our blog", "link": "blog.html" },
+    { "title": "The Basilisks NFT", "link": "#" }
+],
+    
+   "aside_categories": [
     {
         "link": "#",
         "name": "Our blog (12)"

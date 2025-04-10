@@ -7,6 +7,7 @@
 @use './../components/input' as *;
 @use './../components/link' as *;
 @use './../components/search-input' as *;
+@use './../components/switcher' as *;
 
 
 @use './../layout/header' as *;
@@ -14,6 +15,7 @@
 
 @use '../../styles/pages/index.scss' as *;
 @use '../../styles/pages/blog.scss' as *;
+@use '../../styles/pages/contact.scss' as *;
 
 // @use './../pages/home/about-us' as *;
 // @use './../pages/home/banner' as *;

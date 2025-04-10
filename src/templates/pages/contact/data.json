@@ -1,0 +1,6 @@
+{ "header": "Contact Us",
+"navItems": [
+    { "title": "Home", "link": "index.html" },
+    { "title": "Contact Us", "link": "contact.html" }
+]
+}

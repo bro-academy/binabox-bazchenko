@@ -1,0 +1,51 @@
+<form  class="contact-form" action="url" method="post">
+    <div class="contact-form__title-wrapper">
+    <h2 class="contact-form__title"> Get in touch</h2>
+    <p class="contact-form__subtitle">Browse through the most freuently asked questions</p>
+   </div>
+   <div class="contact-form__content-wrapper">
+   <div class="contact-form__switcher">
+  <span class="contact-form__switcher-text">Use my profile information</span>
+   <div class="switcher">
+  <input type="checkbox" id="switch" class="switcher__input visually-hidden">
+  <label for="switch" class="switcher__label"></label>
+</div>  
+ </div>
+   <div class="contact-form__item">
+        <label for="last-name">Last name</label>
+            <input  class="input" id="last-name" type="text" name="last-name" placeholder="Enter your last name" required>
+    </div>
+    <div class="contact-form__item">
+        <label for="last-name">Last name</label>
+            <input  class="input" id="last-name" type="text" name="last-name" placeholder="Enter your last name" required>
+    </div>
+    <div class="contact-form__item">
+        <label for="birthname">Date of birth</label>
+        <input  class="input" id="birthname" type="date" name="birthname">
+    </div>
+    <div class="contact-form__item">
+        <p class="contact-form__heading">Gender</p>
+        <input class="custom-radio" type="radio" id="male" name="gender" checked>
+        <label  class="label-inline" for="male">Male</label><br>
+        <input class="custom-radio" type="radio" id="female" name="gender">
+        <label class="label-inline"  for="female">Female</label>
+    </div>
+    <div class="contact-form__item">
+        <label for="email">Email</label>
+        <input  class="input" type="email" id="email" name="user-email" pattern="A-Z0-9.-]+\.[a-zA-Z]{2,}" required>
+    </div>
+    <div class="contact-form__item">
+        <label for="phone">Phone number</label>
+        <input  class="input" type="tel" id="phone" name="user-phone">
+    </div>
+    <div class="contact-form__item">
+        <label for="message">Message</label>
+        <textarea  class="input" name="Welcome" id="message" cols="30" rows="10" required></textarea>
+    </div>
+    <div class="contact-form__item">
+        <input clsas="custom-checkbox" type="checkbox" id="check" name="checkbox">
+          <label for="check">By clicking on the ‘Send Message’ button I agree to <a href="#">all the terms of the security policy</a></label>
+    </div>
+    <input class="contact-form__button button button--accent" type="submit" value="Send message">
+</div>
+</form>

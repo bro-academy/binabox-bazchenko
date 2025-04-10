@@ -1,0 +1,43 @@
+@use '../../styles/base/variables' as *;
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    max-width: 1728px;
+    justify-content: center;
+    align-items: center; 
+    font-weight: 400;
+    padding-inline: 132px ;
+
+    &__item {
+        flex: 1 1 262.68px;
+        min-width: 241.58px;
+        max-width: 262.68px;
+        display: flex;
+        flex-direction: column;
+        padding: 40px 32px;
+        text-align: center;
+        align-items: center; 
+        border: 1px solid #D4D9F242;
+    }
+
+    &__icon {
+        margin-bottom: 24px;
+    }
+
+    &__title {
+        font-size: 36px;
+        line-height: 48px;
+        font-family: 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
+        font-style: normal;
+        max-width: 264px;
+    }
+
+    &__value {
+        font-style: normal;
+        color: #EFF5FAD1;
+        font-family: 'Poppins', 'Arial', 'Helvetica', sans-serif;
+        max-width: 264px;
+    }
+}

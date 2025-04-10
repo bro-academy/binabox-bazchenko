@@ -1,0 +1,46 @@
+@use '../../styles/base/variables' as *;
+
+.contact-form {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1268px;
+    font-size: 14px;
+    font-family: $font-base;
+
+
+    &__title-wrapper {
+        margin-inline: 32px;
+        padding-inline: 256px;
+        text-align: center;
+        padding-top: 64px;
+        margin-bottom: 40px;
+    }
+
+    &__content-wrapper {
+        margin-inline: 320px;
+        max-width: 640px;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        gap: 24px ;
+    }
+
+    &__switcher {
+        display: flex;
+        justify-content: space-between;
+        padding: 24px;
+        background-color: #1D1C28;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__button {
+    max-width: 640px;
+    }
+}
