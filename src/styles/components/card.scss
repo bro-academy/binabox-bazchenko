@@ -59,4 +59,21 @@
         color: $color-alt;
 
     }
+    
+    &__image {
+        position: relative;
+    }
+
+    &__label {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        padding: 8px 10px;
+        background-color: white;
+        color: #0265DC;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px ;
+    }
+
 }
