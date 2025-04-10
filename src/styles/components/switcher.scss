@@ -1,0 +1,92 @@
+@use '../../styles/base/variables' as *;
+
+.visually-hidden {
+    position: absolute;
+    height: 0;
+    width: 0;
+    opacity: 0;
+  }
+  
+  .switcher {
+    display: flex;
+    align-items: center;
+  }
+  
+  //   Normal
+  .switcher__label {
+    width: 40px;
+    height: 20px;
+    background-color: #55555f; 
+    border-radius: 999px;
+    position: relative;
+    cursor: pointer;
+    transition: $tran-duration;
+  }
+
+  .switcher__label:hover {
+    background-color: #D4D9F242;
+  }
+
+  .switcher__label:focus {
+ 
+  }
+
+  .switcher__label:focus-visible {
+    outline: 2px solid black;
+    box-shadow: 0 0 0 4px #3892F3;
+  }
+
+  .switcher__label:active {
+    background-color: #EFF5FAD1;
+  }
+
+.switcher__label:disabled {
+    background-color: #D0D7FB2B;
+}
+
+
+
+ 
+  .switcher__label::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 16px;
+    height: 16px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+
+//   Active 
+  .switcher__input:checked + .switcher__label {
+    background-color: #2563eb;
+  }
+
+  .switcher__input:checked + .switcher__label:hover {
+    background-color: #3892F3;
+  }
+
+  .switcher__input:checked + .switcher__label:focus-visible {
+    outline: 2px solid black;
+    box-shadow: 0 0 0 4px #3892F3;
+  }
+
+  .switcher__input:checked + .switcher__label:focus {
+
+  }
+
+.switcher__input:checked + .switcher__label:active {
+    background-color: #3892F3;
+  }
+
+.switcher__input:checked + .switcher__label:disabled {
+    background-color: #D0D7FB2B;
+}
+
+
+.switcher__input:checked + .switcher__label::after {
+    transform: translateX(20px);
+  }
