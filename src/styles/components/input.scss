@@ -9,9 +9,36 @@
     border: 2px solid $color-separator;
     background-color: transparent;
     transition-duration: $tran-duration;
-    //  padding-inline: 12px;
+    color: #E7EEF7A8;
   
         &:hover {
             border-color: $color-border-focus;
+        }
+
+        &:focus-visible {
+            border-color: $color-border-focus;
+            box-shadow: 0 0 0 1px $color-border-focus;
+            outline: 0 solid $color-border-focus;
+        }
+
+        &:focus {
+
+        }
+
+        &:invalid {
+            border-color: $color-invalid;
+
+            &:focus {
+                box-shadow: 0 0 0 1px $color-invalid;
+            }
+
+            &:focus-visible {
+                box-shadow: 0 0 0 1px $color-invalid;
+            }
+            
+        }
+
+        &:valid {
+
         }
 }
