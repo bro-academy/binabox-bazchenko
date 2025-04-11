@@ -4,10 +4,17 @@
               height="42">
         <nav class="header__nav">
            <ul class="header__list">
-                 {% for item in menu %}
-                     <li class="header__list-item"><a class="header__list-link link" href="{{ item.link }}">{{ item.name }}</a></li>
-                 {% endfor %}
+                     <li class="header__list-item"><a class="header__list-link link" href="index.html">Home</a></li>
              </ul>
+              <ul class="header__list">
+                     <li class="header__list-item"><a class="header__list-link link" href="blog.html">Blog</a></li>
+             </ul>
+                <ul class="header__list">
+                     <li class="header__list-item"><a class="header__list-link link" href="catalog.html">Catalog</a></li>
+               </ul>
+                <ul class="header__list">
+                     <li class="header__list-item"><a class="header__list-link link" href="contact.html">Contact Us</a></li>
+               </ul>
         </nav>
         <div class="header__action">
              <form class="search-form" action="/search" method="get">

@@ -11,7 +11,7 @@
 
 
 @use './../layout/header' as *;
-@use '../../styles/base/variables' as *;
+@use './../layout/footer' as *;
 
 @use '../../styles/pages/index.scss' as *;
 @use '../../styles/pages/blog.scss' as *;

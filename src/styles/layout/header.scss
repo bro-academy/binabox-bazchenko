@@ -16,10 +16,15 @@
     margin: 35px 32px;
 }
 
+.header__nav {
+    display: flex;
+}
+
 .header__list {
     list-style-type: none;
     display: flex;
     align-items: center;
+    padding: 0;
 }
  
 .header__list-link {
@@ -42,9 +47,9 @@
     }
 }
 
-.header__list > li:first-child .header__list-link::after {
+.header__list:first-of-type .header__list-link::after {
     display: block;
-}
+  }
 
 .header__action {
     display: flex;
