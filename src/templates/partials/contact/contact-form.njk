@@ -12,18 +12,18 @@
 </div>  
  </div>
    <div class="contact-form__item">
-        <label for="last-name">Last name</label>
+        <label class="contact-form__label" for="name">Name</label>
+            <input  class="input" id="name" type="text" name="name" placeholder="Enter your last name" required>
+    </div>
+    <div class="contact-form__item">
+        <label class="contact-form__label" for="last-name">Last name</label>
             <input  class="input" id="last-name" type="text" name="last-name" placeholder="Enter your last name" required>
     </div>
     <div class="contact-form__item">
-        <label for="last-name">Last name</label>
-            <input  class="input" id="last-name" type="text" name="last-name" placeholder="Enter your last name" required>
-    </div>
-    <div class="contact-form__item">
-        <label for="birthname">Date of birth</label>
+        <label class="contact-form__label" for="birthname">Date of birth</label>
         <input  class="input" id="birthname" type="date" name="birthname">
     </div>
-    <div class="contact-form__item">
+    <div class="contact-form__radio">
         <p class="contact-form__heading">Gender</p>
         <input class="custom-radio" type="radio" id="male" name="gender" checked>
         <label  class="label-inline" for="male">Male</label><br>
@@ -31,15 +31,15 @@
         <label class="label-inline"  for="female">Female</label>
     </div>
     <div class="contact-form__item">
-        <label for="email">Email</label>
+        <label class="contact-form__label" for="email">Email</label>
         <input  class="input" type="email" id="email" name="user-email" pattern="A-Z0-9.-]+\.[a-zA-Z]{2,}" required>
     </div>
     <div class="contact-form__item">
-        <label for="phone">Phone number</label>
+        <label class="contact-form__label" for="phone">Phone number</label>
         <input  class="input" type="tel" id="phone" name="user-phone">
     </div>
     <div class="contact-form__item">
-        <label for="message">Message</label>
+        <label class="contact-form__label" for="message">Message</label>
         <textarea  class="input" name="Welcome" id="message" cols="30" rows="10" required></textarea>
     </div>
     <div class="contact-form__item">
