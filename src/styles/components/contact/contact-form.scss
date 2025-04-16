@@ -72,10 +72,17 @@
     &__button {
     max-width: 640px;
     }
+    
 
     &__checkbox {
         max-width: 640px;
         }
+}
+
+.contact-form__radio-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .contact-form__checkbox .checkbox {

@@ -8,6 +8,7 @@
     padding: 24px;
     max-width: 784px;
     align-items: start;
+    position: relative;
 
    &__author-icon {
         width: 16px;
@@ -23,6 +24,18 @@
       &__link {
       
     }
+
+    &__label {
+      position: absolute;
+      top: 40px;
+      right: 40px;
+      padding: 8px 10px;
+      background-color: $color-primary;
+      color: $color-accent;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 20px ;
+  }
 
     &__content {
         display: flex;
@@ -70,6 +83,7 @@
     }
 
     &__footer-link {
+      padding: 8px 20px;
     }
 
     &__footer-link::after{
