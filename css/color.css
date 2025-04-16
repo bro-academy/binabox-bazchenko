@@ -1,7 +1,7 @@
  :root {
     /* --accent: #0265DC;
-    /* --white: #F5F8FB; */
-    /* --border-color: #D0D7FB2B; */
+    /* --white: $color-primary; */
+    /* --border-color: $color-separator; */
     /* --active: #0054B6;
     --disabled:#E5ECFB5C; */ 
 } 

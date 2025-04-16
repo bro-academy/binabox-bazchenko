@@ -5,7 +5,7 @@
     list-style: none;
     text-align: center;
     background-image: url("/img/blog/background_test.png");
-    background-color: #1A1925;
+    background-color: $bg-secondary;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,7 +54,7 @@
   width: 2px;
   height: 24px;
   border-radius: 2px;
-  background-color: #D0D7FB2B;
+  background-color: $color-separator;
 }
 
 
@@ -68,7 +68,7 @@
 }
 
 .aside-categories {
-    background-color: #1D1C28 ;
+    background-color: $bg-alt ;
     padding: 24px;
     margin-bottom: 21px;
 }
@@ -123,7 +123,7 @@
 }
 
 .aside-tag {
-    background-color: #1D1C28;
+    background-color: $bg-alt;
     padding: 22px;
 }
 
@@ -228,7 +228,7 @@
     width: 2px;
     height: 16px;
     border-radius: 2px;
-    background-color: #D0D7FB2B;
+    background-color: $color-separator;
     margin-left: 8px;
 }
 

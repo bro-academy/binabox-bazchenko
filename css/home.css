@@ -97,7 +97,7 @@
     flex-grow: 1;
     max-width: 1167px;
     height: 2px;
-    background-color:#D0D7FB2B ;
+    background-color:$color-separator ;
     margin-inline: 32px;
 }
 
@@ -121,7 +121,7 @@
     display: block;
     width: 2px;
     height: 24px;
-    background-color:#D0D7FB2B  ;
+    background-color:$color-separator  ;
     margin-right: 16px ;
 } */
 
@@ -136,7 +136,7 @@
     display: block;
     width: 2px;
     height: 24px;
-    background-color: #D0D7FB2B ;
+    background-color: $color-separator ;
     margin-left: 16px ;
 }
 
@@ -154,7 +154,7 @@
     height: 480px;
     padding: 24px;
     box-sizing: border-box;
-    background-color: #1D1C28;
+    background-color: $bg-alt;
     position: relative;
 }
 
@@ -224,7 +224,7 @@
 .blog-card {
     width: 784px;
     height: 434px;
-    background-color: #1D1C28;
+    background-color: $bg-alt;
 }
 .blog-card__author-icon {
     width: 16px;
@@ -325,7 +325,7 @@
     left: 0;
     top: -21px;
     font-size: 80px;
-    color:#1A1925 ;
+    color:$bg-secondary ;
     text-shadow: 0 0 2px #0265DC;
     z-index: -1;
     opacity: 0;
@@ -344,7 +344,7 @@
 .about-us__card {
     padding: 32px;
     position: relative;
-    background-color: #1A1925;
+    background-color: $bg-secondary;
     z-index: 1;
 }
 
@@ -433,7 +433,7 @@
 .team-card {
     width: 293.33px;
     height: 316px;
-    background-color: #1D1C28;
+    background-color: $bg-alt;
     text-align: center;
     align-items: flex-start;
     padding: 32px 32px 0 32px;
@@ -484,7 +484,7 @@
 }
 
 .faq__list {
-     background-color: #1D1C28;
+     background-color: $bg-alt;
      padding: 24px;
 }
 
@@ -492,11 +492,11 @@
     font-size: 24px;
     line-height: 32px;
     font-family: 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
-    background-color: #1D1C28;
+    background-color: $bg-alt;
 }
 
 .faq__answer {
     font-size: 16px;
     line-height: 24px;
-    background-color: #1D1C28;
+    background-color: $bg-alt;
 }
