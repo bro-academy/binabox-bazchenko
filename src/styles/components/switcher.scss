@@ -16,7 +16,7 @@
   .switcher__label {
     width: 40px;
     height: 20px;
-    background-color: #55555f; 
+    background-color: $bg-accent-dark; 
     border-radius: 999px;
     position: relative;
     cursor: pointer;
@@ -24,7 +24,7 @@
   }
 
   .switcher__label:hover {
-    background-color: #D4D9F242;
+    background-color: $bg-secondary-dark;
   }
 
   .switcher__label:focus {
@@ -32,21 +32,18 @@
   }
 
   .switcher__label:focus-visible {
-    outline: 2px solid black;
-    box-shadow: 0 0 0 4px #3892F3;
+    outline: 2px solid $bg-main;
+    box-shadow: 0 0 0 4px $color-border-focus;
   }
 
   .switcher__label:active {
-    background-color: #EFF5FAD1;
+    background-color: $color-alt;
   }
 
 .switcher__label:disabled {
-    background-color: #D0D7FB2B;
+    background-color: $color-separator;
 }
 
-
-
- 
   .switcher__label::after {
     content: "";
     position: absolute;
@@ -54,24 +51,23 @@
     left: 2px;
     width: 16px;
     height: 16px;
-    background-color: #FFFFFF;
+    background-color: $color-secondary;
     border-radius: 50%;
     transition: transform 0.3s ease;
   }
   
-
 //   Active 
   .switcher__input:checked + .switcher__label {
-    background-color: #2563eb;
+    background-color: $bg-surface;
   }
 
   .switcher__input:checked + .switcher__label:hover {
-    background-color: #3892F3;
+    background-color: $color-border-focus;
   }
 
   .switcher__input:checked + .switcher__label:focus-visible {
-    outline: 2px solid black;
-    box-shadow: 0 0 0 4px #3892F3;
+    outline: 2px solid $bg-main;
+    box-shadow: 0 0 0 4px $color-border-focus;
   }
 
   .switcher__input:checked + .switcher__label:focus {
@@ -79,13 +75,12 @@
   }
 
 .switcher__input:checked + .switcher__label:active {
-    background-color: #3892F3;
+    background-color: $color-border-focus;
   }
 
 .switcher__input:checked + .switcher__label:disabled {
-    background-color: #D0D7FB2B;
+    background-color: $color-separator;
 }
-
 
 .switcher__input:checked + .switcher__label::after {
     transform: translateX(20px);

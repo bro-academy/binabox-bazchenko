@@ -1,0 +1,72 @@
+@use '../../styles/base/variables' as *;
+
+.radio-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 12px; 
+  
+  .radio-input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .custom-radio {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid $color-border-secondary;
+    background-color: transparent;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+    flex-shrink: 0;
+    position: relative;
+    margin-right: 8px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      background-color: $bg-main;
+      border-radius: 50%;
+      opacity: 0;
+      transition: opacity 0.2s ease;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &:hover .custom-radio {
+    background-color: $bg-alt;
+  }
+
+  .radio-input:focus-visible + .custom-radio {
+    box-shadow: 0 0 0 3px $color-border-focus;
+    outline: none;
+  }
+
+  .radio-input:disabled + .custom-radio {
+    background-color: $color-separator;
+    border-color: transparent;
+  }
+
+  .radio-input:checked + .custom-radio {
+    background-color: $color-accent;
+    border-color: $color-accent;
+
+    &::after {
+      opacity: 1;
+    }
+  }
+
+  .radio-input:checked + .custom-radio:hover {
+    background-color: $bg-tertiary;
+  }
+}

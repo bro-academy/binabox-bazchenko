@@ -19,7 +19,7 @@
         padding: 40px 32px;
         text-align: center;
         align-items: center; 
-        border: 1px solid #D4D9F242;
+        border: 1px solid $bg-secondary-dark;
     }
 
     &__icon {
@@ -29,15 +29,15 @@
     &__title {
         font-size: 36px;
         line-height: 48px;
-        font-family: 'Bakbak One', 'Impact', 'Arial Black', sans-serif;
+        font-family: $font-accent;
         font-style: normal;
         max-width: 264px;
     }
 
     &__value {
         font-style: normal;
-        color: #EFF5FAD1;
-        font-family: 'Poppins', 'Arial', 'Helvetica', sans-serif;
+        color: $color-alt;
+        font-family: $font-base;
         max-width: 264px;
     }
 }

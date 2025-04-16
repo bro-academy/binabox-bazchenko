@@ -11,16 +11,18 @@
     padding: $btn-padding;
     font-weight: 600;
     border: 2px solid transparent;
-    max-width: 200px;
+    max-width: none;
     text-decoration: none;
     color: $color-primary;
     transition-duration: $tran-duration;
     cursor: pointer;
+    white-space: nowrap;
 
 
 //   Accent
         &--accent {
             background-color: $color-accent;
+            
         
                 &:hover {
                 background-color: $color-border-focus;
@@ -49,10 +51,11 @@
         &--secondary {
             background-color: transparent;
             outline: 2px solid $color-separator;
+            padding: $btn-padding;
 
             &:hover {
             background-color: $color-border;
-            /* border: 2px solid #BFC5EE1F; */
+            /* border: 2px solid $color-border; */
         }
         
         &:focus{
@@ -66,7 +69,7 @@
 
         &:active{
             background-color: $color-border;
-            /* border: 2px solid #BFC5EE1F; */
+            /* border: 2px solid $color-border; */
         }
 
         &:disabled {
@@ -86,7 +89,7 @@
     
             &:hover {
             background-color: $color-border;
-            /* border: 2px solid #BFC5EE1F; */
+            /* border: 2px solid $color-border; */
     }
         
         &:focus {

@@ -9,7 +9,7 @@
     border: 2px solid $color-separator;
     background-color: transparent;
     transition-duration: $tran-duration;
-    color: #E7EEF7A8;
+    color: $color-surface;
   
         &:hover {
             border-color: $color-border-focus;

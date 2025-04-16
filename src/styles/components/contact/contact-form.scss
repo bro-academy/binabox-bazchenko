@@ -12,6 +12,7 @@
     font-weight: 400;
     line-height: 20px;
     box-shadow: none;
+    margin-bottom: 104px;
 
 
     &__title-wrapper {
@@ -40,9 +41,10 @@
     }
 
     &__content-wrapper {
-        margin-inline: 320px;
+        width: 100%;
         max-width: 640px;
         display: flex; 
+        box-sizing: border-box;
         flex-direction: column;
         justify-content: center;
         gap: 24px ;
@@ -52,7 +54,7 @@
         display: flex;
         justify-content: space-between;
         padding: 24px;
-        background-color: #1D1C28;
+        background-color: $bg-alt;
     }
 
     &__switcher-text {
@@ -69,5 +71,71 @@
 
     &__button {
     max-width: 640px;
+    }
+
+    &__checkbox {
+        max-width: 640px;
+        }
+}
+
+.contact-form__checkbox .checkbox {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .contact-form__checkbox label {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+    color: $color-primary;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+.contact-form__textarea {
+    resize: none;
+    padding: 10px 22px;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: $font-base;
+    border: 2px solid $color-separator;
+    background-color: transparent;
+    transition-duration: $tran-duration;
+    color: $color-surface;
+
+    &:hover {
+        border-color: $color-border-focus;
+    }
+
+    &:focus-visible {
+        border-color: $color-focus-visible;
+        box-shadow: 0 0 0 2px $color-focus-visible;
+        outline: 0 solid $color-focus-visible;
+    }
+
+    &:valid {
+
+    }
+
+    &:disabled {
+        color: #E5ECFB5C;
+        background-color: $color-border;
+        border-color:$color-separator ;
+    }
+
+    &:invalid {
+        border-color: $color-invalid;
+
+        &:focus {
+            box-shadow: 0 0 0 1px $color-invalid;
+        }
+
+        &:focus-visible {
+            box-shadow: 0 0 0 1px $color-invalid;
+        }   
     }
 }

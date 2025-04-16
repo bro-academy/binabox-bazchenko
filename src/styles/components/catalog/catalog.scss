@@ -1,0 +1,121 @@
+@use '../../styles/base/variables' as *;
+
+.catalog {
+    display: flex;
+    gap: 64px;
+    padding-inline: 160px;
+}
+
+.catalog__content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    min-width: 0;
+}
+
+.catalog__sort-form {
+    display: flex;
+    gap: 16px;
+    flex-grow: 1;
+
+}
+
+.catalog__content-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .catalog__title {
+    font-family: $font-accent;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 400;
+    margin: 0;
+    flex-grow: 1;
+    max-width: 423.5px;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+
+.catalog__sort-select {
+    width: 145px;
+    height: 48px;
+    align-items: center;
+}
+
+.catalog__search {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.catalog__search-form {
+    flex-grow: 1;
+    min-width: 0;
+    width: 100%; 
+    display: flex; 
+}
+
+.catalog__filter {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    flex-shrink: 0;
+    width: 320px;
+}
+
+.catalog__group {
+    position: relative;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: $bg-alt;
+    border: none;
+    max-width: 320px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 100%;
+        padding-inline: 24px;
+        height: 1px;
+        margin-top: 72px;
+        background-color: $color-border;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        display: block;
+        align-items: center;
+        top: 23px;
+        right: 23px;
+        margin-left: 100px;
+        margin-top: -1px;
+        background-color: $color-secondary;
+    }
+}
+
+.catalog__group-title {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: $font-accent;
+    line-height: 32px;
+    color: $color-primary;
+}
+
+.catalog__checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
