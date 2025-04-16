@@ -1,0 +1,178 @@
+<section class="catalog">
+  <aside class="catalog__sidebar">
+    <form class="catalog__filter" action="url" method="get">
+   <fieldset class="catalog__group">
+  <legend class="catalog__group-title">Clothing</legend>
+
+  <label class="checkbox-wrapper">
+    <input type="checkbox" id="combatant" name="clothing" value="combatant" class="checkbox-input visually-hidden"/>
+    <span class="custom-checkbox"></span>
+    Combatant
+  </label>
+
+  <label class="checkbox-wrapper">
+    <input  type="checkbox" id="ninja" name="clothing" value="ninja" class="checkbox-input visually-hidden"/>
+    <span class="custom-checkbox"></span>
+    Ninja
+  </label>
+
+  <label class="checkbox-wrapper">
+    <input type="checkbox" id="king" name="clothing" value="king" class="checkbox-input visually-hidden" />
+    <span class="custom-checkbox"></span>
+    King
+  </label>
+
+  <label class="checkbox-wrapper">
+    <input type="checkbox" id="queen" name="clothing" value="queen"class="checkbox-input visually-hidden"/>
+    <span class="custom-checkbox"></span>
+    Queen
+  </label>
+
+  <label class="checkbox-wrapper">
+    <input type="checkbox" id="robot" name="clothing" value="robot"class="checkbox-input visually-hidden" />
+    <span class="custom-checkbox"></span>
+    Robot
+  </label>
+</fieldset>
+      
+<fieldset class="catalog__group">
+    <legend class="catalog__group-title">Eyes</legend>
+    <label class="radio-wrapper">
+        <input type="radio" class="radio-input visually-hidden" name="eyes" value="yellow" />
+        <span class="custom-radio"></span>
+        Yellow
+    </label>
+    <label class="radio-wrapper">
+        <input type="radio" class="radio-input visually-hidden" name="eyes" value="green" />
+        <span class="custom-radio"></span>
+        Green
+    </label>
+    <label class="radio-wrapper">
+        <input type="radio" class="radio-input visually-hidden" name="eyes" value="mix" />
+        <span class="custom-radio"></span>
+        Mix
+    </label>
+    <label class="radio-wrapper">
+        <input type="radio" class="radio-input visually-hidden" name="eyes" value="orange" />
+        <span class="custom-radio"></span>
+        Orange
+    </label>
+</fieldset>
+
+<fieldset class="catalog__group">
+    <legend class="catalog__group-title">Face</legend>
+    <label class="radio-wrapper">
+        <input type="radio" class="radio-input visually-hidden" name="face" value="yellow" />
+        <span class="custom-radio"></span>
+        Yellow
+    </label>
+    <label class="radio-wrapper">
+        <input type="radio" class="radio-input visually-hidden" name="face" value="green" />
+        <span class="custom-radio"></span>
+        Green
+    </label>
+    <label class="radio-wrapper">
+        <input type="radio" class="radio-input visually-hidden" name="face" value="mix" />
+        <span class="custom-radio"></span>
+        Mix
+    </label>
+    <label class="radio-wrapper">
+        <input type="radio" class="radio-input visually-hidden" name="face" value="orange" />
+        <span class="custom-radio"></span>
+        Orange
+    </label>
+</fieldset>
+
+<fieldset class="catalog__group">
+    <legend class="catalog__group-title">Skin</legend> 
+    <label class="catalog__checkbox">
+        <input type="checkbox" name="skin" value="skin1" class="switcher__input visually-hidden">
+        <span class="switcher__label"></span>
+        Skin 1
+    </label>
+    <label class="catalog__checkbox">
+        <input type="checkbox" name="skin" value="skin2" class="switcher__input visually-hidden">
+        <span class="switcher__label"></span>
+        Skin 2
+    </label>
+</fieldset>
+
+<fieldset class="catalog__group">
+    <legend class="catalog__group-title">Background</legend>
+    <label class="radio-wrapper">
+        <input type="radio" class="radio-input visually-hidden" name="background" value="yellow" />
+        <span class="custom-radio"></span>
+        Yellow
+    </label>
+    <label class="radio-wrapper">
+        <input type="radio" class="radio-input visually-hidden" name="background" value="green" />
+        <span class="custom-radio"></span>
+        Green
+    </label>
+    <label class="radio-wrapper">
+        <input type="radio" class="radio-input visually-hidden" name="background" value="mix" />
+        <span class="custom-radio"></span>
+        Mix
+    </label>
+    <label class="radio-wrapper">
+        <input type="radio" class="radio-input visually-hidden" name="background" value="orange" />
+        <span class="custom-radio"></span>
+        Orange
+    </label>
+</fieldset>
+
+         <fieldset class="catalog__group">
+  <legend class="catalog__group-title">Special</legend>
+  <label class="checkbox-wrapper">
+    <input type="checkbox" id="green" name="clothing" value="green" class="checkbox-input visually-hidden"/>
+    <span class="custom-checkbox"></span>
+    Green
+  </label>
+
+  <label class="checkbox-wrapper">
+    <input type="checkbox" id="yellow" name="clothing" value="yellow" class="checkbox-input visually-hidden"/>
+    <span class="custom-checkbox"></span>
+    Yellow
+  </label>
+
+  <label class="checkbox-wrapper">
+    <input type="checkbox"id="mix" name="clothing" value="mix" class="checkbox-input visually-hidden"/>
+    <span class="custom-checkbox"></span>
+    Mix
+  </label>
+
+  <label class="checkbox-wrapper">
+    <input type="checkbox" id="orange"  name="clothing" value="orange" class="checkbox-input visually-hidden"/>
+    <span class="custom-checkbox"></span>
+    Orange
+  </label>
+</fieldset>
+<input class="contact-form__button button button--accent" type="submit" value="Send message">
+        </form>
+        </aside>
+  <div class="catalog__content">
+  <div class="catalog__content-header">
+    <h2 class="catalog__title">All item</h2>
+
+    <div class="catalog__sort-form">
+      <form action="url" method="get">
+        <select class="catalog__sort-select dropdown" name="sort">
+          <option value="" disabled selected>Sort by</option>
+          <option value="newest">Newest</option>
+          <option value="most-popular">Most popular</option>
+          <option value="increasing-in-price">Increasing in price</option>
+          <option value="lowering-the-price">Lowering the price</option>
+        </select>
+      </form>
+     <form class="search-form search-form--no-divider catalog__search-form" action="/search" method="get">
+        <div class="search-form__wrapper">
+          <button type="submit" class="search-form__button" aria-label="Submit search">
+            <img src="/img/icons/search-icon.svg" alt="Search" class="search-form__icon" width="20" height="20">
+          </button>
+          <input type="text" class="search-form__input" name="query"  placeholder="Search NFT" aria-label="Search">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</section>

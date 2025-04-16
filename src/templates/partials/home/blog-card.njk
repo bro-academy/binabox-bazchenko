@@ -1,20 +1,19 @@
 <article class="blog-card">
-   <a class="blog-card__link" href="{{ card.link }}"><img class="blog-card__image" loading="lazy" src="{{ card.image }}"
-                                                          alt="Blog image" width="736" height="198" /></a>
+   <a class="blog-card__link" href="{{ card.link }}"><img class="blog-card__image" loading="lazy" src="{{ card.image }}" width="{{ card.imageWidth }}" height="{{ card.imageHeight }}"
+  alt="Blog image"></a>
+  <div class="blog-card__info-wrapper">
    <div class="blog-card__data">
-     <img class="blog-card__author-icon" src="{{ card.authorIcon }}" alt="Autor icon" />
+     <img class="blog-card__author-icon" src="{{ card.authorIcon }}" alt="Author icon" />
      <small class="blog-card__name"> {{ card.authorName }}</small>
      <img class="blog-card__date-icon" src="{{ card.dateIcon }}" alt="Date icon" />
      <time class="blog-card__date" datetime="2022-06-20"> {{ card.date }}</time>
    </div>
    <div class="blog-card__content">
      <h3 class="blog-card__title"> {{ card.title }}</h3>
-     <p class="blog-card__text">
-       {{ card.text }}
-     </p>
+     <p class="blog-card__text"> {{ card.text }} </p>
    </div>
    <div class="blog-card__footer">
-     <a class="button button--secondary blog-card__footer-link" href="{{ card.readMoreLink }}"
-        target="_blank">{{ card.readMoreName }}</a>
+     <a class="button button--secondary blog-card__footer-link" href="{{ card.readMoreLink }}" target="_blank">{{ card.readMoreName }} <img alt="arrow" src="{{ card.readMoreImage }}" width="16" height="16"></a>
+   </div>
    </div>
 </article>

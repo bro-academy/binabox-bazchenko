@@ -1,0 +1,6 @@
+{ "header": "Explore catalog ",
+"navItems": [
+    { "title": "Home", "link": "index.html" },
+    { "title": "Calalog", "link": "ccatalog.html" }
+]
+}

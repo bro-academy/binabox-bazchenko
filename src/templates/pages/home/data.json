@@ -36,7 +36,9 @@
     "blogCards": [
         {
           "link": "#",
-          "image": "/img/main/skeleton_head-1x.webp",
+          "image": "/img/main/face-1x.webp",
+          "imageWidth": "736",
+          "imageHeight": "664",
           "authorIcon": "/img/icons/author.svg",
           "authorName": "Tony Nguyen",
           "dateIcon": "/img/icons/calendar.svg",
@@ -44,11 +46,14 @@
           "title": "Sonic live",
           "text": "One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet...",
           "readMoreLink": "#",
-          "readMoreName": "Read more"
+          "readMoreName": "Read more",
+          "readMoreImage": "/img/icons/chevron-right.svg"
         },
         {
           "link": "#",
           "image": "/img/main/skeleton_head-1x.webp",
+          "imageWidth": "736",
+          "imageHeight": "198",
           "authorIcon": "/img/icons/author.svg",
           "authorName": "Tony Nguyen",
           "dateIcon": "/img/icons/calendar.svg",
@@ -56,11 +61,14 @@
           "title": "Sonic live",
           "text": "One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet...",
           "readMoreLink": "#",
-            "readMoreName": "Read more"
+          "readMoreName": "Read more",
+          "readMoreImage": "/img/icons/chevron-right.svg"
         },
         {
           "link": "#",
           "image": "/img/main/cats_head-1x.webp",
+          "imageWidth": "736",
+          "imageHeight": "198",
           "authorIcon": "/img/icons/author.svg",
           "authorName": "Tony Nguyen",
           "dateIcon": "/img/icons/calendar.svg",
@@ -68,11 +76,14 @@
           "title": "Sonic live",
           "text": "One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet...",
           "readMoreLink": "#",
-            "readMoreName": "Read more"
+          "readMoreName": "Read more",
+          "readMoreImage": "/img/icons/chevron-right.svg"
         },
           {
           "link": "#",
           "image": "/img/main/monkey_head-1x.webp",
+          "imageWidth": "736",
+          "imageHeight": "198",
           "authorIcon": "/img/icons/author.svg",
           "authorName": "Tony Nguyen",
           "dateIcon": "/img/icons/calendar.svg",
@@ -80,11 +91,14 @@
           "title": "Sonic live",
           "text": "One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet...",
           "readMoreLink": "#",
-            "readMoreName": "Read more"
+          "readMoreName": "Read more",
+          "readMoreImage": "/img/icons/chevron-right.svg"
         },
         {
           "link": "#",
           "image": "/img/main/duck-1x.webp",
+          "imageWidth": "736",
+          "imageHeight": "198",
           "authorIcon": "/img/icons/author.svg",
           "authorName": "Tony Nguyen",
           "dateIcon": "/img/icons/calendar.svg",
@@ -92,11 +106,14 @@
           "title": "Sonic live",
           "text": "One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet...",
           "readMoreLink": "#",
-            "readMoreName": "Read more"
+          "readMoreName": "Read more",
+          "readMoreImage": "/img/icons/chevron-right.svg"
         },
         {
           "link": "#",
-          "image": "/img/main/duck-1x.webp",
+          "image": "/img/main/big_screen-1x.webp",
+          "imageWidth": "736",
+          "imageHeight": "664",
           "authorIcon": "/img/icons/author.svg",
           "authorName": "Tony Nguyen",
           "dateIcon": "/img/icons/calendar.svg",
@@ -104,7 +121,8 @@
           "title": "Sonic live",
           "text": "One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet...",
           "readMoreLink": "#",
-            "readMoreName": "Read more"
+          "readMoreName": "Read more",
+          "readMoreImage": "/img/icons/chevron-right.svg"
         }
     ],
 

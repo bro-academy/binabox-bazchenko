@@ -1,0 +1,12 @@
+     {% block styles %}
+        <link rel="stylesheet" href="/css/main.css">
+    {% endblock %}
+
+<section class="homepage-catalog">
+  {% include "partials/home/catalog-top.njk" %}
+  <div class="homepage-catalog__main">
+    {% for item in products %}
+      {% include "partials/home/card.njk" %}
+    {% endfor %}
+  </div>
+</section>
