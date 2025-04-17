@@ -1,0 +1,80 @@
+@use '../../styles/base/variables' as *;
+
+.sidebar {
+    max-width: 320px;
+    width: 100%;
+}
+
+.sidebar__filter {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    flex-shrink: 0;
+    width: 320px;
+}
+
+.sidebar__group {
+    position: relative;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: $bg-alt;
+    border: none;
+    max-width: 272px;
+    width: 100%;
+    padding-inline: 24px;
+    padding-bottom: 24px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        display: block;
+        top: -4px;
+        left: 24px;
+        width: 100%;
+        max-width: 224px;
+        padding-inline: 24px;
+        height: 1px;
+        margin-top: 72px;
+        background-color: $color-border;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        display: block;
+        align-items: center;
+        top: 40px;
+        right: 35px;
+        background-color: white;
+        width: 10px;
+        height: 2px;
+        border-radius: 2px;
+    }
+}
+
+.sidebar__group-title {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: $font-accent;
+    line-height: 32px;
+    color: $color-primary;
+}
+
+.sidebar__group-wrapper {
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+   align-items: start;
+
+}
+
+.sidebar__checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
