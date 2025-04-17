@@ -4,11 +4,7 @@
     display: flex;
     gap: 64px;
     padding-inline: 160px;
-}
-
-.catalog__sidebar {
-    max-width: 320px;
-    width: 100%;
+    margin-bottom: 64px;
 }
 
 .catalog__content {
@@ -18,15 +14,9 @@
     min-width: 0;
 }
 
-.catalog__sort-form {
-    display: flex;
-    gap: 16px;
-    flex-grow: 1;
-
-}
-
 .catalog__content-header {
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 16px;
     flex-wrap: wrap;
@@ -47,6 +37,11 @@
     white-space: nowrap;
   }
 
+  .catalog__sort-form {
+    display: flex;
+    gap: 16px;
+    flex-grow: 1;
+}
 
 .catalog__sort-select {
     width: 145px;
@@ -66,76 +61,13 @@
     display: flex; 
 }
 
-.catalog__filter {
-    display: flex;
-    flex-direction: column;
-    gap: 21px;
-    flex-shrink: 0;
-    width: 320px;
+.catalog__buttons-wrapper {
+    margin-bottom: 60px;
 }
 
-.catalog__group {
-    position: relative;
-    padding-top: 90px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    background-color: $bg-alt;
-    border: none;
-    max-width: 272px;
-    width: 100%;
-    padding-inline: 24px;
-    padding-bottom: 24px;
-
-    &::before {
-        content: "";
-        position: absolute;
-        display: block;
-        top: -4px;
-        left: 24px;
-        width: 100%;
-        max-width: 224px;
-        padding-inline: 24px;
-        height: 1px;
-        margin-top: 72px;
-        background-color: $color-border;
-    }
-
-    &::after {
-        content: "";
-        position: absolute;
-        display: block;
-        align-items: center;
-        top: 40px;
-        right: 35px;
-        background-color: white;
-        width: 10px;
-        height: 2px;
-        border-radius: 2px;
-    }
-}
-
-.catalog__group-title {
-    position: absolute;
-    top: 24px;
-    left: 24px;
-    font-size: 24px;
-    font-weight: 400;
-    font-family: $font-accent;
-    line-height: 32px;
-    color: $color-primary;
-}
-
-.catalog__group-wrapper {
-   display: flex;
-   flex-direction: column;
-   gap: 8px;
-   align-items: start;
-
-}
-
-.catalog__checkbox {
-    display: flex;
-    align-items: center;
-    gap: 8px;
+.catalog_card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 32px;
 }
