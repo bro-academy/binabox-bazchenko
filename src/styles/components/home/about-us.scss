@@ -4,13 +4,16 @@
     padding: 64px ;
 
     &__cards-wrapper {
-        display: flex;
+        // display: flex;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
         margin-inline: 0;
         gap: 32px;
         margin-bottom: 40px ;
         counter-reset: card-counter;
     }
-
+        
     &__title {
         text-align: center;
         font-size: 36px;
@@ -104,6 +107,5 @@
     &__button {
     display: block;
     margin: 0 auto;
-
     }
 }
