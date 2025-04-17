@@ -2,5 +2,83 @@
 "navItems": [
     { "title": "Home", "link": "index.html" },
     { "title": "Calalog", "link": "ccatalog.html" }
-]
+],
+
+    "products": [
+          {
+          "label": "New",
+          "image": "/img/catalog/small_face-1x.webp",
+          "price": "$199",
+          "name": "Name Product",
+           "widht": "272",
+          "height": "367"
+        },
+        {
+          "label": "Popular",
+          "image": "/img/catalog/small_face-1x.webp",
+          "image2x": "/img/main/cat-2x.webp",
+          "price": "$199",
+          "name": "Name Product",
+          "widht": "272",
+         "height": "367"
+        },
+        {
+          "label": "Sold Out",
+          "image": "/img/catalog/small_face-1x.webp",
+          "price": "$199",
+          "name": "Name Product",
+          "widht": "272",
+         "height": "367"
+        },
+        {
+            "label": "New",
+            "image": "/img/catalog/small_face-1x.webp",
+            "price": "$199",
+            "name": "Name Product",
+            "widht": "272",
+           "height": "367"
+          },
+          {
+            "label": "New",
+            "image": "/img/catalog/small_face-1x.webp",
+            "price": "$199",
+            "name": "Name Product",
+            "widht": "272",
+           "height": "367"
+          },
+          {
+            "label": "New",
+            "image": "/img/catalog/small_face-1x.webp",
+            "price": "$199",
+            "name": "Name Product",
+            "widht": "272",
+           "height": "367"
+          },
+          {
+            "label": "New",
+            "image": "/img/catalog/small_face-1x.webp",
+            "price": "$199",
+            "name": "Name Product",
+            "widht": "272",
+           "height": "367"
+          },
+          {
+            "label": "New",
+            "image": "/img/catalog/small_face-1x.webp",
+            "price": "$199",
+            "name": "Name Product",
+            "widht": "272",
+           "height": "367"
+          },
+          {
+            "label": "New",
+            "image": "/img/catalog/small_face-1x.webp",
+            "price": "$199",
+            "name": "Name Product",
+            "widht": "272",
+           "height": "367"
+          }
+    ]
 }
+
+    
