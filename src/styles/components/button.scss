@@ -82,7 +82,7 @@
     /* tag */
     &--tag {
         background-color: transparent;
-        border: 1 solid $color-separator;
+        outline: 1px solid $color-separator;
         padding: 6px 12px;
         font-size: 14px;
         line-height: 20px;
@@ -110,5 +110,35 @@
             background-color: $color-separator;
             border: 2px solid $color-disabled;
         }
+    }
+
+    &--alt {
+        background-color: #FFFFFF;
+         color:$bg-main;
+     
+           &:hover {
+            background-color: #F4F7FA;
+           }
+
+           &:focus {
+
+           }
+
+           &:focus-visible {
+            outline: 2px solid $color-border-focus;
+            border-color: $color-border-focus;
+           }
+
+           &:active {
+             color:$color-primary;
+             background-color: #E5ECFB5C;
+           }
+
+           &:disabled {
+            color:$color-disabled;
+            background-color:$color-separator ;
+          }
+
+
     }
 }
