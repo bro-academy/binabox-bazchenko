@@ -21,6 +21,7 @@
     gap: 16px;
     flex-wrap: wrap;
     width: 100%;
+    margin-bottom: 32px;
   }
 
   .catalog__title {
@@ -62,8 +63,31 @@
 }
 
 .catalog__buttons-wrapper {
-    margin-bottom: 60px;
+    display: flex;
+    align-items: start;
+    gap: 16px;
+    margin-bottom: 32px;
+    padding: 16px;
+    background-color: $bg-alt;
 }
+
+.catalog__button {
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+padding: 6px 12px;
+}
+
+// .catalog__button::after {
+//     content: "";
+//     position: absolute;
+//     background-image: url("/img/icons/cross.svg");
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     width: 16px;
+//     height: 16px;
+//     margin-left: px;
+// }
 
 .catalog_card-wrapper {
     display: grid;

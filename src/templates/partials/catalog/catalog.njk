@@ -21,12 +21,17 @@
           <input type="text" class="search-form__input" name="query"  placeholder="Search NFT" aria-label="Search">
         </div>
       </form>
+      </div>
     </div>
-  </div>
   <div class="catalog__buttons-wrapper">
+    <button class="catalog__button button button--tag">NFT<img src="/img/icons/cross.svg" alt="cross" widht="16" height="16"></button>
+    <button class="catalog__button button  button--tag">ICO<img src="/img/icons/cross.svg" alt="cross" widht="16" height="16"></button>
+    <button class="catalog__button button  button--tag">Crypto<img src="/img/icons/cross.svg" alt="cross" widht="16" height="16"></button>
+    <button class="catalog__button button button--alt">Clear all</button>
   </div>
   <div class="catalog_card-wrapper">
      {% for item in products %}
       {% include "partials/home/card.njk" %}
     {% endfor %}
+    </div>
 </section>
