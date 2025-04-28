@@ -3,6 +3,7 @@
 .button {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 8px;
     font-size: 18px;
     line-height: 24px;
@@ -113,11 +114,11 @@
     }
 
     &--alt {
-        background-color: #FFFFFF;
+        background-color: $BaseIcon;
          color:$bg-main;
      
            &:hover {
-            background-color: #F4F7FA;
+            background-color: $Alternative2-Invert;
            }
 
            &:focus {
@@ -131,14 +132,18 @@
 
            &:active {
              color:$color-primary;
-             background-color: #E5ECFB5C;
+             background-color: $color-disabled;
            }
 
            &:disabled {
             color:$color-disabled;
             background-color:$color-separator ;
           }
-
-
     }
+
+    &--icon {
+        padding: 12px;
+        background-color: transparent;
+            outline: 2px solid $color-separator;
+}
 }

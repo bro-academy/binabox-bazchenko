@@ -1,10 +1,29 @@
 @use '../../styles/base/variables' as *;
+@use '../../styles/base/mixins' as *;
 
 .banner {
     display: flex;
     max-width: 100%;
     padding-inline: 164px;
     gap: 0;
+    background: radial-gradient(  500px circle at 17% -35%, #0265DCCC 0%, #0265DC80 40%,#0265DC00 100%);
+
+    @include laptop {
+            padding-inline: 119px;
+        }
+
+        @include tab {
+           padding: 64px 24px;
+        }
+
+        @media (max-width: 360px) {
+            padding: 32px 16px;
+         }
+    
+        &__title-wrapper {
+            margin-bottom: 32px;
+        }
+
 
     &__title {
         font-size: 52px;
@@ -12,6 +31,16 @@
         font-family: $font-accent;
         margin: 0;
         max-width: 700px;
+
+        @include tab {
+            font-size: 36px;
+            line-height: 48px;
+            max-width: 450px;
+        }
+        @media (max-width: 360px) {
+            font-size: 28px;
+            line-height: 36px;
+        }
     }
 
     &__highlight {
@@ -22,7 +51,14 @@
         width: 866.5px;
         max-height: 362px;
         margin: 139px 0;
+
+        @include laptop {
+            margin: 56px 0;
     }
+    @include tab {
+        margin: 0;
+  }  
+}
 
     &__text {
     font-size: 20px;
@@ -46,6 +82,15 @@
     line-height: 62px;
     font-family: $font-accent;
     text-shadow: 1px 0 4px $color-primary;
+
+    @include tab {
+        font-size: 36px;
+        line-height: 48px;
+     }  
+     @media (max-width: 360px) {
+        font-size: 28px;
+        line-height: 36px;
+     }  
     }
 
     &__stat-text {
@@ -57,5 +102,22 @@
     &__buttons-wrapper {
         display: flex;
         gap: 16px;
+
+        @media (max-width: 360px) {
+            flex-direction: column;
     }
+}
+
+    @include laptop {
+        .banner__image { 
+            width: 437px;
+            height: 526px;
+        }
+    }
+
+        @include tab {
+            .banner__image { 
+                display: none;
+            }    
+}
 }

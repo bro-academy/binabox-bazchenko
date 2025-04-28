@@ -1,6 +1,6 @@
 <section class="catalog">
   {% include "partials/catalog/sidebar.njk" %}
-   <div class="catalog__content">
+  <div class="catalog__content">
   <div class="catalog__content-header">
     <h2 class="catalog__title">All item</h2>
     <div class="catalog__sort-form">
@@ -24,14 +24,15 @@
       </div>
     </div>
   <div class="catalog__buttons-wrapper">
-    <button class="catalog__button button button--tag">NFT<img src="/img/icons/cross.svg" alt="cross" widht="16" height="16"></button>
-    <button class="catalog__button button  button--tag">ICO<img src="/img/icons/cross.svg" alt="cross" widht="16" height="16"></button>
-    <button class="catalog__button button  button--tag">Crypto<img src="/img/icons/cross.svg" alt="cross" widht="16" height="16"></button>
+    <button class="catalog__button button button--tag">NFT<img src="/img/icons/cross.svg" alt="cross"  height="16"></button>
+    <button class="catalog__button button  button--tag">ICO<img src="/img/icons/cross.svg" alt="cross"  height="16"></button>
+    <button class="catalog__button button  button--tag">Crypto<img src="/img/icons/cross.svg" alt="cross"  height="16"></button>
     <button class="catalog__button button button--alt">Clear all</button>
   </div>
-  <div class="catalog_card-wrapper">
+  <div class="catalog__card-wrapper">
      {% for item in products %}
       {% include "partials/home/card.njk" %}
     {% endfor %}
+    </div>
     </div>
 </section>

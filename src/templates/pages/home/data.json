@@ -2,7 +2,7 @@
     "products": [
           {
           "label": "New",
-          "image": "/img/main/skeleton-1x.webp",
+          "image": "/img/main/skeleton-2x.webp",
           "price": "$199",
           "name": "Name Product",
            "widht": "253",
@@ -10,7 +10,7 @@
         },
         {
           "label": "New",
-          "image": "/img/main/cat-1x.webp",
+          "image": "/img/main/cat-2x.webp",
           "image2x": "/img/main/cat-2x.webp",
           "price": "$199",
           "name": "Name Product",
@@ -19,7 +19,7 @@
         },
         {
           "label": "Sold Out",
-          "image": "/img/main/scissors-1x.webp",
+          "image": "/img/main/scissors-2x.webp",
           "price": "$199",
           "name": "Name Product",
            "widht": "253",

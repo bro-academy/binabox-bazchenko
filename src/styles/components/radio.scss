@@ -83,20 +83,20 @@
   }
 
 .radio-input:checked + .custom-radio:active {
-  background-color:#CAE8FF;
-  border-color: #CAE8FF;
+  background-color:$Marina100;
+  border-color: $Marina100;
  outline: none;
 }
 
 .radio-input:checked + .custom-radio:active::after {
-  background-color: #0265DC; 
+  background-color: $color-accent; 
 }
 
 .radio-input:checked + .custom-radio:focus-visible {
-  background-color: #0265DC; 
-  border: 2px solid #0265DC; 
+  background-color: $color-accent; 
+  border: 2px solid $color-accent; 
   outline: 1px solid $bg-main;
-  box-shadow: 0 0 0 3px #3892F3;
+  box-shadow: 0 0 0 3px $color-border-focus;
 }
 
 .radio-input:checked + .custom-radio:focus-visible::after {
@@ -114,14 +114,14 @@
 
 
 .radio-input:checked + .custom-radio:disabled {
-  background-color:#D4D9F242;
+  background-color:$bg-secondary-dark;
   border: 2px solid transparent; 
 }
 
 .radio-input:checked + .custom-radio:disabled:after {
   width: 6px;
  height: 6px;
- background-color:#E7EEF7A8 ;
+ background-color:$Secondary2White;
 }
 
 .radio-input:checked + .custom-radio:invalid {
