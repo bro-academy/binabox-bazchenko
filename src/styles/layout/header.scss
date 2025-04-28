@@ -1,4 +1,5 @@
 @use '../../styles/base/variables' as *;
+@use '../../styles/base/mixins' as *;
 
 
 .header__container {
@@ -12,12 +13,72 @@
     margin: 0 auto;
 }
 
+@include tab {
+    .header__container {
+        max-height: 80px;
+        padding: 16px;
+        justify-content: flex-start;
+    }
+}
+
+.header__burger {
+    display: none;
+}
+
+.header__burger-icon {
+    align-items: center;
+    background-color: $color-primary;
+    width: 20px;
+    height: 2px;
+    border-radius: 2px;
+}
+
+@include tab {
+    .header__burger {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+  }
+
+
 .header__logo {
     margin: 35px 32px;
 }
 
+.header__mobile-logo {
+    display: none;
+}
+
+@media (max-width: 360px) {
+    .header__mobile-logo{
+    display: block;
+    margin-left: 16px;
+}
+}
+
+
+@include tab {
+    .header__logo {
+    display:block;
+}
+
+@media (max-width: 360px) {
+    .header__logo {
+    display: none;
+}
+}
+}
+
+
 .header__nav {
     display: flex;
+}
+
+@include tab {
+    .header__nav {
+    display: none;
+}
 }
 
 .header__list {
@@ -58,6 +119,12 @@
     margin: 32px;
 }
 
+@include tab {
+    .header__action {
+      margin-left: auto;
+    }
+  }
+
     .header__search-form {
         display: flex;
         align-items: center;
@@ -72,13 +139,18 @@
         margin-left: 16px;
         }
     }
- .header__search-input{
+    
+    @include laptop {
+        .header .search-form {
+          display: none;
+        }
+      }
+
+ .header__search-input {
     max-width: 188px ;
 }  
 
 .header__discord {
-    width: 150px;
-    height: 48px;
     text-align: center;
 }
 
@@ -86,7 +158,31 @@
     color: $color-primary;
 }
 
+@include tab {
+ .header__discord-text{
+    display: none;
+ }
+}
+
 .header__discord-icon {
     width: 24px;
     height: 24px;
+}
+
+@include tab {
+    .header .button--secondary {
+       padding: 10px;
+    }
+}
+
+@media (max-width: 360px)  {
+    .header__button-text {
+        display: none;
+    }
+}
+
+@media (max-width: 360px) {
+    .header .button--accent {
+        padding: 12px;
+    }
 }
