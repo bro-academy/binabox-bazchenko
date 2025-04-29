@@ -25,7 +25,7 @@
 
         }
 
-        &:invalid {
+        &:user-invalid {
             border-color: $color-invalid;
 
             &:focus {

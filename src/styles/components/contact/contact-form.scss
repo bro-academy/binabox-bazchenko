@@ -129,12 +129,12 @@
     }
 
     &:disabled {
-        color: #E5ECFB5C;
+        color: $color-disabled;
         background-color: $color-border;
         border-color:$color-separator ;
     }
 
-    &:invalid {
+    &:user-invalid {
         border-color: $color-invalid;
 
         &:focus {
