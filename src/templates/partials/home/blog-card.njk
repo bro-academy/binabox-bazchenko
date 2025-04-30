@@ -1,6 +1,12 @@
 <article class="blog-card">
-   <a class="blog-card__link" href="{{ card.link }}"><img class="blog-card__image" loading="lazy" src="{{ card.image }}" width="{{ card.imageWidth }}" height="{{ card.imageHeight }}"
-  alt="Blog image"></a>
+   <a class="blog-card__link" href="{{ card.link }}"><img class="blog-card__image"
+     loading="lazy"
+     src="{{ card.image }}"
+     srcset="{{ card.image }} 1x, {{ card.image2x }} 2x"
+     width="{{ card.imageWidth }}"
+     height="{{ card.imageHeight }}"
+     alt="Blog image">
+     </a>
    <span class="blog-card__label">{{ card.label }}</span>
   <div class="blog-card__info-wrapper">
    <div class="blog-card__data">

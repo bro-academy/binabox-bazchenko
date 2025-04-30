@@ -1,19 +1,41 @@
 @use '../../styles/base/variables' as *;
+@use '../../styles/base/mixins' as *;
 
 .our-team__title {
     text-align: center;
-    font-size: 36px;
-    line-height: 48px;
+    font-size: 28px;
+    line-height: 36px;
     font-family: $font-accent;
     margin-bottom: 40px;
+
+@include laptop {
+    font-size: 36px;
+    line-height: 48px;
+  }
 }
 
 .our-team__wrapper {
-    margin-inline: 64px ;
+    margin-inline: 16px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
+    flex-wrap: nowrap;
+    justify-content: start;
+    gap: 16px;
     align-items: start;
     margin-bottom: 128px;
+    overflow-x: auto;
+    max-width: 100%;
+    -webkit-overflow-scrolling: touch;
+     scroll-snap-type: x mandatory;
+
+     @include tab {
+        margin-inline: 24px;
+     }
+
+     @include laptop {
+        margin-inline: 64px;
+        gap: 40px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+     }
 }

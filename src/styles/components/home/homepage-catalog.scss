@@ -2,10 +2,6 @@
 @use '../../styles/base/mixins' as *;
 
 .homepage-catalog__main {
-    // display: flex;
-    // flex-wrap: nowrap;
-    // overflow: hidden;  
-    // justify-content: space-between;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
@@ -13,7 +9,7 @@
     margin: 63px 64px;
     max-width: 1728px;
     min-width: 360px;
-    overflow-x: hidden;
+    overflow-x: auto;
 
     @include laptop {
         display: grid;
@@ -21,7 +17,6 @@
         grid-auto-columns: min-content;
         overflow-x: auto;
         max-width: 100%;
-
         -webkit-overflow-scrolling: touch;
         scroll-snap-type: x mandatory;
 }

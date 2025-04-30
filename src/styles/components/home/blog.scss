@@ -1,23 +1,42 @@
 @use '../../styles/base/variables' as *;
+@use '../../styles/base/mixins' as *;
 
-.blog__title {
-    font-size: 36px;
-    line-height: 48px;
+.blog {
+  margin-inline: 16px;
+
+  @include tab {
+    margin-inline: 24px;
+  }
+
+&__title {
+    font-size: 28px;
+    line-height: 36px;
     font-family: $font-accent;
     text-align: center;
+    margin-bottom: 40px;
 }
 
-.blog__wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(4, auto);
-    gap: 32px; 
-    margin: 0 auto;
-    padding-inline: 64px;
-    margin-bottom: 40px;
+&__wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(293px, 1fr));
+  gap: 16px;
+  padding: 16px;
+  margin-bottom: 40px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100%;
+
+  @include tab {
+    grid-template-columns: repeat(2, 1fr);
+    // grid-template-rows: repeat(3, 1fr);
+    gap: 24px;
+    padding: 24px;
+  }
   }
 
-  .blog__button {
+  &__button {
     display: block;
-    margin: 0 auto;
+    width: 100%;
   }
+}
