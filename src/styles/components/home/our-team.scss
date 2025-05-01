@@ -1,5 +1,5 @@
 @use '../../styles/base/variables' as *;
-@use '../../styles/base/mixins' as *;
+@use '../../styles/base/mixins' as m;
 
 .our-team__title {
     text-align: center;
@@ -8,34 +8,28 @@
     font-family: $font-accent;
     margin-bottom: 40px;
 
-@include laptop {
+@include m.laptop {
     font-size: 36px;
     line-height: 48px;
   }
 }
 
 .our-team__wrapper {
-    margin-inline: 16px;
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: start;
-    gap: 16px;
-    align-items: start;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
     margin-bottom: 128px;
     overflow-x: auto;
     max-width: 100%;
-    -webkit-overflow-scrolling: touch;
-     scroll-snap-type: x mandatory;
 
-     @include tab {
-        margin-inline: 24px;
-     }
-
-     @include laptop {
-        margin-inline: 64px;
-        gap: 40px;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
+     @include m.tab {
+        gap: 16px;
+        align-items: start;
+        flex-wrap: nowrap;
+        justify-content: start;
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-type: x mandatory;
      }
 }

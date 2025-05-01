@@ -1,52 +1,43 @@
 @use '../../styles/base/variables' as *;
-@use '../../styles/base/mixins' as *;
+@use '../../styles/base/mixins' as m;
 
 .about-us {
-    padding-inline: 16px;
     margin-bottom: 64px;
-
-    @include tab {
-        padding-inline: 24px;
-     }
-
-     @include laptop {
-        padding-inline: 64px;
-     }
 
     &__cards-wrapper {
         display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, auto);
         margin-inline: 0;
-        gap: 16px;
+        gap: 32px;
         margin-bottom: 40px ;
         counter-reset: card-counter;
 
-        @include tab {
-            gap: 32px;
-         }
-
-         @include laptop {
+         @include m.laptop {
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: repeat(2, auto);
          }
 
-         @include desk {
-            grid-template-columns: repeat(4, 1fr);
-            grid-template-rows: auto;
+         @include m.tab {
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(4, auto);
+         }
+
+         @include m.mob {
+             gap: 16px;
          }
     }
         
     &__title {
         text-align: center;
-        font-size: 28px;
-        line-height: 36px;
+        font-size: 36px;
+        line-height: 48px;
         font-family: $font-accent;
         margin-bottom: 16px;
 
-        @include laptop {
-            font-size: 36px;
-            line-height: 48px;
+        @include m.laptop {
+            font-size: 28px;
+            line-height: 36px;
          }
     }
 
@@ -57,7 +48,7 @@
         color: $color-alt;
         text-align: center;
 
-        @include tab {
+        @include m.tab {
             margin-bottom: 40px;
          }
          
@@ -137,36 +128,33 @@
             transition: opacity 0.25s;
           }
 
-          @include tab {
-            padding: 62px 32px 32px 32px;
-         }
-
-         @include laptop {
+         @include m.laptop {
             &:nth-last-child(1) {
               grid-column: 1/4;
             }
         }
 
-        @include desk {
-            &:nth-last-child(1) {
-                grid-column: auto;
+              @include m.tab {
+                padding: 62px 32px 32px 32px;
+                &:nth-last-child(1) {
+                    grid-column: auto;
+              }
             }
         }
-    }
     
       &__card-text {
         margin: 0;
       } 
 
-
     &__button {
     display: block;
     margin: 0 auto;
-    width: 100%;
+    align-items: center;
+    // width: 100%;
     box-sizing: border-box;
 
-    @include tab {
-        width: auto;
+    @include m.tab {
+        width: 100%;
      }
     }
 }

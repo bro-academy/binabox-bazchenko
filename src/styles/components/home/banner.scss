@@ -1,5 +1,5 @@
 @use '../../styles/base/variables' as *;
-@use '../../styles/base/mixins' as *;
+@use '../../styles/base/mixins' as m;
 
 .banner {
     display: flex;
@@ -8,11 +8,11 @@
     gap: 0;
     background: radial-gradient(  500px circle at 17% -35%, $color-accent 0%, $color-accent 40%,$color-accent 100%);
 
-    @include laptop {
-            padding-inline: 119px;
+    @include m.laptop {
+            // padding-inline: 119px;
         }
 
-        @include tab {
+        @include m.tab {
            padding: 64px 24px;
         }
 
@@ -32,7 +32,7 @@
         margin: 0;
         max-width: 700px;
 
-        @include tab {
+        @include m.tab {
             font-size: 36px;
             line-height: 48px;
             max-width: 450px;
@@ -52,10 +52,10 @@
         max-height: 362px;
         margin: 139px 0;
 
-        @include laptop {
+        @include m.laptop {
             margin: 56px 0;
     }
-    @include tab {
+    @include m.tab {
         margin: 0;
   }  
 }
@@ -83,7 +83,7 @@
     font-family: $font-accent;
     text-shadow: 1px 0 4px $color-primary;
 
-    @include tab {
+    @include m.tab {
         font-size: 36px;
         line-height: 48px;
      }  
@@ -108,14 +108,14 @@
     }
 }
 
-    @include laptop {
+    @include m.laptop {
         .banner__image { 
             width: 437px;
             height: 526px;
         }
     }
 
-        @include tab {
+        @include m.tab {
             .banner__image { 
                 display: none;
             }    

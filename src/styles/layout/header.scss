@@ -1,5 +1,5 @@
 @use '../../styles/base/variables' as *;
-@use '../../styles/base/mixins' as *;
+@use '../../styles/base/mixins' as m;
 
 
 .header__container {
@@ -13,7 +13,7 @@
     margin: 0 auto;
 }
 
-@include tab {
+@include m.tab {
     .header__container {
         max-height: 80px;
         padding: 16px;
@@ -33,7 +33,7 @@
     border-radius: 2px;
 }
 
-@include tab {
+@include m.tab {
     .header__burger {
       display: flex;
       flex-direction: column;
@@ -50,7 +50,7 @@
     display: none;
 }
 
-@media (max-width: 360px) {
+@include m.mob {
     .header__mobile-logo{
     display: block;
     margin-left: 16px;
@@ -58,12 +58,12 @@
 }
 
 
-@include tab {
+@include m.tab {
     .header__logo {
     display:block;
 }
 
-@media (max-width: 360px) {
+@include m.mob {
     .header__logo {
     display: none;
 }
@@ -75,7 +75,7 @@
     display: flex;
 }
 
-@include tab {
+@include m.tab {
     .header__nav {
     display: none;
 }
@@ -119,7 +119,7 @@
     margin: 32px;
 }
 
-@include tab {
+@include m.tab {
     .header__action {
       margin-left: auto;
     }
@@ -140,7 +140,7 @@
         }
     }
     
-    @include laptop {
+    @include m.laptop {
         .header .search-form {
           display: none;
         }
@@ -158,7 +158,7 @@
     color: $color-primary;
 }
 
-@include tab {
+@include m.tab {
  .header__discord-text{
     display: none;
  }
@@ -169,7 +169,7 @@
     height: 24px;
 }
 
-@include tab {
+@include m.tab {
     .header .button--secondary {
        padding: 10px;
     }

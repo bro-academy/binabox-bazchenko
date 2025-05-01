@@ -1,5 +1,5 @@
 @use '../../styles/base/variables' as *;
-@use '../../styles/base/mixins' as *;
+@use '../../styles/base/mixins' as m;
 
 .footer {
     background-color: $bg-secondary;
@@ -7,25 +7,28 @@
     line-height: 20px;
     font-family: $font-base;
     font-weight: 400;
-    padding-inline: 16px;
     padding-top: 64px;
+
+    &__wrapper {
+        padding-inline: 64px;
+
+        @include m.tab {
+            padding-inline: 24px;
+        }
+    
+        @include m.mob {
+            padding-inline: 16px;
+        }
+    }
 
     &__main {
         display: flex;
-        flex-direction: column;
-        // align-items: flex-start;
-        // margin: 0 64px 64px 64px;
+        flex-direction: row;
+        justify-content: space-between;
         margin-bottom: 64px;
-        padding-inline: 16px;
 
-        @include tab {
-            padding-inline: 24px;
-        }
-
-        @include laptop {
-            flex-direction: row;
-            justify-content: space-between;
-            padding-inline: 64px;
+        @include m.tab {
+            flex-direction: column;
         }
     }
 
@@ -35,10 +38,6 @@
         gap: 12px;
         margin-bottom: 36px;
     }
-
-//     &__logo {
-//         margin-bottom: 12px;
-//     }
 
     &__links-container {
         display: flex;
@@ -86,38 +85,28 @@
 
     &__bottom {
         padding-bottom: 32px;
-        padding-inline: 16px;
-
-        @include tab {
-            padding-inline: 24px;
-        }
-
-        @include laptop {
-            padding-inline: 64px;
-        }
     }
-
 
     &__bottom-inner {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: start;
+        justify-content: space-between;
         border-top: 1px solid $color-border;
 
-        @include tab {
-            flex-direction: row;
-            justify-content: space-between;
-    }
+        @include m.mob {
+            flex-direction: column;
+        }
 }
 
     &__copyright {
         font-size: 14px;
         line-height: 20px;
-        text-align: right;
+        text-align: left;
         margin: 0;
         padding-top: 32px;
 
-        @include tab {
+        @include m.tab {
            padding-top: 42px;
            padding-bottom: 10px ;
         }
@@ -135,7 +124,7 @@
         gap: 8px;
         padding: 0;
 
-        @include tab {
+        @include m.tab {
             margin-top: auto;
             margin-bottom: 0;
          }
