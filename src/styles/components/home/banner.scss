@@ -6,7 +6,7 @@
     max-width: 100%;
     padding-inline: 164px;
     gap: 0;
-    background: radial-gradient(  500px circle at 17% -35%, $color-accent 0%, $color-accent 40%,$color-accent 100%);
+    background: radial-gradient(  500px circle at 17% -35%, $color-accent 0%, $color-accent 40%,$bg-main 100%);
 
     @include m.laptop {
             // padding-inline: 119px;

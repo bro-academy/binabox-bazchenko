@@ -6,9 +6,6 @@
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
     gap: 24px;
-    margin: 63px 64px;
-    max-width: 1728px;
-    min-width: 360px;
     overflow-x: auto;
 
     @include m.laptop {
@@ -19,5 +16,5 @@
         max-width: 100%;
         -webkit-overflow-scrolling: touch;
         scroll-snap-type: x mandatory;
-}
+    }
 }

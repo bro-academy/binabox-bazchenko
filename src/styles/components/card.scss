@@ -1,14 +1,28 @@
 @use '../../styles/base/variables' as *;
+@use '../../styles/base/mixins' as m;
 
 .card {
     display: flex;
     flex-direction: column;
-    min-width: 270px;
-    width: 100%;
     padding: 24px;
+    flex: 0 0 auto;
     box-sizing: border-box;
     background-color: $bg-alt;
     position: relative;
+    min-width: 300px;
+
+      @include m.laptop {
+        min-width: 270px;
+      }
+
+      @include m.tab {
+        min-width: 303px;
+      }
+
+      @include m.mob {
+        padding: 16px;
+        min-width: 328px;
+      }
 
 
         &::before {
@@ -62,9 +76,23 @@
     
     &__image {
         position: relative;
-         min-width: 22px;
-         max-width: 100%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        aspect-ratio: 0.7802;
 
+        @include m.laptop {
+            aspect-ratio: 0.6851;
+          }
+    
+          @include m.tab {
+            aspect-ratio: 0.7870;
+          }
+    
+          @include m.mob {
+            aspect-ratio: 0.9135;
+          }
     }
 
     &__label {
