@@ -8,9 +8,17 @@
     font-family: $font-base;
     font-weight: 400;
     padding-top: 64px;
+    width: 100%;
+    max-width: none;
 
     &__wrapper {
         padding-inline: 64px;
+        max-width: 1600px;
+        margin: 0 auto;
+
+        @include m.laptop {
+            // padding-inline: 64px;
+        }
 
         @include m.tab {
             padding-inline: 24px;

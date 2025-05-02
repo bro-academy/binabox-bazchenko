@@ -16,13 +16,15 @@ body {
 
 .page-wrapper {
     width: 100%;
-    max-width: 1728px;
     margin: 0 auto;
     box-sizing: border-box;
 }
 
 .block-wrapper {
     padding-inline: 64px;
+    max-width: 1600px;
+    margin: 0 auto;
+    
 
     @include m.tab {
         padding-inline: 24px;

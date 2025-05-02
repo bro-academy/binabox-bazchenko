@@ -2,26 +2,36 @@
 @use '../../styles/base/mixins' as m;
 
 .banner {
-    display: flex;
+    // display: flex;
+      margin: 0 auto;
     max-width: 100%;
-    padding-inline: 164px;
-    gap: 0;
-    background: radial-gradient(  500px circle at 17% -35%, $color-accent 0%, $color-accent 40%,$bg-main 100%);
+    box-sizing: border-box;
+    background: radial-gradient(  500px circle at 17% -50%, $color-accent 0%, $color-accent 40%,$bg-main 100%);
 
-    @include m.laptop {
-            // padding-inline: 119px;
-        }
+        &__wrapper {
+            padding-inline: 164px;
+            display: flex;
+            gap: 0;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+            margin-bottom: 64px;
+            max-width: 1400px;
+            margin: 0 auto;
 
-        @include m.tab {
-           padding: 64px 24px;
-        }
 
-        @media (max-width: 360px) {
-            padding: 32px 16px;
-         }
-    
-        &__title-wrapper {
-            margin-bottom: 32px;
+            @include m.laptop {
+                padding-inline: 118px;
+            }
+
+            @include m.tab {
+                padding-inline: 24px;
+            }
+
+            @include m.mob {
+                padding-inline: 16px;
+                margin-bottom: 32px;
+            }
         }
 
 
@@ -37,7 +47,8 @@
             line-height: 48px;
             max-width: 450px;
         }
-        @media (max-width: 360px) {
+
+        @include m.mob {
             font-size: 28px;
             line-height: 36px;
         }
@@ -48,15 +59,21 @@
     }
     
     &__text-wrapper {
-        width: 866.5px;
-        max-height: 362px;
-        margin: 139px 0;
+        flex: 1 1 0;
+        min-width: 605px;
+        max-width: 100%;
+        padding-top: 140px;
+        padding-bottom: 140px;
 
         @include m.laptop {
-            margin: 56px 0;
-    }
-    @include m.tab {
-        margin: 0;
+            min-width: auto;
+            max-width: 100%;
+            padding-top: 56px;
+            padding-bottom: 56px;
+        }
+
+         @include m.tab {
+          margin: 0;
   }  
 }
 
@@ -87,7 +104,8 @@
         font-size: 36px;
         line-height: 48px;
      }  
-     @media (max-width: 360px) {
+
+     @include m.mob {
         font-size: 28px;
         line-height: 36px;
      }  
@@ -101,23 +119,24 @@
 
     &__buttons-wrapper {
         display: flex;
+        flex-wrap: wrap;
         gap: 16px;
 
-        @media (max-width: 360px) {
+        @include m.mob {
             flex-direction: column;
     }
 }
 
-    @include m.laptop {
-        .banner__image { 
-            width: 437px;
-            height: 526px;
-        }
-    }
+    &__image {
+        flex: 0 1 534px;
+        max-width: 100%;
+        height: auto;
+        width: auto;
+        object-fit: contain;
+        aspect-ratio: 0.8312;
 
-        @include m.tab {
-            .banner__image { 
-                display: none;
-            }    
-}
-}
+        @include m.laptop {
+          display: none;
+         }
+      }
+    }
