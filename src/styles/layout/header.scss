@@ -1,6 +1,14 @@
 @use '../../styles/base/variables' as *;
 @use '../../styles/base/mixins' as m;
 
+.header__wrapper {
+    padding-inline: 32px;
+
+    @include m.tab {
+        padding-inline: 16px;
+    }
+}
+
 
 .header__container {
     display: flex;
@@ -11,14 +19,23 @@
     position: relative;
     max-width: 1728px;
     margin: 0 auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 @include m.tab {
     .header__container {
         max-height: 80px;
-        padding: 16px;
-        justify-content: flex-start;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        justify-content: space-between;
     }
+}
+
+.burger__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
 }
 
 .header__burger {
@@ -42,10 +59,6 @@
   }
 
 
-.header__logo {
-    margin: 35px 32px;
-}
-
 .header__mobile-logo {
     display: none;
 }
@@ -53,17 +66,16 @@
 @include m.mob {
     .header__mobile-logo{
     display: block;
-    margin-left: 16px;
+    // margin-left: 16px;
 }
 }
 
-
-@include m.tab {
+@include m.mob {
     .header__logo {
     display:block;
 }
 
-@include m.mob {
+@include m.tab {
     .header__logo {
     display: none;
 }
@@ -116,10 +128,9 @@
     display: flex;
     align-items: center;
     gap: 16px;
-    margin: 32px;
 }
 
-@include m.tab {
+@include m.mob {
     .header__action {
       margin-left: auto;
     }
@@ -140,7 +151,7 @@
         }
     }
     
-    @include m.laptop {
+    @include m.tab {
         .header .search-form {
           display: none;
         }
@@ -149,6 +160,7 @@
  .header__search-input {
     max-width: 188px ;
 }  
+
 
 .header__discord {
     text-align: center;
@@ -162,6 +174,16 @@
  .header__discord-text{
     display: none;
  }
+ 
+}
+.header__discord-link{
+    
+}
+
+.header__discord-link{
+    @include m.tab {
+        padding: 8px;
+}
 }
 
 .header__discord-icon {
@@ -169,20 +191,20 @@
     height: 24px;
 }
 
-@include m.tab {
+@include m.mob {
     .header .button--secondary {
-       padding: 10px;
+       padding: 8px;
     }
 }
 
-@media (max-width: 360px)  {
+@include m.mob {
     .header__button-text {
         display: none;
     }
 }
 
-@media (max-width: 360px) {
+@include m.mob {
     .header .button--accent {
-        padding: 12px;
+        padding: 10px;
     }
 }

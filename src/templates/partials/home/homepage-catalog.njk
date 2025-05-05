@@ -3,10 +3,12 @@
     {% endblock %}
 
 <section class="homepage-catalog">
+  <div class="homepage-catalog__wrapper wrapper">
   {% include "partials/home/catalog-top.njk" %}
   <div class="homepage-catalog__main">
     {% for item in products %}
       {% include "partials/home/card.njk" %}
     {% endfor %}
+  </div>
   </div>
 </section>

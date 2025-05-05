@@ -1,6 +1,7 @@
 <section class="blog">
+  <div class="blog__wrapper wrapper">
   <h2 class="blog__title">Our blog</h2>
-  <div class="blog__wrapper">
+  <div class="blog__cards-wrapper">
     {# <div class="blog__list"> #}
       {% block content %}
         {% for card in blogCards %}
@@ -10,4 +11,5 @@
     {# </div> #}
   </div>
   <button class="button button--secondary blog__button">Read more</button>
+  </div>
 </section>

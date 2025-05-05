@@ -33,6 +33,10 @@
                 margin-bottom: 32px;
             }
         }
+    
+        &__title-wrapper{
+            margin-bottom: 32px;
+        }
 
 
     &__title {
@@ -65,14 +69,14 @@
         padding-top: 140px;
         padding-bottom: 140px;
 
-        @include m.laptop {
+        @include m.tab {
             min-width: auto;
             max-width: 100%;
             padding-top: 56px;
             padding-bottom: 56px;
         }
 
-         @include m.tab {
+         @include m.mob {
           margin: 0;
   }  
 }
@@ -135,7 +139,7 @@
         object-fit: contain;
         aspect-ratio: 0.8312;
 
-        @include m.laptop {
+        @include m.tab {
           display: none;
          }
       }
