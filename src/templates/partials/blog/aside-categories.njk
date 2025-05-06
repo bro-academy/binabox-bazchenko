@@ -1,6 +1,8 @@
+   <div class="aside-categories">
    <h2 class="aside-categories__title aside-title">Categories</h2>
    <ul class="aside-categories__list aside-list">
      {% for item in aside_categories %}
        <li class="aside-categories__item"><a class="aside-categories__link link"  href="{{ item.link }}">{{ item.name }}</a></li>
      {% endfor %}
    </ul>
+   </div>

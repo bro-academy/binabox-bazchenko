@@ -1,23 +1,32 @@
 @use '../../styles/base/variables' as *;
+@use '../../styles/base/mixins' as m;
 
 .blog-header {
-    width: 100%;
-    min-height: 300px;
-    max-height: 376px;
-    list-style: none;
-    text-align: center;
     background-image: url("/img/blog/background_test-1x.webp");
+    position: relative;
     background-color: $bg-alt;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 0 auto;
-    margin-bottom: 64px;
+    width: 100%;
+    aspect-ratio: 1920 / 376;
+    margin: 0 auto 64px;
+
+    @include m.tab {
+        aspect-ratio: 678/ 188;
+        max-height: none;
+    }
+    
 
     &__wrapper {
     padding-top: 64px ;
     padding-bottom: 194px;
         text-align: center;
+
+        @include m.tab {
+            padding-top: 24px;
+            padding-bottom: 84px ;
+        }
 
     }
 
@@ -27,14 +36,39 @@
         margin-top: 0;
         margin-bottom: 0;
         font-family: $font-accent;
+        margin-bottom: 20px;
+
+        @include m.tab {
+            font-size: 36px;
+            line-height: 48px;
+            margin-bottom: 0;
     }
+
+    @include m.mob {
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 16px;
+}
+}
+
+   &__nav {
+    @include m.mob {
+        display: flex;
+        max-width: 300px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+   }
 
     &__list {
         list-style: none;
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         padding: 0;
+        margin: 0;
     }
 
     &__link {

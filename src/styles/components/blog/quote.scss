@@ -1,8 +1,9 @@
 @use '../../styles/base/variables' as *;
+@use '../../styles/base/mixins' as m;
 
 .quote {
     background-color: $bg-quote;
-    max-width: 992px;
+    width: auto;
     margin: 0;
     padding: 16px;
     margin-inline: 0;
@@ -15,7 +16,7 @@
         line-height: 36px;
         font-family: $font-accent;
         margin: 0;
-        max-width: 992px;
+        width: auto;
         margin-bottom: 8px;
     }
 

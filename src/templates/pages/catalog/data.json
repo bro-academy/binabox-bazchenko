@@ -7,7 +7,7 @@
     "products": [
           {
           "label": "New",
-          "image": "/img/catalog/small_face-1x.webp",
+          "image": "/img/main/face-2x.webp",
           "price": "$199",
           "name": "Name Product",
            "widht": "272",
@@ -15,7 +15,7 @@
         },
         {
           "label": "Popular",
-          "image": "/img/catalog/small_face-1x.webp",
+          "image": "/img/main/face-2x.webp",
           "image2x": "/img/main/cat-2x.webp",
           "price": "$199",
           "name": "Name Product",
@@ -24,7 +24,7 @@
         },
         {
           "label": "Sold Out",
-          "image": "/img/catalog/small_face-1x.webp",
+          "image": "/img/main/face-2x.webp",
           "price": "$199",
           "name": "Name Product",
           "widht": "272",
@@ -32,7 +32,7 @@
         },
         {
             "label": "New",
-            "image": "/img/catalog/small_face-1x.webp",
+            "image": "/img/main/face-2x.webp",
             "price": "$199",
             "name": "Name Product",
             "widht": "272",
@@ -40,7 +40,7 @@
           },
           {
             "label": "New",
-            "image": "/img/catalog/small_face-1x.webp",
+            "image": "/img/main/face-2x.webp",
             "price": "$199",
             "name": "Name Product",
             "widht": "272",
@@ -48,7 +48,7 @@
           },
           {
             "label": "New",
-            "image": "/img/catalog/small_face-1x.webp",
+            "image": "/img/main/face-2x.webp",
             "price": "$199",
             "name": "Name Product",
             "widht": "272",
@@ -56,7 +56,7 @@
           },
           {
             "label": "New",
-            "image": "/img/catalog/small_face-1x.webp",
+            "image": "/img/main/face-2x.webp",
             "price": "$199",
             "name": "Name Product",
             "widht": "272",
@@ -64,7 +64,7 @@
           },
           {
             "label": "New",
-            "image": "/img/catalog/small_face-1x.webp",
+            "image": "/img/main/face-2x.webp",
             "price": "$199",
             "name": "Name Product",
             "widht": "272",
@@ -72,7 +72,7 @@
           },
           {
             "label": "New",
-            "image": "/img/catalog/small_face-1x.webp",
+            "image": "/img/main/face-2x.webp",
             "price": "$199",
             "name": "Name Product",
             "widht": "272",

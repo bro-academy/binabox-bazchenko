@@ -1,8 +1,13 @@
 @use '../../styles/base/variables' as *;
+@use '../../styles/base/mixins' as m;
 
 .sidebar {
     max-width: 320px;
     width: 100%;
+
+    @include m.tab {
+        display: none;
+    }
 }
 
 .sidebar__filter {

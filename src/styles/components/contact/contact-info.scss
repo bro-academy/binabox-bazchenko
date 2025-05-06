@@ -1,25 +1,51 @@
 @use '../../styles/base/variables' as *;
+@use '../../styles/base/mixins' as m;
 
 .contact-info {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
-    max-width: 1728px;
     justify-content: center;
     align-items: center; 
     font-weight: 400;
-    padding-inline: 132px ;
+    padding-inline: 356px;
+
+     @include m.laptop {
+        padding-inline: 132px;
+     }
+
+     @include m.laptop {
+        padding-inline: 24px;
+     }
+
+     @include m.mob {
+        padding-inline: 16px;
+        justify-content: stretch;
+        flex-direction: column;
+        
+     }
 
     &__item {
-        flex: 1 1 262.68px;
-        min-width: 241.58px;
-        max-width: 262.68px;
+        flex: 1 1 262px;
+        min-width: 240px;
+        max-width: 262px;
         display: flex;
         flex-direction: column;
         padding: 40px 32px;
         text-align: center;
         align-items: center; 
         border: 1px solid $bg-secondary-dark;
+
+        @include m.tab {
+            max-width: 241px;
+         }
+
+         @include m.mob {
+            flex: 1 1 auto;
+            max-width: none;
+            width: 100%; 
+            box-sizing: border-box;
+         }
     }
 
     &__icon {
