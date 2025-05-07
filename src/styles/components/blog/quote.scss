@@ -33,16 +33,16 @@
         align-items: center;
         color: $color-alt;
 
-            &::before {
-                content: "";
-                background-image: url("/img/icons/stars.svg");
-                background-size: contain;
-                background-repeat: no-repeat;
-                width: 16px;
-                height: 16px;
-                display: inline-block;
-                margin-right: 8px ;
-            }
+            // &::before {
+            //     content: "";
+            //     background-image: url("/img/icons/stars.svg");
+            //     background-size: contain;
+            //     background-repeat: no-repeat;
+            //     width: 16px;
+            //     height: 16px;
+            //     display: inline-block;
+            //     margin-right: 8px ;
+            // }
     }
 
     &__copyright {

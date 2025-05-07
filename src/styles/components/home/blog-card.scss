@@ -145,7 +145,7 @@
 
     &__footer-link::after {
         content: "";
-        background-image: url("/img/icons/button-arrow.svg");
+        // background-image: url("img/sprite.svg#chevron-right");
         background-size: contain;
         background-repeat: no-repeat;
         width: 8px;

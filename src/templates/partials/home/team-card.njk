@@ -8,7 +8,7 @@
    <ul class="team-card__media-list">
     {% for media_item in item['team-card'].media %}
        <li class="team-card__media-item">
-         <a class="team-card__media-link link" href="{{ media_item.link }}" target="_blank"><img src="{{ media_item.icon }}" /></a>
+         <a class="team-card__media-link link" href="{{ media_item.link }}" target="_blank"><svg width="24" height="24"><use href="{{ media_item.icon }}"></use></svg> </a>
        </li>
      {% endfor %}
    </ul>

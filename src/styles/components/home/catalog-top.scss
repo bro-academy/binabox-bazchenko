@@ -15,8 +15,7 @@
    }
 
     &__icon {
-        width: 24px;
-        height: 24px;
+        margin-right: 8px;
     }
 
     &__title {
@@ -43,16 +42,16 @@
               }
         }
 
-        &__title::before {
-            content: "";
-            background-image: url("/img/icons/folder.svg");
-            background-size: contain;
-            background-repeat: no-repeat;
-            width: 24px;
-            height: 24px;
-            display: inline-block;
-            margin-right: 8px;
-        }
+        // &__title::before {
+        //     content: "";
+        //     background-image: url("/img/icons/folder.svg");
+        //     background-size: contain;
+        //     background-repeat: no-repeat;
+        //     width: 24px;
+        //     height: 24px;
+        //     display: inline-block;
+        //     margin-right: 8px;
+        // }
 
         &__title::after {
             content: "";
@@ -95,6 +94,14 @@
         height: 24px;
         background-color: $color-separator;
         margin-left: 16px ;
+    }
+
+    &__button {
+        padding: 12px;
+    }
+
+    &__button-icon--next {
+        color: $bg-main;
     }
 
     &__button-wrapper {

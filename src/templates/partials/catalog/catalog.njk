@@ -16,7 +16,8 @@
      <form class="search-form search-form--no-divider catalog__search-form" action="/search" method="get">
         <div class="search-form__wrapper">
           <button type="submit" class="search-form__button" aria-label="Submit search">
-            <img src="/img/icons/search-icon.svg" alt="Search" class="search-form__icon" width="20" height="20">
+            {# <img src="/img/icons/search-icon.svg" alt="Search" class="search-form__icon" width="20" height="20"> #}
+            <svg  width="16" height="16"><use href="img/sprite.svg#search"></use></svg>
           </button>
           <input type="text" class="search-form__input" name="query"  placeholder="Search NFT" aria-label="Search">
         </div>
@@ -24,9 +25,9 @@
       </div>
     </div>
   <div class="catalog__buttons-wrapper">
-    <button class="catalog__button button button--tag">NFT<img src="/img/icons/cross.svg" alt="cross"  height="16"></button>
-    <button class="catalog__button button  button--tag">ICO<img src="/img/icons/cross.svg" alt="cross"  height="16"></button>
-    <button class="catalog__button button  button--tag">Crypto<img src="/img/icons/cross.svg" alt="cross"  height="16"></button>
+    <button class="catalog__button button button--tag">NFT<svg  width="16" height="16"><use href="img/sprite.svg#x-close"></use></svg></button>
+    <button class="catalog__button button button--tag">ICO<svg  width="16" height="16"><use href="img/sprite.svg#x-close"></use></svg></button>
+    <button class="catalog__button button button--tag">Crypto<svg  width="16" height="16"><use href="img/sprite.svg#x-close"></use></svg></button>
     <button class="catalog__button button button--alt">Clear all</button>
   </div>
   <div class="catalog__card-wrapper">

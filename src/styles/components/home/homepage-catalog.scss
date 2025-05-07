@@ -7,6 +7,11 @@
     grid-template-rows: auto;
     gap: 24px;
     overflow-x: auto;
+    margin-bottom: 100px;
+
+    @include m.tab {
+        margin-bottom: 64px;
+    }
 
     @include m.laptop {
         display: grid;
