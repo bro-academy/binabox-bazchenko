@@ -1,0 +1,145 @@
+@use '../../styles/base/variables' as *;
+@use '../../styles/base/mixins' as m;
+
+.footer {
+    background-color: $bg-secondary;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: $font-base;
+    font-weight: 400;
+    padding-top: 64px;
+    width: 100%;
+    max-width: none;
+
+    &__wrapper {
+        padding-inline: 64px;
+        max-width: 1600px;
+        margin: 0 auto;
+
+        @include m.laptop {
+            // padding-inline: 64px;
+        }
+
+        @include m.tab {
+            padding-inline: 24px;
+        }
+    
+        @include m.mob {
+            padding-inline: 16px;
+        }
+    }
+
+    &__main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 64px;
+
+        @include m.tab {
+            flex-direction: column;
+        }
+    }
+
+        &__logo-container {
+       display: flex;
+       flex-direction: column;
+        gap: 12px;
+        margin-bottom: 36px;
+    }
+
+    &__links-container {
+        display: flex;
+        gap: 24px;
+    }
+
+    &__links-section {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        gap: 8px;
+        min-width: 152px;
+    }
+
+    &__title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        padding-inline: 8px;
+        margin: 0;
+    }
+
+    &__description {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0;
+        max-width: 320px;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    &__item {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        padding: 4px 8px;
+    }
+
+    &__bottom {
+        padding-bottom: 32px;
+    }
+
+    &__bottom-inner {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-between;
+        border-top: 1px solid $color-border;
+
+        @include m.mob {
+            flex-direction: column;
+        }
+}
+
+    &__copyright {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: left;
+        margin: 0;
+        padding-top: 32px;
+
+        @include m.tab {
+           padding-top: 42px;
+           padding-bottom: 10px ;
+        }
+    }
+
+    &__social-item {
+        padding: 8px;
+        width: 24px;
+        height: 24px;
+    }
+
+    // .footer__social-icon {
+    //     color: red;
+    //   }
+
+    &__socials-list {
+        display: flex;
+        list-style-type: none;
+        gap: 8px;
+        padding: 0;
+
+        @include m.tab {
+            margin-top: auto;
+            margin-bottom: 0;
+         }
+    }
+}
+

@@ -1,0 +1,25 @@
+@use '../../styles/base/variables' as *;
+@use '../../styles/base/mixins' as m;
+
+.aside-tag {
+    background-color: $bg-alt;
+    padding: 22px;
+
+    &__list {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+    &__item {
+        border: 2px solid $color-separator;
+        padding: 0;
+    }
+
+    &__button {
+        padding: 4px 10px;
+    }
+}

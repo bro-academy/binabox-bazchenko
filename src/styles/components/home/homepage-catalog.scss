@@ -1,0 +1,25 @@
+@use '../../styles/base/variables' as *;
+@use '../../styles/base/mixins' as m;
+
+.homepage-catalog__main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    gap: 24px;
+    overflow-x: auto;
+    margin-bottom: 100px;
+
+    @include m.tab {
+        margin-bottom: 64px;
+    }
+
+    @include m.laptop {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: min-content;
+        overflow-x: auto;
+        max-width: 100%;
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-type: x mandatory;
+    }
+}

@@ -1,0 +1,133 @@
+@use '../../styles/base/variables' as *;
+@use '../../styles/base/mixins' as m;
+
+
+.catalog {
+    display: flex;
+    gap: 64px;
+    padding-inline: 160px;
+    margin-bottom: 64px;
+
+    @include m.laptop {
+        padding-inline: 64px;
+    }
+
+    @include m.tab {
+        padding-inline: 24px;
+    }
+
+    @include m.tab {
+        padding-inline: 16px;
+    }
+}
+
+.catalog__content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    min-width: 0;
+}
+
+.catalog__content-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 32px;
+
+    @include m.mob {
+        flex-wrap: wrap;
+    }
+  }
+
+  .catalog__title {
+    font-family: $font-accent;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 400;
+    margin: 0;
+    flex-grow: 1;
+    max-width: 423.5px;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .catalog__sort-form {
+    display: flex;
+    gap: 16px;
+    flex-grow: 1;
+
+    // @include m.mob {
+    //     flex-wrap: wrap;;
+    // }
+}
+
+.catalog__sort-select {
+    position: relative;
+    width: 145px;
+    height: auto;
+    padding: 13px 24px;
+    display: flex;
+    align-items: center;
+}
+
+.catalog__search {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.catalog__search-form {
+    flex-grow: 1;
+    min-width: 0;
+    width: 100%; 
+    display: flex; 
+}
+
+.catalog__buttons-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    gap: 16px;
+    margin-bottom: 32px;
+    padding: 16px;
+    background-color: $bg-alt;
+}
+
+.catalog__button {
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+padding: 6px 12px;
+}
+
+// .catalog__button::after {
+//     content: "";
+//     position: absolute;
+//     background-image: url("/img/icons/cross.svg");
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     width: 16px;
+//     height: 16px;
+//     margin-left: px;
+// }
+
+.catalog__card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 32px;
+
+    @include m.laptop {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    @include m.mob {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr;
+    }
+}

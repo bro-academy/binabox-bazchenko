@@ -1,0 +1,12 @@
+<section class="blog-header">
+   <div class="blog-header__wrapper">
+     <h1 class="blog-header__title"> {{ header }}</h1>
+     <nav class="blog-header__nav">
+       <ul class="blog-header__list">
+       {% for item in navItems %}
+         <li class="blog-header__item"><a class="blog-header__link link" href="{{ item.link }}">{{ item.title }}</a></li>
+         {% endfor %}
+       </ul>
+     </nav>
+   </div>
+ </section>

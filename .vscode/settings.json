@@ -1,3 +1,7 @@
 {
-    "liveServer.settings.port": 5502
+    "html.suggest.html5": true,
+    "emmet.includeLanguages": {
+        "njk": "html",
+        "nunjucks": "html"
+    }
 }

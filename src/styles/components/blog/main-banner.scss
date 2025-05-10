@@ -1,0 +1,28 @@
+@use '../../styles/base/variables' as *;
+@use '../../styles/base/mixins' as m;
+
+.main-banner {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 32px;
+  
+    &__image {
+      display: block;
+      width: 100%;
+      height: auto;   
+    //   max-width: 1024px;
+    //   max-height: 557px ;
+      aspect-ratio: 1024 / 557;
+
+      @include m.laptop {
+        aspect-ratio: 792 / 430;
+      }
+    }
+
+    &__text {
+        position: absolute;
+        bottom: 12px;
+        left: 24px;
+    }
+}

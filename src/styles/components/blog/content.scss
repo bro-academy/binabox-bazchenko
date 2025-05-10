@@ -1,0 +1,22 @@
+@use '../../styles/base/variables' as *;
+@use '../../styles/base/mixins' as m;
+
+
+.blog-content {
+    display: flex;
+    padding-inline: 172px;
+    gap: 32px;
+    margin: 0 auto;
+
+    @include m.laptop {
+        padding-inline: 64px;
+    }
+
+    @include m.tab {
+        flex-direction: column;
+    }
+
+    @include m.mob {
+        padding-inline: 16px;
+    }
+}

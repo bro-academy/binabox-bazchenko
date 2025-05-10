@@ -1,0 +1,39 @@
+<section class="catalog">
+  {% include "partials/catalog/sidebar.njk" %}
+  <div class="catalog__content">
+  <div class="catalog__content-header">
+    <h2 class="catalog__title">All item</h2>
+    <div class="catalog__sort-form">
+      <form action="url" method="get">
+        <select class="catalog__sort-select dropdown" name="sort">
+          <option value="" disabled selected>Sort by</option>
+          <option value="newest">Newest</option>
+          <option value="most-popular">Most popular</option>
+          <option value="increasing-in-price">Increasing in price</option>
+          <option value="lowering-the-price">Lowering the price</option>
+        </select>
+      </form>
+     <form class="search-form search-form--no-divider catalog__search-form" action="/search" method="get">
+        <div class="search-form__wrapper">
+          <button type="submit" class="search-form__button" aria-label="Submit search">
+            {# <img src="/img/icons/search-icon.svg" alt="Search" class="search-form__icon" width="20" height="20"> #}
+            <svg class="search-form__icon" width="24" height="24"><use href="img/sprite.svg#search"></use></svg>
+          </button>
+          <input type="text" class="search-form__input" name="query"  placeholder="Search NFT" aria-label="Search">
+        </div>
+      </form>
+      </div>
+    </div>
+  <div class="catalog__buttons-wrapper">
+    <button class="catalog__button button button--tag">NFT<svg  width="16" height="16"><use href="img/sprite.svg#x-close"></use></svg></button>
+    <button class="catalog__button button button--tag">ICO<svg  width="16" height="16"><use href="img/sprite.svg#x-close"></use></svg></button>
+    <button class="catalog__button button button--tag">Crypto<svg  width="16" height="16"><use href="img/sprite.svg#x-close"></use></svg></button>
+    <button class="catalog__button button button--alt">Clear all</button>
+  </div>
+  <div class="catalog__card-wrapper">
+     {% for item in products %}
+      {% include "partials/home/card.njk" %}
+    {% endfor %}
+    </div>
+    </div>
+</section>

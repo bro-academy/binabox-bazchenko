@@ -1,0 +1,25 @@
+@use '../../styles/base/variables' as *;
+
+@mixin desk {
+    @media screen and (max-width: #{$screen-desk}) {
+      @content;
+    }
+  }
+
+@mixin laptop {
+    @media screen and (max-width: #{$screen-laptop}) {
+      @content;
+    }
+  }
+  
+  @mixin tab {
+    @media screen and (max-width: #{$screen-tab}) {
+      @content;
+    }
+  }
+  
+  @mixin mob {
+    @media screen and (max-width: #{$screen-mob}) {
+      @content;
+    }
+  }

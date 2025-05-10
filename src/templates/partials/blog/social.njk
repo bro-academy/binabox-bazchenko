@@ -1,0 +1,11 @@
+<div class="social">
+   <p class="social__title"> Share:</p>
+   <ul class="social__list">
+     {% for item in social %}
+       <li class="social__link">
+         <a class="button button--tag" href="{{ item.link }}" target="_blank"><svg class="social__icon" width="16" height="16"><use href="{{ item.image }}"></use></svg></a>
+          {# <svg class="social__icon" width="16" height="16"><use href="{{ item.image }}"></use></svg> #}
+       </li>
+     {% endfor %}
+   </ul>
+</div>

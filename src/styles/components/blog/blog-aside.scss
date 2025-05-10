@@ -1,0 +1,15 @@
+@use '../../styles/base/variables' as *;
+@use '../../styles/base/mixins' as m;
+
+.blog-aside {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    max-width: 328px;
+    background-color:$bg-main ;
+
+    @include m.tab {
+        width: 100%;
+    max-width: none; 
+}
+}

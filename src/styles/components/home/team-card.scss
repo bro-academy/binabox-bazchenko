@@ -1,0 +1,64 @@
+@use '../../styles/base/variables' as *;
+@use '../../styles/base/mixins' as m;
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: $bg-alt;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 32px;
+
+    @include m.mob {
+        padding: 16px;
+     }
+
+    &__image {
+        width: 120px;
+        height: 120px;
+    }
+
+    &__info-wrapper {
+        padding: 0;
+    }
+
+    &__name {
+        margin: 0%;
+        font-size: 24px;
+        line-height: 32px;
+        font-family: $font-accent;
+    }
+
+    &__position {
+        color: $color-alt;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    &__media-list {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 0;
+        margin: 0;
+        padding-inline: 15px;
+
+        @include m.tab {
+            padding-inline: 0;
+         }
+    }
+
+    &__media-link {
+        width: 24px;
+        height: 24px;
+    }
+
+    &__media-item {
+        padding: 8px;
+        width: 24px;
+        height: 24px;
+    }
+}

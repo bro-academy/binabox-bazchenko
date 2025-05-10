@@ -1,0 +1,40 @@
+@use '../../styles/base/variables' as *;
+@use '../../styles/base/mixins' as m;
+
+.banners {
+    display: flex;
+    gap: 24px;
+  
+    @include m.tab {
+      flex-direction: column;
+    }
+  
+    &__item {
+      position: relative;
+      flex: 1 1 0%;
+      min-width: 0;
+      width: auto;
+      margin: 0;
+  
+      @include m.tab {
+        width: 100%;  
+      }
+    }
+  
+    &__item-image {
+    //   display: block;
+      width: 100%;
+      height: auto;
+      object-fit: contain; 
+
+      @include m.tab {
+        aspect-ratio: 550 / 432;
+      }
+    }
+  
+    &__item-text {
+      position: absolute;
+      bottom: 12px;
+      left: 24px;
+    }
+  }

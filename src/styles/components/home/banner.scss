@@ -1,0 +1,146 @@
+@use '../../styles/base/variables' as *;
+@use '../../styles/base/mixins' as m;
+
+.banner {
+    // display: flex;
+      margin: 0 auto;
+    max-width: 100%;
+    box-sizing: border-box;
+    background: radial-gradient(  500px circle at 17% -50%, $color-accent 0%, $color-accent 40%,$bg-main 100%);
+
+        &__wrapper {
+            padding-inline: 164px;
+            display: flex;
+            gap: 0;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+            margin-bottom: 64px;
+            max-width: 1400px;
+            margin: 0 auto;
+
+
+            @include m.laptop {
+                padding-inline: 118px;
+            }
+
+            @include m.tab {
+                padding-inline: 24px;
+            }
+
+            @include m.mob {
+                padding-inline: 16px;
+                margin-bottom: 32px;
+            }
+        }
+    
+        &__title-wrapper{
+            margin-bottom: 32px;
+        }
+
+
+    &__title {
+        font-size: 52px;
+        line-height: 62px;
+        font-family: $font-accent;
+        margin: 0;
+        max-width: 700px;
+
+        @include m.tab {
+            font-size: 36px;
+            line-height: 48px;
+            max-width: 450px;
+        }
+
+        @include m.mob {
+            font-size: 28px;
+            line-height: 36px;
+        }
+    }
+
+    &__highlight {
+        color: $color-accent;
+    }
+    
+    &__text-wrapper {
+        flex: 1 1 0;
+        min-width: 605px;
+        max-width: 100%;
+        padding-top: 140px;
+        padding-bottom: 140px;
+
+        @include m.tab {
+            min-width: auto;
+            max-width: 100%;
+            padding-top: 56px;
+            padding-bottom: 56px;
+        }
+
+         @include m.mob {
+          margin: 0;
+  }  
+}
+
+    &__text {
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0 auto;
+    }
+
+    &__stat-wrapper {
+        display: flex;
+        gap: 64px;
+        margin-bottom: 32px;
+    }
+
+    &__stat {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__stat-number {
+    font-size: 52px;
+    line-height: 62px;
+    font-family: $font-accent;
+    text-shadow: 1px 0 4px $color-primary;
+
+    @include m.tab {
+        font-size: 36px;
+        line-height: 48px;
+     }  
+
+     @include m.mob {
+        font-size: 28px;
+        line-height: 36px;
+     }  
+    }
+
+    &__stat-text {
+        font-size: 16px;
+        line-height: 24px;
+        color: $color-alt;
+    }
+
+    &__buttons-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+
+        @include m.mob {
+            flex-direction: column;
+    }
+}
+
+    &__image {
+        flex: 0 1 534px;
+        max-width: 100%;
+        height: auto;
+        width: auto;
+        object-fit: contain;
+        aspect-ratio: 0.8312;
+
+        @include m.tab {
+          display: none;
+         }
+      }
+    }

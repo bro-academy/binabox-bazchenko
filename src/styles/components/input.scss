@@ -1,0 +1,44 @@
+@use '../../styles/base/variables' as *;
+
+.input {
+    padding: 10px 22px;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: $font-base;
+    border: 2px solid $color-separator;
+    background-color: transparent;
+    transition-duration: $tran-duration;
+    color: $color-surface;
+  
+        &:hover {
+            border-color: $color-border-focus;
+        }
+
+        &:focus-visible {
+            border-color: $color-border-focus;
+            box-shadow: 0 0 0 1px $color-border-focus;
+            outline: 0 solid $color-border-focus;
+        }
+
+        &:focus {
+
+        }
+
+        &:user-invalid {
+            border-color: $color-invalid;
+
+            &:focus {
+                box-shadow: 0 0 0 1px $color-invalid;
+            }
+
+            &:focus-visible {
+                box-shadow: 0 0 0 1px $color-invalid;
+            }
+            
+        }
+
+        &:valid {
+
+        }
+}

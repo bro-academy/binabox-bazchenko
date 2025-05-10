@@ -1,0 +1,56 @@
+@use '../../styles/base/variables' as *;
+@use '../../styles/base/mixins' as m;
+
+.blog-article {
+    flex-grow: 1;
+    margin-top: 0;
+    width: 100%;
+
+    &__title{
+        font-size: 36px;
+        line-height: 48px;
+        font-family: $font-accent;
+        margin-top: 0;
+        margin-bottom: 16px;
+        max-width: 1024px ;
+        padding-inline: 0;
+        text-align: left;
+        width: 100%;
+    }
+          
+    &__button {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 32px;
+    }
+
+   &__text {
+        // max-width: 1024px;
+        width: 100%;
+       }
+
+       &__text-list {
+        list-style-type: disc;
+        list-style-position: outside;
+        color: $color-secondary;
+        margin: 0 0 32px;
+        box-sizing: border-box;
+        overflow-wrap: break-word; 
+        padding-left: 1em;
+        margin-bottom: 32px;
+        width: 100%;
+       }
+
+      &__accent {
+        background-color: $color-accent;
+        color: $color-primary;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+  &__text-item{
+        width: auto;
+    }
+}

@@ -1,0 +1,28 @@
+<article class="blog-card">
+   <a class="blog-card__link" href="{{ card.link }}"><img class="blog-card__image"
+     loading="lazy"
+     src="{{ card.image }}"
+     srcset="{{ card.image }} 1x, {{ card.image2x }} 2x"
+     width="{{ card.imageWidth }}"
+     height="{{ card.imageHeight }}"
+     alt="Blog image">
+     </a>
+   <span class="blog-card__label">{{ card.label }}</span>
+  <div class="blog-card__info-wrapper">
+   <div class="blog-card__data">
+    <svg class="blog-card__author-icon" width="24" height="24"><use href="{{ card.authorIcon }}" alt="Author icon"></use></svg>
+     {# <img class="blog-card__author-icon" src="{{ card.authorIcon }}" width="24" height="24" alt="Author icon" /> #}
+     <small class="blog-card__name"> {{ card.authorName }}</small>
+     <svg class="blog-card__date-icon" width="24" height="24"><use href="{{ card.dateIcon }}" alt="Date icon"></use></svg>
+     {# <img class="blog-card__date-icon" src="{{ card.dateIcon }}" alt="Date icon" /> #}
+     <time class="blog-card__date" datetime="2022-06-20"> {{ card.date }}</time>
+   </div>
+   <div class="blog-card__content">
+     <h3 class="blog-card__title"> {{ card.title }}</h3>
+     <p class="blog-card__text"> {{ card.text }} </p>
+   </div>
+   <div class="blog-card__footer">
+     <a class="button button--secondary blog-card__footer-link" href="{{ card.readMoreLink }}" target="_blank">{{ card.readMoreName }}<svg width="16" height="16"><use href="img/sprite.svg#chevron-discord"></use></svg></a>
+   </div>
+   </div>
+</article>

@@ -1,0 +1,14 @@
+{% extends 'layouts/index/base.njk' %}
+
+{% block styles %}
+  <link rel="stylesheet" href="/css/style.css">
+{% endblock %}
+{% block content %}
+ {# <main class="main-blog">  #}
+{% include 'partials/blog/blog-header.njk' %}
+ <section class="blog-content">
+ {% include 'partials/blog/blog-aside.njk' %}
+ {% include 'partials/blog/blog-article.njk' %}
+</section>
+{# </main> #}
+{% endblock %}

@@ -1,0 +1,113 @@
+{ "header": "Our blog",
+"navItems": [
+    { "title": "Home", "link": "index.html" },
+    { "title": "Our blog", "link": "blog.html" },
+    { "title": "The Basilisks NFT", "link": "#" }
+],
+    
+   "aside_categories": [
+    {
+        "link": "#",
+        "name": "Our blog (12)"
+    },
+    {
+        "link": "#",
+        "name": "Metaverse (24)"
+    },
+    {
+        "link": "#",
+        "name": "Gaming (24)"
+    },
+    {
+        "link": "#",
+        "name": "Art (24)"
+    },
+    {
+        "link": "#",
+        "name": "Robot (24)"
+    },
+    {
+        "link": "#",
+        "name": "Lauchpad (24)"
+    },
+    {
+        "link": "#",
+        "name": "Crypto (430)"
+    }
+],
+
+"aside_tag": [
+    {
+        "link":  "#",
+        "name": "NFT"
+    },
+    {
+        "link":  "#",
+        "name": "ICO"
+    },
+    {
+        "link":  "#",
+        "name": "Robot"
+    },
+    {
+        "link":  "#",
+        "name": "Crypto"
+    },
+    {
+        "link":  "#",
+        "name": "Lauchpad"
+    },
+    {
+        "link":  "#",
+        "name": "Metaverse"
+    }
+],
+
+"list_name": [
+{
+    "name": "List name1"
+},
+{
+    "name": "List name2"
+},
+{
+    "name": "List name3"
+},
+{
+    "name": "List name4"
+}
+],
+
+"tags": [
+    {
+        "link": "#",
+        "name": "NFT"
+    },
+    {
+        "link": "#",
+        "name": "ICO"
+    },
+    {
+        "link": "#",
+        "name": "Crypto"
+    }
+],
+
+"social": [
+    {
+        "link": "#",
+        "image": "img/sprite.svg#twitter",
+        "name": "Twitter"
+    },
+    {
+        "link": "#",
+        "image": "img/sprite.svg#facebook",
+        "name": "Facebook"
+    },
+    {
+        "link": "#",
+        "image": "img/sprite.svg#instagram",
+        "name": "Instagram"
+    }
+]
+}

@@ -1,0 +1,11 @@
+<div class="tags">
+   <div class="tags__container">
+     <p class="tags__title">Tags:</p>
+     <ul class="tags__list">
+       {% for item in tags %}
+         <li class="tags__item"><a class="button button--tag" href="{{ item.link }}">{{ item.name }}</a></li>
+       {% endfor %}
+     </ul>
+   </div>
+   {% include 'partials/blog/social.njk' %}
+</div>

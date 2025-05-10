@@ -1,0 +1,8 @@
+<div class="aside-tag">
+   <h2 class="aside-tag__title aside-title">Tag</h2>
+   <ul class="aside-tag__list aside-list">
+     {% for item in aside_tag %}
+       <li class="aside-tag__item"><a class="aside-tag__button button button--tag" href="{{ item.link }}">{{ item.name }}</a></li>
+     {% endfor %}
+   </ul>
+ </div>

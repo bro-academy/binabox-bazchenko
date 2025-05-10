@@ -1,0 +1,22 @@
+@use './../base/variables' as *;
+@use './../base/mixins' as *;
+@use './../base/global' as *;
+
+@use './../components/button' as *;
+@use './../components/card' as *;
+@use './../components/input' as *;
+@use './../components/link' as *;
+@use './../components/search-input' as *;
+@use './../components/switcher' as *;
+@use './../components/checkbox' as *;
+@use './../components/radio' as *;
+@use './../components/dropdown' as *;
+
+
+@use './../layout/header' as *;
+@use './../layout/footer' as *;
+
+@use '../../styles/pages/index.scss' as *;
+@use '../../styles/pages/blog.scss' as *;
+@use '../../styles/pages/contact.scss' as *;
+@use '../../styles/pages/catalog.scss' as *;

@@ -1,0 +1,96 @@
+@use '../../styles/base/variables' as *;
+@use '../../styles/base/mixins' as m;
+
+.blog-header {
+    background-image: url("/img/blog/background_test-1x.webp");
+    position: relative;
+    background-color: $bg-alt;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    aspect-ratio: 1920 / 376;
+    margin: 0 auto 64px;
+
+    @include m.tab {
+        aspect-ratio: 678/ 188;
+        max-height: none;
+    }
+    
+
+    &__wrapper {
+    padding-top: 64px ;
+    padding-bottom: 194px;
+        text-align: center;
+
+        @include m.tab {
+            padding-top: 24px;
+            padding-bottom: 84px ;
+        }
+
+    }
+
+    &__title {
+        font-size: 52px;
+        line-height: 62px;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: $font-accent;
+        margin-bottom: 20px;
+
+        @include m.tab {
+            font-size: 36px;
+            line-height: 48px;
+            margin-bottom: 0;
+    }
+
+    @include m.mob {
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 16px;
+}
+}
+
+   &__nav {
+    @include m.mob {
+        display: flex;
+        max-width: 300px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+   }
+
+    &__list {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    &__link {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    &__item {
+        padding: 6px 12px ;
+        display: flex;
+
+
+            &:not(:last-child)::after {
+        content: "";
+        display: block;
+        align-items: center;
+        margin-left: 20px;
+        width: 2px;
+        height: 24px;
+        border-radius: 2px;
+        background-color: $color-separator;
+        }
+    }
+}

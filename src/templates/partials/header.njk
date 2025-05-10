@@ -1,0 +1,74 @@
+ <header class="header">
+    <div class="header__wrapper">
+   <div class="header__container">
+
+      <nav class="menu header__menu">
+        <input
+          type="checkbox"
+          class="menu__input visibility-hidden"
+          id="menu" />
+        <label class="menu__opener" for="menu">Menu</label>
+           <form class="search-form search-form--burger" action="/search" method="get">
+                <div class="search-form__wrapper">
+                    <button type="submit" class="search-form__button" aria-label="Submit search">
+                        <img src="img/icons/search-icon.svg" alt="Search" class="search-form__icon" width="20" height="20">
+                      </button>
+                  <input type="text" class="search-form__input" name="query" placeholder="Search" aria-label="Search">
+                </div>
+              </form>
+        <ul class="menu__list">
+          <li class="menu__item"><a href="index.html" class="menu__link link">Home</a></li>
+          <li class="menu__item"><a href="blog.html" class="menu__link link">About</a></li>
+          <li class="menu__item"><a href="catlog.html" class="menu__link link">Catalog</a></li>
+          <li class="menu__item"><a href="contact.html" class="menu__link link">Contact us</a></li>
+        </ul>
+      </nav>
+      <div class="header__logo-wrapper">
+     <a href="index.html">
+      <svg class="header__mobile-logo" width="36" height="40"><use href="img/sprite.svg#logo"></use></svg>
+       </a>
+       <a href="index.html">
+      <svg class="header__logo" width="133" height="20"><use href="img/sprite.svg#binabox"></use></svg>
+       </a>
+  {# <img class="header__logo" src="/img/logo/binabox_logo-1x.webp" alt="BINABOX logo" width="188" height="42"> #}
+  {# <img class="header__mobile-logo" src="/img/logo/list-logo.svg" alt="BINABOX logo" width="36" height="40"> #}
+    </a>
+    </div>
+        <nav class="header__nav">
+           <ul class="header__list">
+                     <li class="header__list-item"><a class="header__list-link link" href="index.html">Home</a></li>
+             </ul>
+              <ul class="header__list">
+                     <li class="header__list-item"><a class="header__list-link link" href="blog.html">Blog</a></li>
+             </ul>
+                <ul class="header__list">
+                     <li class="header__list-item"><a class="header__list-link link" href="catalog.html">Catalog</a></li>
+               </ul>
+                <ul class="header__list">
+                     <li class="header__list-item"><a class="header__list-link link" href="contact.html">Contact Us</a></li>
+               </ul>
+        </nav>
+        <div class="header__action">
+             <form class="search-form search-form--secondary" action="/search" method="get">
+                <div class="search-form__wrapper">
+                    <button type="submit" class="search-form__button" aria-label="Submit search">
+                        <svg class="search-form__icon" width="24" height="24"><use href="img/sprite.svg#search"></use></svg>
+                      </button>
+                  <input type="text" class="search-form__input" name="query" placeholder="Search" aria-label="Search">
+                </div>
+              </form>
+             <div class="header__discord">
+                 <a class="header__discord-link button button--secondary" href="#" target="_blank">
+                     <svg class="footer__social-icon" width="24" height="24"><use href="img/sprite.svg#discord"></use></svg>
+                     <span class="header__discord-text">Discord</span>
+                 </a>
+             </div>
+             <button class="header__button button button--accent">
+                 <svg class="header__button-icon" width="24" height="24"><use href="img/sprite.svg#wallet"></use></svg>
+                 <span class="header__button-text">Connect</span>
+             </button>
+          </div>
+         </div>
+      </div>
+     </div>
+ </header>

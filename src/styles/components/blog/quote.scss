@@ -1,0 +1,53 @@
+@use '../../styles/base/variables' as *;
+@use '../../styles/base/mixins' as m;
+
+.quote {
+    background-color: $bg-quote;
+    width: auto;
+    margin: 0;
+    padding: 16px;
+    margin-inline: 0;
+    margin-bottom: 32px;
+    border-radius: 16px;
+
+
+    &__text {
+        font-size: 28px;
+        line-height: 36px;
+        font-family: $font-accent;
+        margin: 0;
+        width: auto;
+        margin-bottom: 8px;
+    }
+
+    &__footer {
+        display: flex;
+        gap: 8px;
+    }
+
+    &__rating {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        color: $color-alt;
+
+            // &::before {
+            //     content: "";
+            //     background-image: url("/img/icons/stars.svg");
+            //     background-size: contain;
+            //     background-repeat: no-repeat;
+            //     width: 16px;
+            //     height: 16px;
+            //     display: inline-block;
+            //     margin-right: 8px ;
+            // }
+    }
+
+    &__copyright {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

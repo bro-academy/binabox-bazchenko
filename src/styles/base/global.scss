@@ -1,0 +1,48 @@
+@use '../../styles/base/variables' as *;
+@use '../../styles/base/mixins' as m;
+
+body {
+    background-color: $bg-main;
+    color: $color-primary;
+    font-family: $font-base;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    box-sizing: border-box;
+    min-width: 360px; 
+    height: 100%;
+    margin: 0;
+}
+
+.page-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    padding-inline: 64px;
+    max-width: 1600px;
+    margin: 0 auto;
+    
+
+    @include m.tab {
+        padding-inline: 24px;
+    }
+
+    @include m.mob {
+        padding-inline: 16px;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+
+}
+
+ul {
+    list-style-type: none;
+}

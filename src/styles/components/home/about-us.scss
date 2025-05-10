@@ -1,0 +1,160 @@
+@use '../../styles/base/variables' as *;
+@use '../../styles/base/mixins' as m;
+
+.about-us {
+    margin-bottom: 64px;
+
+    &__cards-wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, auto);
+        margin-inline: 0;
+        gap: 32px;
+        margin-bottom: 40px ;
+        counter-reset: card-counter;
+
+         @include m.laptop {
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, auto);
+         }
+
+         @include m.tab {
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(4, auto);
+         }
+
+         @include m.mob {
+             gap: 16px;
+         }
+    }
+        
+    &__title {
+        text-align: center;
+        font-size: 36px;
+        line-height: 48px;
+        font-family: $font-accent;
+        margin-bottom: 16px;
+
+        @include m.laptop {
+            font-size: 28px;
+            line-height: 36px;
+         }
+    }
+
+    &__text {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        color: $color-alt;
+        text-align: center;
+
+        @include m.tab {
+            margin-bottom: 40px;
+         }
+         
+    }
+
+    &__card-title {
+        font-size: 24px;
+        line-height: 32px;
+        font-family: $font-accent;
+        margin-bottom: 24px;
+        margin-top: 0;
+        position: relative;
+        counter-increment: card-counter;
+
+        &::after {
+            content: '0' counter(card-counter);
+            position: absolute;
+            left: 0;
+            top: -21px;
+            font-size: 80px;
+            color: $bg-secondary;
+            text-shadow: 0 0 2px $color-accent;
+            z-index: -1;
+            opacity: 1;
+            transition: opacity 0.7s ease;
+            -webkit-text-stroke: $color-accent;
+        }
+
+        &:hover {
+            color: $color-alt
+        }
+    }
+    
+    &__card {
+        padding: 54px 24px 24px 24px;
+        position: relative;
+        background-color: $bg-secondary;
+        z-index: 1;
+
+        &:hover {
+            &::before,
+            &::after {
+                opacity: 1;
+            }
+            
+    
+            &__card-title::after {
+                opacity: 1;
+            }
+        }
+      
+        &::before {
+            content: "";
+            background-image: url("/img/main/about_us_top-1x.webp");
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%; 
+            height: 100px; 
+            opacity: 0;
+            transition: opacity 0.25s;
+        }
+
+        &::after {
+            content: "";
+            background-image: url("/img/main/about_us_button-1x.webp");
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 100px;
+            height: 130px;
+            opacity: 0;
+            transition: opacity 0.25s;
+          }
+
+         @include m.laptop {
+            &:nth-last-child(1) {
+              grid-column: 1/4;
+            }
+        }
+
+              @include m.tab {
+                padding: 62px 32px 32px 32px;
+                &:nth-last-child(1) {
+                    grid-column: auto;
+              }
+            }
+        }
+    
+      &__card-text {
+        margin: 0;
+      } 
+
+    &__button {
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    // width: 100%;
+    box-sizing: border-box;
+
+    @include m.tab {
+        width: 100%;
+     }
+    }
+}

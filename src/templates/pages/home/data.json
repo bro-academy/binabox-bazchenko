@@ -1,0 +1,358 @@
+{
+    "products": [
+          {
+          "label": "New",
+          "image": "/img/main/skeleton-2x.webp",
+          "price": "$199",
+          "name": "Name Product",
+           "widht": "253",
+          "height": "324"
+        },
+        {
+          "label": "New",
+          "image": "/img/main/cat-2x.webp",
+          "price": "$199",
+          "name": "Name Product",
+          "widht": "253",
+          "height": "324"
+        },
+        {
+          "label": "Sold Out",
+          "image": "/img/main/scissors-1x.webp",
+          "price": "$199",
+          "name": "Name Product",
+           "widht": "253",
+          "height": "324"
+        },
+        {
+          "label": "New",
+          "image": "/img/main/card-1x.webp",
+          "price": "$199",
+          "name": "Name Product",
+           "widht": "253",
+          "height": "324"
+        },
+        {
+          "label": "New",
+          "image": "/img/main/screen-1x.webp",
+          "price": "$199",
+          "name": "Name Product",
+           "widht": "253",
+          "height": "324"
+        }
+    ],
+
+    "blogCards": [
+        {
+          "link": "#",
+          "image": "/img/main/face-1x.webp",
+          "image2x": "/img/main/face-2x.webp",
+          "label" : "NFT",
+          "authorIcon": "img/sprite.svg#user",
+          "authorName": "Tony Nguyen",
+          "dateIcon": "img/sprite.svg#calendar",
+          "date": "20 Jun 2022",
+          "title": "Sonic live",
+          "text": "One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet...",
+          "readMoreLink": "#",
+          "readMoreName": "Read more"
+        },
+        {
+          "link": "#",
+          "image": "/img/main/sceleton2-1x.webp",
+          "image2x": "/img/main/sceleton2-2x.webp",
+          "label" :"NFT",
+          "authorIcon": "img/sprite.svg#user",
+          "authorName": "Tony Nguyen",
+          "dateIcon": "img/sprite.svg#calendar",
+          "date": "20 Jun 2022",
+          "title": "Sonic live",
+          "text": "One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet...",
+          "readMoreLink": "#",
+          "readMoreName": "Read more",
+          "readMoreImage": "/img/icons/chevron-right.svg"
+        },
+        {
+          "link": "#",
+          "image": "/img/main/cat-1x.webp",
+          "image2x": "/img/main/cat-2x.webp",
+          "label" : "NFT",
+          "authorIcon": "img/sprite.svg#user",
+          "authorName": "Tony Nguyen",
+          "dateIcon": "img/sprite.svg#calendar",
+          "date": "20 Jun 2022",
+          "title": "Sonic live",
+          "text": "One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet...",
+          "readMoreLink": "#",
+          "readMoreName": "Read more",
+          "readMoreImage": "/img/icons/chevron-right.svg"
+        },
+          {
+          "link": "#",
+          "image": "/img/main/monkey-1x.webp",
+          "image2x": "/img/main/monkey-2x.webp",
+          "label" : "NFT",
+          "authorIcon": "img/sprite.svg#user",
+          "authorName": "Tony Nguyen",
+          "dateIcon": "img/sprite.svg#calendar",
+          "date": "20 Jun 2022",
+          "title": "Sonic live",
+          "text": "One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet...",
+          "readMoreLink": "#",
+          "readMoreName": "Read more",
+          "readMoreImage": "/img/icons/chevron-right.svg"
+        },
+        {
+          "link": "#",
+          "image": "/img/main/duck-1x.webp",
+          "image2x": "/img/main/duck-2x.webp",
+          "label" : "NFT",
+          "authorIcon": "img/sprite.svg#user",
+          "authorName": "Tony Nguyen",
+          "dateIcon": "img/sprite.svg#calendar",
+          "date": "20 Jun 2022",
+          "title": "Sonic live",
+          "text": "One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet...",
+          "readMoreLink": "#",
+          "readMoreName": "Read more",
+          "readMoreImage": "/img/icons/chevron-right.svg"
+        },
+        {
+          "link": "#",
+          "image": "/img/main/screen-1x.webp",
+          "image2x": "/img/main/screen-2x.webp",
+          "label" : "NFT",
+          "authorIcon": "img/sprite.svg#user",
+          "authorName": "Tony Nguyen",
+          "dateIcon": "img/sprite.svg#calendar",
+          "date": "20 Jun 2022",
+          "title": "Sonic live",
+          "text": "One September 22, 2021 A volutpat nulla eros, nulla ultrices nec nulla imperdiet...",
+          "readMoreLink": "#",
+          "readMoreName": "Read more",
+          "readMoreImage": "/img/icons/chevron-right.svg"
+        }
+    ],
+
+    "aboutUs": {
+        "title": "About us",
+        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occae cat cupidatat non proident, sunt in culpa qui officia dese runt mollit anim id est laborum velit esse cillum dolore eu fugiat nulla pariatu epteur sint occaecat.",
+        "cards": [
+            {
+                "title": "High quality",
+                "text": "Lorem Ipsum is simply dummy text of the printing and Ipsum typesetting industry."
+            },
+            {
+                "title": "Big collection",
+                "text": "Lorem Ipsum is simply dummy text of the printing and Ipsum typesetting industry."
+            },
+            {
+                "title": "Top Resource",
+                "text": "Lorem Ipsum is simply dummy text of the printing and Ipsum typesetting industry."
+            },
+            {
+            "title": "Big community",
+            "text": "Lorem Ipsum is simply dummy text of the printing and Ipsum typesetting industry."
+           }
+        ]
+      },
+
+"our_team": [
+         {
+        "team-card": {
+          "title": "Jason Smith",
+          "position": "Co-Founder",
+          "media": [
+            {
+              "link": "#",
+              "icon": "img/sprite.svg#twitter"
+            },
+          {
+            "link": "#",
+                  "icon": "img/sprite.svg#facebook"
+          },
+          {
+            "link": "#",
+            "icon": "img/sprite.svg#telegram1"
+          },
+          {
+            "link": "#",
+            "icon": "img/sprite.svg#linkedin"
+          },
+          {
+            "link": "#",
+            "icon": "img/sprite.svg#instagram"
+          }
+          ]
+        }
+      },
+        {
+          "team-card": {
+            "title": "Jason Smith",
+            "position": "Co-Founder",
+            "media": [
+              {
+                "link": "#",
+                "icon": "img/sprite.svg#twitter"
+              },
+            {
+              "link": "#",
+                    "icon": "img/sprite.svg#facebook"
+            },
+            {
+              "link": "#",
+              "icon": "img/sprite.svg#telegram1"
+            },
+            {
+              "link": "#",
+              "icon": "img/sprite.svg#linkedin"
+            },
+            {
+              "link": "#",
+              "icon": "img/sprite.svg#instagram"
+            }
+            ]
+          }
+      },
+        {
+          "team-card": {
+            "title": "Jason Smith",
+            "position": "Co-Founder",
+            "media": [
+              {
+                "link": "#",
+                "icon": "img/sprite.svg#twitter"
+              },
+            {
+              "link": "#",
+                    "icon": "img/sprite.svg#facebook"
+            },
+            {
+              "link": "#",
+              "icon": "img/sprite.svg#telegram1"
+            },
+            {
+              "link": "#",
+              "icon": "img/sprite.svg#linkedin"
+            },
+            {
+              "link": "#",
+              "icon": "img/sprite.svg#instagram"
+            }
+            ]
+          }
+        },
+          {
+            "team-card": {
+              "title": "Jason Smith",
+              "position": "Co-Founder",
+              "media": [
+                {
+                  "link": "#",
+                  "icon": "img/sprite.svg#twitter"
+                },
+              {
+                "link": "#",
+                      "icon": "img/sprite.svg#facebook"
+              },
+              {
+                "link": "#",
+                "icon": "img/sprite.svg#telegram1"
+              },
+              {
+                "link": "#",
+                "icon": "img/sprite.svg#linkedin"
+              },
+              {
+                "link": "#",
+                "icon": "img/sprite.svg#instagram"
+              }
+              ]
+            }
+          },
+            {
+              "team-card": {
+                "title": "Jason Smith",
+                "position": "Co-Founder",
+                "media": [
+                  {
+                    "link": "#",
+                    "icon": "img/sprite.svg#twitter"
+                  },
+                {
+                  "link": "#",
+                        "icon": "img/sprite.svg#facebook"
+                },
+                {
+                  "link": "#",
+                  "icon": "img/sprite.svg#telegram1"
+                },
+                {
+                  "link": "#",
+                  "icon": "img/sprite.svg#linkedin"
+                },
+                {
+                  "link": "#",
+                  "icon": "img/sprite.svg#instagram"
+                }
+                ]
+              }
+            },
+              {
+                "team-card": {
+                  "title": "Jason Smith",
+                  "position": "Co-Founder",
+                  "media": [
+                    {
+                      "link": "#",
+                      "icon": "img/sprite.svg#twitter"
+                    },
+                  {
+                    "link": "#",
+                          "icon": "img/sprite.svg#facebook"
+                  },
+                  {
+                    "link": "#",
+                    "icon": "img/sprite.svg#telegram1"
+                  },
+                  {
+                    "link": "#",
+                    "icon": "img/sprite.svg#linkedin"
+                  },
+                  {
+                    "link": "#",
+                    "icon": "img/sprite.svg#instagram"
+                  }
+                  ]
+                }
+              },
+                {
+                  "team-card": {
+                    "title": "Jason Smith",
+                    "position": "Co-Founder",
+                    "media": [
+                      {
+                        "link": "#",
+                        "icon": "img/sprite.svg#twitter"
+                      },
+                    {
+                      "link": "#",
+                            "icon": "img/sprite.svg#facebook"
+                    },
+                    {
+                      "link": "#",
+                      "icon": "img/sprite.svg#telegram1"
+                    },
+                    {
+                      "link": "#",
+                      "icon": "img/sprite.svg#linkedin"
+                    },
+                    {
+                      "link": "#",
+                      "icon": "img/sprite.svg#instagram"
+                    }
+                    ]
+                  }
+                  }
+                ]
+           }

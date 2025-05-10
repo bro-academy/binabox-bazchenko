@@ -1,0 +1,14 @@
+{% extends 'layouts/index/base.njk' %}
+
+{% block styles %}
+  <link rel="stylesheet" href="/css/main.css">
+{% endblock %}
+
+{% block content %}
+  {% include 'partials/home/banner.njk' %}
+  {% include 'partials/home/homepage-catalog.njk' %}
+  {% include 'partials/home/blog.njk' %}
+  {% include 'partials/home/about-us.njk' %}
+  {% include 'partials/home/our-team.njk' %}
+  {% include 'partials/home/faq.njk' %}
+{% endblock %}

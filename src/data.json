@@ -1,0 +1,45 @@
+{
+  "menu": [
+    {
+      "link": "#",
+      "name": "Home"
+    },
+    {
+      "link": "#",
+      "name": "Blog"
+    },
+    {
+       "link": "#",
+      "name": "Catalog"
+    },
+    {
+         "link": "#",
+      "name": "Contact Us"
+    }
+  ],
+
+  "footer": {
+    "subscribeLinks": [
+      { "link": "index.html", "name": "Home" },
+      { "link": "#", "name": "Blog" },
+      { "link": "#", "name": "Catalog" },
+      { "link": "#", "name": "Contact Us" }
+    ],
+
+    "companyLinks": [
+      { "link": "#", "name": "Terms & Conditions" },
+      { "link": "#", "name": "Privacy Policy" },
+      { "link": "#", "name": "Whitepaper" },
+      { "link": "#", "name": "Help Center" }
+    ],
+
+    "socialLinks": [
+     { "name": "Twitter", "link": "#", "icon": "/img/icons/twitter.svg"},
+     { "name": "Facebook", "link": "#", "icon": "/img/icons/facebook.svg"},
+     { "name": "Telegram", "link": "#", "icon": "/img/icons/telegram2.svg"},
+     { "name": "TikTok", "link": "#", "icon": "/img/icons/youtube.svg" },
+     { "name": "YouTube", "link": "#", "icon": "/img/icons/ticktok.svg" },
+     { "name": "Discord", "link": "#", "icon": "/img/icons/discord.svg" }
+    ]
+  }
+}
