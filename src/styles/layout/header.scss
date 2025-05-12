@@ -1,8 +1,43 @@
 @use '../../styles/base/variables' as *;
 @use '../../styles/base/mixins' as m;
 
-// .header {
-//     position: fixed;
+.burger-button {
+  display: none;
+
+  @include m.tab {
+    display: block;
+  }
+}
+
+.burger-menu{
+  position: absolute;
+  top: 78px;
+  left: -16px;
+  width: 100%;
+  height: auto;
+  background: salmon;
+  z-index: 2;
+   transform: translateX(-100%);
+}
+
+.side-menu--active  .burger-menu{
+  transform: translateX(0);
+}
+
+.filter {
+  position: fixed;
+  top: 200px;
+  left: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: bisque;
+  z-index: 2;
+}
+
+// .container {
+//   max-width: 1728px;
+//   padding-inline: 16px;
+//   margin-inline: auto;
 // }
 
 .header__wrapper {
