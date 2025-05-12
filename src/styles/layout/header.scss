@@ -114,31 +114,31 @@
     }
 }
 
-.burger__wrapper {
-    display: flex;
-    justify-content: space-between;
-    gap: 16px;
-}
+// .burger__wrapper {
+//     display: flex;
+//     justify-content: space-between;
+//     gap: 16px;
+// }
 
-.header__burger {
-    display: none;
-}
+// .header__burger {
+//     display: none;
+// }
 
-.header__burger-icon {
-    align-items: center;
-    background-color: $color-primary;
-    width: 20px;
-    height: 2px;
-    border-radius: 2px;
-}
+// .header__burger-icon {
+//     align-items: center;
+//     background-color: $color-primary;
+//     width: 20px;
+//     height: 2px;
+//     border-radius: 2px;
+// }
 
-@include m.tab {
-    .header__burger {
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-    }
-  }
+// @include m.tab {
+//     .header__burger {
+//       display: flex;
+//       flex-direction: column;
+//       gap: 4px;
+//     }
+//   }
 
   .header__logo-wrapper {
     display: flex;

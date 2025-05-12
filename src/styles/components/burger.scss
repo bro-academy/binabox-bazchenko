@@ -1,22 +1,30 @@
+@use '../../styles/base/variables' as *;
+@use '../../styles/base/mixins' as m;
+
 .menu-button {
-  display: inline-block;
-  padding: .5em;
-  background-color: #fafafa;
-  border: 1px solid #ccc; }
+  display: none;
+  padding: 11px;
+  background-color: $bg-main;
+  border: 2px solid $color-separator; 
+
+  @include m.tab {
+    display: inline-block;
+  }
+}
 
 .burger-icon {
   position: relative;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
   .burger-icon, .burger-icon::before, .burger-icon::after {
     display: block;
-    width: 25px;
-    height: 3px;
-    background-color: #444;
+    width: 20px;
+    height: 2px;
+    background-color: $color-primary;
     outline: 1px solid transparent;
     -webkit-transition-property: background-color, -webkit-transform;
     -moz-transition-property: background-color, -moz-transform;
