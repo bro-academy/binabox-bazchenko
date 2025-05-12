@@ -1,38 +1,80 @@
 @use '../../styles/base/variables' as *;
 @use '../../styles/base/mixins' as m;
 
-.burger-button {
-  display: none;
+// .menu-button {
+// 	display: inline-block;
+// 	padding: .5em;
+// 	background-color: black;
+// 	border: 1px solid #ccc;
+// }
 
-  @include m.tab {
-    display: block;
-  }
-}
+// .burger-icon {
+// 	@include burger(25px, 3px, 5px, #444);
+// }
+
+// .menu-button.is-active .burger-icon {
+// 	@include burger-to-cross;
+// }
+
+// .js-burger {
+//   display: none;
+
+//   @include m.tab {
+//     display: block;
+//   }
+// }
 
 .burger-menu{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
   position: absolute;
   top: 78px;
   left: -16px;
   width: 100%;
   height: auto;
-  background: salmon;
+  background: $bg-main;
   z-index: 2;
    transform: translateX(-100%);
+   padding: 20px 12px;
 }
 
 .side-menu--active  .burger-menu{
   transform: translateX(0);
 }
 
-.filter {
-  position: fixed;
-  top: 200px;
-  left: 50px;
-  width: 200px;
-  height: 200px;
-  background-color: bisque;
-  z-index: 2;
+.burger-menu__list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
 }
+
+.burder-menu__list-item {
+  padding: 8px 20px;
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: $color-accent;
+        display: none;
+    }
+}
+
+// .filter {
+//   position: fixed;
+//   top: 200px;
+//   left: 50px;
+//   width: 200px;
+//   height: 200px;
+//   background-color: bisque;
+//   z-index: 2;
+// }
 
 // .container {
 //   max-width: 1728px;

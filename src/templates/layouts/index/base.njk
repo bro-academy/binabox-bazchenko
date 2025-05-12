@@ -38,5 +38,11 @@
       </main>
       {% include "partials/footer.njk" %}
         </div>
+  <script>
+    document.querySelector('.js-burger').addEventListener('click', function () {
+      this.classList.toggle('is-active');
+      document.querySelector('.burger-menu').classList.toggle('is-open');
+    });
+  </script>
   </body>
 </html>

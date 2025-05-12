@@ -3,6 +3,7 @@
 @use './../base/global' as *;
 
 @use './../components/button' as *;
+@use './../components/burger' as *;
 @use './../components/card' as *;
 @use './../components/input' as *;
 @use './../components/link' as *;
@@ -11,7 +12,7 @@
 @use './../components/checkbox' as *;
 @use './../components/radio' as *;
 @use './../components/dropdown' as *;
-
+// @use './../components/burger' as *;
 
 @use './../layout/header' as *;
 @use './../layout/footer' as *;
