@@ -1,8 +1,21 @@
 <div class="card">
-  <a class="card__link" href="#">
-    <img class="card__image" src="{{ item.image }}" alt="{{ item.name }}" width="{{ item.widht }}" height="{{ item.height}}" />
-  </a>
-  <span class="card__label">{{ item.label }}</span>
+  <div class="card__overlay">
+    <button class="card__favourite button button--alt">
+      <svg class="card__favorite-icon" width="24" height="24">
+        <use href="img/sprite.svg#heart"></use>
+      </svg>
+      Favourites
+    </button>
+    <button class="card__buy button button--accent">Buy</button>
+  </div>
+  <div class="card__image-wrapper">
+    <a class="card__link" href="#">
+      <img class="card__image" src="{{ item.image }}" alt="{{ item.name }}" width="{{ item.widht }}" height="{{ item.height }}" />
+    </a>
+    {% if item.label %}
+      <span class="card__label">{{ item.label }}</span>
+    {% endif %}
+  </div>
   <span class="card__price">{{ item.price }}</span>
   <span class="card__name">{{ item.name }}</span>
 </div>
