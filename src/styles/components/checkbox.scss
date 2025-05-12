@@ -25,7 +25,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: $tran-duration;
+    // transition: $tran-duration;
     flex-shrink: 0;
     position: relative;
 
@@ -39,24 +39,24 @@
       background-size: contain;
       background-position: center;
       opacity: 0;
-      transition: opacity 0.2s ease, transform 0.2s ease;
+      transition: opacity 0.2s ease, transform 0.2s ease, filter 0.2s ease;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
     }
   }
 
-  .custom-checkbox:hover {
+  &:hover .custom-checkbox {
     background-color: $bg-alt;
   }
 
-  // active
+  // Active state
   .checkbox-input:active + .custom-checkbox {
     background-color: $bg-hover;
     border-color: $bg-hover;
   }
 
-  // focus
+  // Focus state
   .checkbox-input:focus-visible + .custom-checkbox {
     background-color: $bg-secondary;
     border-color: $bg-secondary;
@@ -64,19 +64,20 @@
     outline: none;
   }
 
-  // disabled
+  // Disabled state
   .checkbox-input:disabled + .custom-checkbox {
     background-color: $color-separator;
     border-color: $color-separator;
   }
 
+  // Invalid state
   .checkbox-input:invalid + .custom-checkbox:hover {
     background-color: $color-border;
     border-color: transparent;
     box-shadow: 0 0 0 2px $color-invalid;
   }
 
-
+  // Checked state
   .checkbox-input:checked + .custom-checkbox {
     background-color: $bg-surface;
     border-color: transparent;
@@ -90,6 +91,10 @@
     background-color: $bg-hover;
   }
 
+  &:active .checkbox-input:checked + .custom-checkbox::after {
+    filter: brightness(0) saturate(100%) invert(27%) sepia(100%) saturate(500%) hue-rotate(190deg) brightness(95%) contrast(120%);
+}
+
   .checkbox-input:checked + .custom-checkbox:focus-visible {
     box-shadow: 0 0 0 2px $color-border-focus;
   }
@@ -97,6 +102,10 @@
   .checkbox-input:checked + .custom-checkbox:disabled {
     background-color: $color-separator;
     border-color: $color-separator;
+  }
+
+  .checkbox-input:disabled + .custom-checkbox::after {
+    filter: brightness(0) saturate(100%) invert(82%) sepia(17%) saturate(175%) hue-rotate(186deg) brightness(135%) opacity(0.36);
   }
 
   .checkbox-input:checked + .custom-checkbox::after {

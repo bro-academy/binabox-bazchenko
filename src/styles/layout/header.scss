@@ -70,16 +70,13 @@
   }
 
 
-.header__mobile-logo {
-    display: block;
-}
-
-@include m.mob {
-    .header__mobile-logo{
-    display: block;
-    // margin-left: 16px;
-}
-}
+  .header__mobile-logo {
+    display: none;
+    
+    @include m.tab {
+      display: block;
+    }
+  }
 
 .header__logo {
   color: $color-primary;
