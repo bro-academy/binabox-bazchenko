@@ -5,7 +5,8 @@
   display: none;
   padding: 11px;
   background-color: $bg-main;
-  border: 2px solid $color-separator; 
+  border: 2px solid $color-separator;
+    transition: transform 0.3s ease-in-out;
 
   @include m.tab {
     display: inline-block;

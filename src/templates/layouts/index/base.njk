@@ -44,5 +44,21 @@
       document.querySelector('.burger-menu').classList.toggle('is-open');
     });
   </script>
+
+
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const toggleBtn = document.querySelector('.js-filter-toggle');
+    const menu = document.querySelector('.filters-menu');
+
+    if (toggleBtn && menu) {
+      toggleBtn.addEventListener('click', function () {
+        menu.classList.toggle('is-open');
+      });
+    }
+  });
+</script>
   </body>
 </html>

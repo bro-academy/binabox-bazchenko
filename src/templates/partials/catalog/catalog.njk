@@ -1,6 +1,16 @@
 <section class="catalog">
   {% include "partials/catalog/sidebar.njk" %}
   <div class="catalog__content">
+    <div class="filter">
+  <button class="filter-button js-filter-toggle" aria-label="Toggle filters">
+  <span class="filter-button__text">Filters</span>
+  <span class="filter-button__icon"><svg width="24" height="24"><use href="img/sprite.svg#heart"></use></svg></span>
+</button>
+<aside class="filters-menu">
+    {% include "partials/catalog/sidebar.njk" %}
+  </aside>
+</div>
+
   <div class="catalog__content-header">
     <h2 class="catalog__title">All item</h2>
     <div class="catalog__sort-form">

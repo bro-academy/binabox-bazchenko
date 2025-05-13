@@ -1,0 +1,61 @@
+@use '../../styles/base/variables' as *;
+@use '../../styles/base/mixins' as m;
+
+
+// .filter {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-between;
+//     margin-bottom: 40px;
+// }
+
+.filter-button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+     margin-bottom: 40px;
+}
+
+
+.filters-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  position: absolute;
+  top: 520px;
+  right: -16px;
+  width: 100%;
+//   max-width: 400px; /* или сколько тебе нужно */
+  height: 852px;
+  background: red; /* используй CSS-переменные или просто цвет */
+  z-index: 2;
+  padding-inline: 24px;
+
+  transform: translateX(100%); /* Скрыто за правой границей */
+  transition: transform 0.3s ease-in-out;
+
+  padding: 20px 12px;
+
+  &.is-open {
+    transform: translateX(0);
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  &__close {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: $color-primary;
+    cursor: pointer;
+  }
+
+  &__body {
+
+  }
+}
